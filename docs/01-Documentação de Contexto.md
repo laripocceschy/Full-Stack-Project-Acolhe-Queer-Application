@@ -1,6 +1,8 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+      O movimento LGBTQIA+ tem seu início no Brasil concomitante com uma época de repressão e violência no país: a Ditadura Militar. Desde então, a comunidade luta por seus direitos mais básicos, como uma saúde de qualidade que seja inclusiva. As políticas públicas direcionadas à saúde dos LGBTQIA+ são poucas e muitas vezes falhas em função da falta de dados sociodemográficos sobre a sociedade em que estão inseridos, como a quantidade de gravidez em pessoas não cis que temos, a taxa de Infecções Sexualmente Transmissíveis (IST) da comunidade e quantas mulheres com relacionamentos não centrados em homens que fizeram exames preventivos (câncer de colo de útero, alterações no colo do útero, entre outros). 
+
+      A partir dessas considerações e da discussão com duas enfermeiras, surgiu a ideia de uma aplicação web de hospedagem de questionários sociodemográficos centrados na comunidade LGBTQIA+, na qual além da população alvo, os profissionais de saúde também teriam acesso aos dados gerados pelos formulários a fim de inteirarem-se das necessidades dessa comunidade.  
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
