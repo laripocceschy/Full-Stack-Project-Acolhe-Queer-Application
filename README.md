@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Queer Health
 
-`CURSO`
+`CURSO`: Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`: Desenvolvimento de uma Aplicação Interativa
 
-`SEMESTRE`
+`SEMESTRE`: 1/2024
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto Queer Health é uma aplicação web de hospedagem de questionários sociodemográficos centrados na comunidade LGBTQIA+, na qual além da população alvo, os profissionais de saúde também teriam acesso aos dados gerados pelos formulários a fim de inteirarem-se das necessidades dessa comunidade.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ana Laura Ferreira Baccelli Reis
+* Carolina de Oliveira Silva
+* Larissa Pocceschy Martins
+* Maria Vitória do Nascimento
+* Sara Guanais de Miranda
+* Thabata Dias de Freitas
 
 ## Orientador
 
-* Nome completo do professor 1
+* Neil Paiva Tizzo
 
 ## Instruções de utilização
 
