@@ -8,9 +8,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Marcella tem 23 anos e é estudante do último período de enfermagem. Pretende ser enfermeira ginecológica por meio da residência em hospitais públicos. Sente falta de informações sobre mulheres não cis para que seu atendimento seja mais adequado e inclusivo.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Gabriela tem 22 anos e é estudante de medicina. Pretende ser clínica geral e gostaria de ter mais dados sobre a população LGBTQIA+ brasileira, para que possa identificar as particularidades do grupo e oferecer um atendimento de qualidade.
+
+Pedro tem 25 anos e identifica-se como homossexual. É engenheiro da computação e gostaria de saber mais informações sociodemográficas sobre sua comunidade, além de querer receber um  atendimento médico mais inclusivo e respeitoso nas intituições de saúde.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -41,15 +43,15 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir o cadastro do usúario | ALTA | 
+|RF-002| A aplicação deve permitir o cadastro do profissional ou instituição de saúde | ALTA|
+|RF-003| A aplicação deve oferecer questionários focados em informações da comunidade LGBTQIA+ | ALTA |
+|RF-004| A aplicação deve permitir a edição e deleção de dados dos usuários | MÉDIA |
+|RF-005| A aplicação deve disponibilizar os dados coletados para os usuários | MÉDIA |
 
 ### Requisitos não Funcionais
 
