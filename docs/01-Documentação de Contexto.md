@@ -33,10 +33,7 @@ A luta da comunidade LGBTQIA+ para sua inserção igualitária na sociedade civi
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O projeto foca em dois públicos: a comunidade LGBTQIA+, indivíduos que queiram inteirar-se dos dados sociodemográficos específicos à eles, e profissionais e orgãos da saúde em geral, principalmente os públicos. De acordo com a Pesquisa Nacional de Saúde (PNS) de 2019 feita pelo Instituto Brasileiro de Geografia e Estatística (IBGE), apesar da possível subnotificação de dados avaliada pelo próprio instituto, a população de 18 anos ou mais que se declaram lésbicas, gays ou bissexuais equivale a 2,9 milhões de pessoas, além disso, "a população de homossexuais ou bissexuais é maior entre os que têm nível superior (3,2%), maior renda (3,5%) e idade entre 18 e 29 anos (4,8%)".
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
