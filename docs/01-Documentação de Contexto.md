@@ -5,11 +5,8 @@ O movimento LGBTQIA+ tem seu início no Brasil concomitante com uma época de re
 A partir dessas considerações e da discussão com duas enfermeiras, surgiu a ideia de uma aplicação web de hospedagem de questionários sociodemográficos centrados na comunidade LGBTQIA+, na qual além da população alvo, os profissionais de saúde também teriam acesso aos dados gerados pelos formulários a fim de inteirarem-se das necessidades dessa comunidade.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+A aplicação deve resolver o problema da insuficiência de dados sociodemográficos referentes à saúde da comunidade LGBTQIA+. Sendo assim, os profissionais da saúde terão informações necessárias para um atendimento de qualidade e inclusivo para essa população, as pessoas inseridas nessa sociedade poderão conhecer-se melhor e a reivindicação por políticas públicas do corpo social em específico será facilitada pelo respaldo dos dados gerados.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -18,18 +15,18 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O projeto tem como objetivo geral dar o suporte informacional que falta aos profissionais de saúde e à comunidade LGBTQIA+. Temos como foco sanar os seguintes tópicos:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+* Gerar dados sociodemográficos referentes à comunidade LGBTQIA+;
+* Disponibilizar os dados gerados para os profissionais de saúde e para a comunidade;
+* Ajudar na reivindicação por políticas públicas de saúde referentes ao corpo social em evidênncia.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A luta da comunidade LGBTQIA+ para sua inserção igualitária na sociedade civil é antiga e trabalhosa. De acordo com a Carta dos Direitos dos Usuários da Saúde, "Todo cidadão tem direito ao atendimento humanizado, acolhedor e livre de qualquer discriminação", como realizar esse direito se não temos informações suficientes sobre o funcionamento dessa comunidade? Como tornar efetiva a igualdade de gênero requerida por esse corpo social no âmbito da saúde? A partir destes questionamentos observamos a importância de um projeto que efetivamente pudesse dar suporte à luta LGBTQIA+, principalmente na área da saúde, que ofertasse questionários sociodemográficos profissionais para produzir dados faltantes e os disponibilizasse para serem usados por profissionais da saúde e pela própria comunidade.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
