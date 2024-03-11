@@ -1,8 +1,7 @@
 # Introdução  
 
-O movimento LGBTQIA+ tem seu início no Brasil concomitante com uma época de repressão e violência no país: a Ditadura Militar. Desde então, a comunidade luta por seus direitos mais básicos, como uma saúde de qualidade que seja inclusiva. As políticas públicas direcionadas à saúde dos LGBTQIA+ são poucas e muitas vezes falhas em função da falta de dados sociodemográficos sobre a sociedade em que estão inseridos, como a quantidade de gravidez em pessoas não cis que temos, a taxa de Infecções Sexualmente Transmissíveis (IST) da comunidade e quantas mulheres com relacionamentos não centrados em homens que fizeram exames preventivos (câncer de colo de útero, alterações no colo do útero, entre outros). 
-
-A partir dessas considerações e da discussão com duas enfermeiras, surgiu a ideia de uma aplicação web de hospedagem de questionários sociodemográficos centrados na comunidade LGBTQIA+, na qual além da população alvo, os profissionais de saúde também teriam acesso aos dados gerados pelos formulários a fim de inteirarem-se das necessidades dessa comunidade.
+As casas de acolhimento, em específico as voltadas para a comunidade LGBTQIA+, são instituições comprometidas a assistir pessoas que foram expulsas de suas casas ou encontram-se em situação de vulnerabilidade. A maior parte delas oferece abrigo, alimentação, produtos de higiene, serviços jurídicos, projetos socioeducativos e atendimento psicológico gratuito. 
+Cientes da situação ainda complicada da comunidade LGBTQIA+, surge a ideia de uma aplicação que reúna essas casas em um espaço virtual próprio que além de conter informações das intituições, possibilite a pessoa interessada a cadastrar-se no local e a marcar atendimento psicológico gratuito.
 
 ## Problema
 
