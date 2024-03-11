@@ -1,4 +1,4 @@
-# Queer Health
+# Acolhe Queer
 
 `CURSO`: Análise e Desenvolvimento de Sistemas
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 1/2024
 
-O projeto Queer Health é uma aplicação web de hospedagem de questionários sociodemográficos centrados na comunidade LGBTQIA+, na qual além da população alvo, os profissionais de saúde também teriam acesso aos dados gerados pelos formulários a fim de inteirarem-se das necessidades dessa comunidade.
+O projeto Acolhe Queer listará casas de acolhimento voltadas para a comunidade LGBTQIA+. Além de conter informações a respeito das casas, ele dará a possibilidade da inscrição dos interessados nas respectivas instituições e nas atividades disponibilizadas pelas casas, como atendimento psicológico.
 
 ## Integrantes
 
