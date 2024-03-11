@@ -93,7 +93,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-![acolhe](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjQueerHealth/assets/114714846/c054df41-9b82-4b8a-8dc2-2f16e14f66ab)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/d149de2f-8661-4fc4-87f5-6e15e6c7c50d)
+
 
 
 
