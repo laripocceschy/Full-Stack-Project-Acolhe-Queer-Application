@@ -5,7 +5,7 @@ Cientes da situação ainda complicada da comunidade LGBTQIA+, surge a ideia de 
 
 ## Problema
 
-A aplicação deve resolver o problema da insuficiência de dados sociodemográficos referentes à saúde da comunidade LGBTQIA+. Sendo assim, os profissionais da saúde terão informações necessárias para um atendimento de qualidade e inclusivo para essa população, as pessoas inseridas nessa sociedade poderão conhecer-se melhor e a reivindicação por políticas públicas do corpo social em específico será facilitada pelo respaldo dos dados gerados.
+Muitas pessoas da comunidade LGBTQIA+ enfrentam discriminação e violência em suas vidas diárias. Infelizmente, em muitas regiões, os recursos destinados especificamente para essa comunidade são inadequados. Isso inclui abrigos que, muitas vezes, não são sensíveis às questões específicas enfrentadas por essas pessoas, como a rejeição familiar devido à sua orientação sexual ou identidade de gênero. Diante desse cenário, há uma necessidade de propagar  locais que vão além de simplesmente fornecer abrigo e alimentação mas também disponibilizem apoio emocional, com profissionais da psicologia disponíveis para aconselhamento, além de acesso a serviços de saúde mental. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -14,25 +14,25 @@ A aplicação deve resolver o problema da insuficiência de dados sociodemográf
 
 ## Objetivos
 
-O projeto tem como objetivo geral dar o suporte informacional que falta aos profissionais de saúde e à comunidade LGBTQIA+. Temos como foco sanar os seguintes tópicos:
+O projeto tem como objetivo geral reunir em um espaço virtual comum informações sobre casas de acolhimento para a comunidade LGBTQIA+, a fim de facilitar a procura das instituições e o que elas oferecem. Já como objetivos específicos, temos:
 
-* Gerar dados sociodemográficos referentes à comunidade LGBTQIA+;
-* Disponibilizar os dados gerados para os profissionais de saúde e para a comunidade;
-* Ajudar na reivindicação por políticas públicas de saúde referentes ao corpo social em evidênncia.
+* Facilitar o acesso a casas de acolhimento para a comunidade LGBTQIA+;
+* Fornecer informações de suporte à essa população;
+* Conectar os indivíduos às casas de acolhimento.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-A luta da comunidade LGBTQIA+ para sua inserção igualitária na sociedade civil é antiga e trabalhosa. De acordo com a Carta dos Direitos dos Usuários da Saúde, "Todo cidadão tem direito ao atendimento humanizado, acolhedor e livre de qualquer discriminação", como realizar esse direito se não temos informações suficientes sobre o funcionamento dessa comunidade? Como tornar efetiva a igualdade de gênero requerida por esse corpo social no âmbito da saúde? A partir destes questionamentos observamos a importância de um projeto que efetivamente pudesse dar suporte à luta LGBTQIA+, principalmente na área da saúde, que ofertasse questionários sociodemográficos profissionais para produzir dados faltantes e os disponibilizasse para serem usados por profissionais da saúde e pela própria comunidade.
+A luta por inclusão da comunidade LGBTQIA+ é constante e está sujeito a diversos tipos de situações que desamparam o indivíduo inserido nesse grupo. Por isso, é necessário criar uma plataforma que agrupa diferentes casas de acolhimento pelo Brasil para pessoas da comunidade LGBTQIA+ em situação de vulnerabilidade social, a fim de divulgar esses espaços que proporcionam abrigos seguros e atendimento psicológico especializado para proporcionar sentimento de pertencimento e solidariedade à essas pessoas.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-O projeto foca em dois públicos: a comunidade LGBTQIA+, indivíduos que queiram inteirar-se dos dados sociodemográficos específicos à eles, e profissionais e orgãos da saúde em geral, principalmente os públicos. De acordo com a Pesquisa Nacional de Saúde (PNS) de 2019 feita pelo Instituto Brasileiro de Geografia e Estatística (IBGE), apesar da possível subnotificação de dados avaliada pelo próprio instituto, a população de 18 anos ou mais que se declaram lésbicas, gays ou bissexuais equivale a 2,9 milhões de pessoas, além disso, "a população de homossexuais ou bissexuais é maior entre os que têm nível superior (3,2%), maior renda (3,5%) e idade entre 18 e 29 anos (4,8%)".
+O projeto foca em dois públicos: Pessoas da comunidade LGBTQIA+ que necessitam de moradia temporária ou encontram-se em situação de vulnerabilidade social ou psicológica e as intituições responsáveis pelo serviço de acolhimento.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
