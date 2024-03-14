@@ -1,4 +1,4 @@
-# Acolhe Queer
+# AcolheQueer
 
 `CURSO`: Análise e Desenvolvimento de Sistemas
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE`: 1/2024
 
-O projeto Acolhe Queer listará casas de acolhimento voltadas para a comunidade LGBTQIA+. Além de conter informações a respeito das casas, ele dará a possibilidade da inscrição dos interessados nas respectivas instituições e nas atividades disponibilizadas pelas casas, como atendimento psicológico.
+O projeto AcolheQueer listará casas de acolhimento voltadas para a comunidade LGBTQIA+. Além de conter informações a respeito das casas, ele dará a possibilidade da inscrição dos interessados nas respectivas instituições e nas atividades disponibilizadas pelas casas, como atendimento psicológico.
 
 ## Integrantes
 
