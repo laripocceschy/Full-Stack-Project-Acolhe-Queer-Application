@@ -7,12 +7,9 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+1ª: Sofia é uma mulher trans de 19 anos que reside em São Paulo capital. Devido à sua identidade de gênero foi expulsa de casa e por isso busca um local seguro e acolhedor para se abrigar, onde também possa receber suporte emocional para lidar com os desafios gerados pela situação.
 
-Marcella tem 23 anos e é estudante do último período de enfermagem. Pretende ser enfermeira ginecológica por meio da residência em hospitais públicos. Sente falta de informações sobre mulheres não cis para que seu atendimento seja mais adequado e inclusivo.
-
-Gabriela tem 22 anos e é estudante de medicina. Pretende ser clínica geral e gostaria de ter mais dados sobre a população LGBTQIA+ brasileira, para que possa identificar as particularidades do grupo e oferecer um atendimento de qualidade.
-
-Pedro tem 25 anos e identifica-se como homossexual. É engenheiro da computação e gostaria de saber mais informações sociodemográficas sobre sua comunidade, além de querer receber um  atendimento médico mais inclusivo e respeitoso nas intituições de saúde.
+2ª: A Instituição Refúgio Reversa atua a 7 anos no mercado de São Paulo a fim de promover inclusão e diversidade. Oferece suporte psicológico e abrigo a pessoas em situação de vulnerabilidade social e psicológica. Apesar de uma boa experiância de atuação, sente que seu trabalho não atinge um grande grupo de pessoas necessitadas, por isso, busca um espaço em que possa divulgar seu trabalho.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -30,8 +27,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pessoa LGBTQIA+  | Local de informações sobre casas de acolhimento                       | Abrigar-me em um local seguro e acolhedor |
+|Instituição      | Local para divulgar meu trabalho                                      | Aumentar o alcance do projeto e acolher cada vez mais pessoas |
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -47,18 +45,18 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir o cadastro do usúario | ALTA | 
-|RF-002| A aplicação deve permitir o cadastro do profissional ou instituição de saúde | ALTA|
-|RF-003| A aplicação deve oferecer questionários focados em informações da comunidade LGBTQIA+ | ALTA |
-|RF-004| A aplicação deve permitir a edição e deleção de dados dos usuários | MÉDIA |
-|RF-005| A aplicação deve disponibilizar os dados coletados para os usuários | MÉDIA |
+|RF-001| A aplicação deve permitir o cadastro do usúario e da instituição | ALTA | 
+|RF-002| A aplicação deve ter uma área de login para o usuário e a instituição | ALTA|
+|RF-003| A aplicação deve oferecer uma área para agendamento de atendimento psicológico | ALTA |
+|RF-004| A aplicação deve ter páginas de informações sobre as casas de acolhimento | ALTA |
+|RF-005| A aplicação deve disponibilizar o cadastro em instuições para os usuários  | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| A aplicação deve ser publicada em um ambiente acessível publicamente na internet |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
