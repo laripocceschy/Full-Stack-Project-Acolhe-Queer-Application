@@ -8,7 +8,7 @@
 
 O projeto AcolheQueer listará casas de acolhimento voltadas para a comunidade LGBTQIA+. Além de conter informações a respeito das casas, ele dará a possibilidade da inscrição dos interessados nas respectivas instituições e nas atividades disponibilizadas pelas casas, como atendimento psicológico.
 
-https://www.youtube.com/watch?v=fPOEWJEmdXE&t=1s&ab_channel=ALFBR
+Pitch: <iframe> https://www.youtube.com/watch?v=fPOEWJEmdXE&t=1s&ab_channel=ALFBR <iframe>
 
 ## Integrantes
 
