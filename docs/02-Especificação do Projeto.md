@@ -1,9 +1,14 @@
 # Especificações do Projeto
 
 ## Personas
-1ª: Sofia é uma mulher trans de 19 anos que reside em São Paulo capital. Devido à sua identidade de gênero foi expulsa de casa e por isso busca um local seguro e acolhedor para se abrigar, onde também possa receber suporte emocional para lidar com os desafios gerados pela situação.
 
-2ª: A Instituição Refúgio Reversa atua a 7 anos no mercado de São Paulo a fim de promover inclusão e diversidade. Oferece suporte psicológico e abrigo a pessoas em situação de vulnerabilidade social e psicológica. Apesar de uma boa experiância de atuação, sente que seu trabalho não atinge um grande grupo de pessoas necessitadas, por isso, busca um espaço em que possa divulgar seu trabalho.
+| Sofia  | Informações |
+| ------------- | ------------- |
+| <img width="400" alt="Capture" src="https://img.freepik.com/fotos-premium/uma-fotografia-de-uma-pessoa-em-pe-na-frente-de-um-fundo-de-cor-branca-solida_896360-18120.jpg">  | **Idade:** 19 <br> <br> **Sobre:** mulher trans de 19 anos que reside em São Paulo capital. Devido à sua identidade de gênero foi expulsa de casa e por isso busca um local seguro e acolhedor para se abrigar, onde também possa receber suporte emocional para lidar com os desafios gerados pela situação. |
+
+| Instituição Refúgio Reversa | Informações |
+| ------------- | ------------- |
+| <img width="448" alt="Capture" src="https://abrace.com.br/wp-content/uploads/2023/06/Casa-de-Apoio-1-1024x683.jpg">  | **Sobre:** A Instituição  atua a 7 anos no mercado de São Paulo a fim de promover inclusão e diversidade. Oferece suporte psicológico e abrigo a pessoas em situação de vulnerabilidade social e psicológica. Apesar de uma boa experiância de atuação, sente que seu trabalho não atinge um grande grupo de pessoas necessitadas, por isso, busca um espaço em que possa divulgar seu trabalho. |
 
 
 ## Histórias de Usuários
