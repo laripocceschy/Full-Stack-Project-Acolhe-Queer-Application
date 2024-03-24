@@ -8,7 +8,8 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![DiagramaAcolheQueer](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/4b92b9ff-b12d-4452-ad39-0b45a5cbf014)
+![DiagramaAcolheQueer](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/3a397e7a-0f73-44f0-b3cb-049cf06e6c65)
+
 
 
 ## Modelo ER (Projeto Conceitual)
