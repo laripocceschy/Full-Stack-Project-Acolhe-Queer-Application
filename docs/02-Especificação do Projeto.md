@@ -6,6 +6,14 @@
 | ------------- | ------------- |
 | <img width="400" alt="Capture" src="https://img.freepik.com/fotos-premium/uma-fotografia-de-uma-pessoa-em-pe-na-frente-de-um-fundo-de-cor-branca-solida_896360-18120.jpg">  | **Idade:** 19 <br> <br> **Sobre:** mulher trans de 19 anos que reside em São Paulo capital. Devido à sua identidade de gênero foi expulsa de casa e por isso busca um local seguro e acolhedor para se abrigar, onde também possa receber suporte emocional para lidar com os desafios gerados pela situação. |
 
+| Daniela  | Informações |
+| ------------- | ------------- |
+| <img width="400" alt="Capture" src="https://img.freepik.com/fotos-premium/mulher-jovem-retrato_101945-104.jpg?w=740">  | **Idade:** 25 <br> <br> **Sobre:** mulher bissexual de 25 anos que reside em Minas Gerais. Enfrentou dificuldades em uma família não aceitadora de sua identidade de gênero. Busca uma casa de apoio LGBTQ+ para receber suporte psicológico e contribuir com sua experiência. Espera encontrar um ambiente seguro e acolhedor para sua jornada de autodescoberta e aceitação. |
+
+| Diego  | Informações |
+| ------------- | ------------- |
+| <img width="500" alt="Capture" src="https://img.freepik.com/fotos-gratis/retrato-de-homem-em-camiseta-branca_273609-19472.jpg](https://img.freepik.com/fotos-gratis/jovem-com-bracos-cruzados_23-2147646427.jpg">  | **Idade:** 30 <br> <br> **Sobre:** homem gay de 30 anos que reside na Bahia. Diego enfrentou discriminação ao longo da vida e agora busca apoio emocional, distrações positivas e abrigo. Ele procura uma casa de apoio LGBTQ+ que ofereça atendimento psicológico, atividades sociais e abrigo seguro. Espera encontrar um ambiente onde possa se sentir protegido, apoiado e reconectado consigo mesmo enquanto enfrenta os desafios da vida. |
+
 | Instituição Refúgio Reversa | Informações |
 | ------------- | ------------- |
 | <img width="448" alt="Capture" src="https://abrace.com.br/wp-content/uploads/2023/06/Casa-de-Apoio-1-1024x683.jpg">  | **Sobre:** A Instituição  atua a 7 anos no mercado de São Paulo a fim de promover inclusão e diversidade. Oferece suporte psicológico e abrigo a pessoas em situação de vulnerabilidade social e psicológica. Apesar de uma boa experiância de atuação, sente que seu trabalho não atinge um grande grupo de pessoas necessitadas, por isso, busca um espaço em que possa divulgar seu trabalho. |
