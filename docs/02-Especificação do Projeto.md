@@ -18,6 +18,16 @@
 | ------------- | ------------- |
 | <img width="448" alt="Capture" src="https://abrace.com.br/wp-content/uploads/2023/06/Casa-de-Apoio-1-1024x683.jpg">  | **Sobre:** A Instituição  atua a 7 anos no mercado de São Paulo a fim de promover inclusão e diversidade. Oferece suporte psicológico e abrigo a pessoas em situação de vulnerabilidade social e psicológica. Apesar de uma boa experiância de atuação, sente que seu trabalho não atinge um grande grupo de pessoas necessitadas, por isso, busca um espaço em que possa divulgar seu trabalho. |
 
+| Instituição Casa Florescer | Informações |
+| ------------- | ------------- |
+| <img width="448" alt="Capture" src="https://agenciaaids.com.br/site/wp-content/uploads/2022/03/Screen-Shot-2022-02-24-at-13.15.50-768x511.png">  | **Sobre:** O Centro de Acolhida Especial para Travestis e Mulheres Transexuais Casa Florescer iniciou suas atividades em março de 2016, fica localizada no bairro do bom retiro em  São Paulo. Aos seis anos de idade, a casa já acolheu 597 mulheres trans e travestis em situação de vulnerabilidade social. Desse total, 153 conquistaram autonomia e seguem trabalhando e se sustentando com dignidade. |
+
+| Instituição Casa Aurora | Informações |
+| ------------- | ------------- |
+| <img width="448" alt="Capture" src="https://guiagaysalvador.com.br/uploads/imagens/originais/noticia-foto/Sellena_Rafaela_e_Joo_Hugo_casa_aurora.jpeg?width=600&height=400&cp=1">  | **Sobre:** A Casa Aurora abriga pessoas LGBTI em condições de vulnerabilidade social, ou seja, aquelas que foram expulsas de suas casas ou que vivem em ambientes tóxicos. Tem como objetivo conseguir a reintegração dessas pessoas às suas famílias, também visa a terem alguma capacitação profissional para poderem buscar um trabalho.
+
+A ideia surgiu do coração de João Hugo e Selena, um casal que acolhia pessoas LGBTI em sua própria casa. |
+
 
 ## Histórias de Usuários
 
