@@ -49,15 +49,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-002| A aplicação deve ter uma área de login para o usuário e a instituição | ALTA|
 |RF-003| A aplicação deve oferecer uma área para agendamento de atendimento psicológico | ALTA |
 |RF-004| A aplicação deve ter páginas de informações sobre as casas de acolhimento | ALTA |
-|RF-005| A aplicação deve disponibilizar o cadastro em instuições para os usuários  | MÉDIA |
-|RF-006| A aplicação deve disponibilizar uma área para doação do usuário para as instituições  | BAIXA |
+|RF-005| A aplicação deve disponibilizar o cadastro em instuições para os usuários  | ALTA |
+|RF-006| A aplicação deve disponibilizar uma área de doação para as instituições  | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve ser publicada em um ambiente acessível publicamente na internet |  BAIXA | 
+|RNF-001| A aplicação deve ser responsiva | ALTA | 
+|RNF-002| A aplicação deve ser publicada em um ambiente acessível publicamente na internet |  ALTA | 
 
 
 ## Restrições
@@ -68,6 +68,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Utilizar as seguintes linguagens de programação: C#, HTML, CSS, MySQL |
 
 
 
