@@ -18,23 +18,6 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `testing`: versão em testes do software
 - `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -96,6 +79,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer                           |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer                            |
-| Projeto de Interface                | Figma                              | Em desenvolvimento.|
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/WBMTMTqeNJmRXTM4MNnXQ9/AcolheQueer?type=design&node-id=0-1&mode=design&t=wSYeEUOkPe2Rhttg-0|
 | Gerenciamento do Projeto            | Trello                             |  https://trello.com/b/BLch6WnY/acolhequeer                             |
 | Hospedagem                          | GitHub                             | Em desenvolvimento.                            |
