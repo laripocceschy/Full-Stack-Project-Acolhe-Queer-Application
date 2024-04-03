@@ -67,8 +67,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Utilizar as seguintes linguagens de programação: C#, HTML, CSS, MySQL |
+|02| Utilizar as seguintes linguagens de programação: C#, HTML, CSS, SQL |
 
 
 
