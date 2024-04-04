@@ -11,16 +11,11 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 ![DiagramaAcolheQueer](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/531f462a-c556-4565-93f3-44c769b9fadd)
 
 
-
-
-
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 ![ModeloERAcolheQueer](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/blob/c41aa1ef0b77534e5fcc4fc908ca7fe5ae958ac2/docs/img/Diagrama%20ER.jpg)
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Projeto da Base de Dados
 
