@@ -36,6 +36,16 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
+As ferramentas empregadas no projeto são:
+
+Editor de código: Visual Studio.
+Ferramentas de comunicação.
+Ferramentas de desenho de tela (wireframing): Figma.
+Linguagem web back-end: C#.
+Linguagens front-end: asp.NET.
+Estrutura de dados e tabelas: SQL.
+O editor de código foi escolhido pois possui uma integração com o sistema de versão considerando as linguagens usadas. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, as linguagens utilizadas foram pré definidas no escopo da tarefa.
+
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
