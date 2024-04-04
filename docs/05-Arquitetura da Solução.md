@@ -38,7 +38,7 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 As ferramentas empregadas no projeto são:
 
-Editor de código: Visual Studio.
+Editor de código: Visual Studio Community 2022.
 
 Ferramentas de comunicação.
 
@@ -46,7 +46,7 @@ Ferramentas de desenho de tela (wireframing): Figma.
 
 Linguagem web back-end: C#.
 
-Linguagens front-end: asp.NET.
+Linguagens front-end: .NET 8.0.
 
 Estrutura de dados e tabelas: SQL.
 
