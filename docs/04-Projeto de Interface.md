@@ -11,7 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
 
-![418ee700-2003-4463-9c05-015dabe5ac5b](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/145078490/7cdb51e3-e3d7-4d61-888a-25b68cc0730c)
+![Diagramafluxo3](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/72870310/8b0c54f4-8d46-4f59-afd0-cc7d5d107763)
 
 ## Wireframes
 ### Protótipo de baixa fidelidade
