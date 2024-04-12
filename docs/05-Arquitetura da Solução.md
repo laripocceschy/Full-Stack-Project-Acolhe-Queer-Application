@@ -8,7 +8,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![DiagramaAcolheQueer drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/268c5cc4-66bc-4f64-97be-58842fddaa16)
+![DiagramaAcolheQueer drawio (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/2670cae7-c403-47d3-ade2-a2f39dac60fc)
 
 
 
@@ -16,13 +16,15 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Diagrama er drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/f13976d6-f902-4d02-9625-8371cca5ec63)
+![Diagrama arquitetura drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/4ab74b03-896c-49d5-80e5-2f7e5e714e48)
+
 
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-![Dados drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/7f11821d-523a-48c6-8b53-cb8b2571f42e)
+![Dados drawio (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/dafc202d-460a-46ad-8996-27d78cbd4cdb)
+
 
 
 ## Tecnologias Utilizadas e Hospedagem
