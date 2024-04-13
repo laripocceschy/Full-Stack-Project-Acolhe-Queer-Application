@@ -8,11 +8,12 @@ Para cada voluntário do teste, é fundamental coletar e apresentar todos os dad
 
 ## Detalhamento dos Objetivos
 
-Os testes abaixo tem como objetivo avaliar a facilidade de interação do usuário com os recursos disponibilizados, em comformidade com os requisitos funcionais do projeto, a fim de garantir que os usuários consigam realizar tarefas de cadastro, login, agendamento e reserva de forma eficiente e satisfatória.
+Os testes abaixo tem como objetivo avaliar a facilidade de interação do usuário com os recursos disponibilizados, em comformidade com os requisitos funcionais do projeto, a fim de garantir que os usuários consigam realizar tarefas de cadastro, login, agendamento e reserva de quarto de forma eficiente e satisfatória.
 
 ## Recursos necessários
 
-- Computador ou dispositivo móvel com acesso á internet.
+- Computador ou dispositivo móvel com acesso á internet;
+- Protótipo funcional da aplicação.
 
 ## Critérios de Seleção dos participantes
 
@@ -56,6 +57,8 @@ Os testes serão realizados remotamente pela Internet, por meio de questionário
 - O que menos gostou em nosso site?
 - Você recomendaria este site?
 - Você possui alguma sugestão de mudança para o site? Se sim, qual?
+
+As perguntas acima poderão ser respondidas com "Sim" ou  "Não em algumas situações e "Muito fácil", "Fácil", "Neutro", "Difícil" ou "Muito difícil". Além de existirem campos para serem respondidos de forma discursiva pelo voluntário.
 
 ## Dados a serem coletados
 
