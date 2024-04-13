@@ -12,7 +12,7 @@ Os testes abaixo tem como objetivo avaliar a facilidade de interação do usuár
 
 ## Recursos necessários
 
-- Computador ou dispositivo móvel com acesso á internet;
+- Computador ou dispositivo móvel com acesso à internet;
 - Protótipo funcional da aplicação.
 
 ## Critérios de Seleção dos participantes
@@ -21,7 +21,7 @@ Os participantes devem corresponder aos seguintes critérios:
 
 - Encaixar-se na comunidade LGBTQIA+;
 - Estar em situação de vulnerabilidade social e/ou psicológica;
-- Ser uma Instituição focada no acolhimento de pessoas pertencentes á comunidade LGBTQIA+.
+- Ser uma Instituição focada no acolhimento de pessoas pertencentes à comunidade LGBTQIA+.
 
 ## Procedimentos
 
