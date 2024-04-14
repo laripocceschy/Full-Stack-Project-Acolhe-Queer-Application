@@ -81,4 +81,4 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer                            |
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/WBMTMTqeNJmRXTM4MNnXQ9/AcolheQueer?type=design&node-id=0-1&mode=design&t=wSYeEUOkPe2Rhttg-0|
 | Gerenciamento do Projeto            | Trello                             |  https://trello.com/b/BLch6WnY/acolhequeer                             |
-| Hospedagem                          | GitHub                             | Em desenvolvimento.                            |
+| Hospedagem                          | Azure                             | Em desenvolvimento.                            |
