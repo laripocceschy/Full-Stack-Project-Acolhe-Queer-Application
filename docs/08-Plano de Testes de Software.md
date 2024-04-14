@@ -57,11 +57,3 @@ Por exemplo:
 | Passos 	| - Verificar se a aplicação está hospedada em um ambiente acessível publicamente na internet, com um URL acessível aos usuários. <br> Testar o acesso à aplicação a partir de diferentes dispositivos e redes, incluindo computadores, tablets e smartphones, usando diferentes conexões de internet.  |
 |Critério de Êxito |A aplicação está hospedada em um ambiente acessível publicamente na internet, com um URL acessível aos usuários. Os usuários podem acessar facilmente a aplicação a partir de diferentes dispositivos e redes, sem restrições de acesso.
 |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
