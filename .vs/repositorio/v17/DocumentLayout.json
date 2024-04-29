@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\VeiculosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\acolhequeer_app\\Controllers\\VeiculosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\acolhequeer_app\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\acolhequeer_app\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\acolhequeer_app.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\acolhequeer_app\\acolhequeer_app.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -22,11 +38,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml",
+              "RelativeToolTip": "src\\acolhequeer_app\\Views\\Veiculos\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T03:01:41.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VeiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\VeiculosController.cs",
+              "RelativeDocumentMoniker": "src\\acolhequeer_app\\Controllers\\VeiculosController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\VeiculosController.cs",
+              "RelativeToolTip": "src\\acolhequeer_app\\Controllers\\VeiculosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:01:31.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\acolhequeer_app\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\acolhequeer_app\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:03:06.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "src\\acolhequeer_app\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "src\\acolhequeer_app\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T04:02:12.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "acolhequeer_app.csproj.user",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\acolhequeer_app.csproj.user",
               "RelativeDocumentMoniker": "src\\acolhequeer_app\\acolhequeer_app.csproj.user",
@@ -34,12 +103,11 @@
               "RelativeToolTip": "src\\acolhequeer_app\\acolhequeer_app.csproj.user",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-04-04T03:49:39.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T03:49:39.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\Program.cs",
               "RelativeDocumentMoniker": "src\\acolhequeer_app\\Program.cs",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "src\\acolhequeer_app\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T03:49:31.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T03:49:31.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "acolhequeer_app.csproj",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\repositorio\\src\\acolhequeer_app\\acolhequeer_app.csproj",
               "RelativeDocumentMoniker": "src\\acolhequeer_app\\acolhequeer_app.csproj",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "src\\acolhequeer_app\\acolhequeer_app.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-04T03:49:14.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T03:49:14.642Z"
             }
           ]
         }
