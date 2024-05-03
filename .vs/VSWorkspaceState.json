@@ -1,4 +1,12 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "\\src",
+    "\\src\\acolhequeer_app",
+    "\\src\\acolhequeer_app\\Controllers",
+    "\\src\\acolhequeer_app\\Models",
+    "\\src\\acolhequeer_app\\Views",
+    "\\src\\acolhequeer_app\\Views\\Home",
+    "\\src\\acolhequeer_app\\Views\\Veiculos"
+  ],
   "PreviewInSolutionExplorer": true
 }
