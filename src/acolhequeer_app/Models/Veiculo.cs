@@ -5,7 +5,7 @@ namespace acolhequeer.Models
 {
     [Table("Veiculos")]
     public class Veiculo
-    {a
+    {
         [Key]
         public int Id { get; set; }
 
