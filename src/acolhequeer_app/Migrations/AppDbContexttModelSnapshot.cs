@@ -46,6 +46,61 @@ namespace acolhequeer_app.Migrations
 
                     b.ToTable("Veiculos");
                 });
+
+            modelBuilder.Entity("acolhequeer_app.Models.Usuario", b =>
+                {
+                    b.Property<int>("usuario_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("usuario_id"));
+
+                    b.Property<bool>("bool_admin")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("cpf")
+                        .HasColumnType("int");
+
+                    b.Property<string>("email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_bairro")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_cep")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_cidade")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_estado")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("endereco_numero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("endereco_rua")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("idade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nome_social")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("senha")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("telefone")
+                        .HasColumnType("int");
+
+                    b.HasKey("usuario_id");
+
+                    b.ToTable("Usuarios");
+                });
 #pragma warning restore 612, 618
         }
     }

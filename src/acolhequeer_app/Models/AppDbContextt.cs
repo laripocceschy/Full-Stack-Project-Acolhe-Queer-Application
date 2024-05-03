@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using acolhequeer_app.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace acolhequeer.Models
 {
@@ -7,5 +8,7 @@ namespace acolhequeer.Models
         public AppDbContextt(DbContextOptions options) : base(options) { }
 
         public DbSet<Veiculo> Veiculos { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }
