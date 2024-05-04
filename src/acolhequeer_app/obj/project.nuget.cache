@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kIj0U97bejlJU6sU2oADrCzag92a345L1OQgQXp9eK6II8fyzYaNdTDMyLGQF2V6tj3L+kn9RaDf9tDVApuBgQ==",
+  "dgSpecHash": "l0eugy+EhsxH66av6vSXT22bAqqriboHq569lnRLn+2fWZ/k7n1mSUNzBC/631t0mF0zv0ok5maVKM4NMTVC2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anala\\Documents\\Facul\\Segundo Semestre\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+  "projectFilePath": "C:\\Users\\anala\\Documents\\Programação\\CSharp\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anala\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\anala\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

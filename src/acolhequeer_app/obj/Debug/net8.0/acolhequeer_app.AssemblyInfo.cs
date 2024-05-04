@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("acolhequeer_app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f32bf7a93f8debcf1d27d01acef0146a572ae38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b25bbd4ba1b3de7db908b9848d3d12694b90d1da")]
 [assembly: System.Reflection.AssemblyProductAttribute("acolhequeer_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("acolhequeer_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
