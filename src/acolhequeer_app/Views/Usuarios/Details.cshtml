@@ -1,0 +1,102 @@
+﻿@model acolhequeer_app.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nome_social)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nome_social)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cpf)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cpf)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.telefone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_rua)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_rua)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_bairro)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_bairro)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_cidade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_cidade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_estado)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_estado)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_numero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_numero)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.endereco_cep)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.endereco_cep)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.senha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.senha)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.bool_admin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.bool_admin)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.usuario_id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
