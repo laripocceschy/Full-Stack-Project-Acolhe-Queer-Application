@@ -134,36 +134,44 @@ namespace acolhequeer_app.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("email")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("endereco_bairro")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("endereco_cep")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("endereco_cidade")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("endereco_estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_logradouro")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("endereco_numero")
                         .HasColumnType("int");
 
-                    b.Property<string>("endereco_rua")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("idade")
                         .HasColumnType("int");
 
                     b.Property<string>("nome")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("nome_social")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("senha")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("telefone")
