@@ -48,10 +48,10 @@
             @Html.DisplayFor(model => model.telefone)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.endereco_rua)
+            @Html.DisplayNameFor(model => model.endereco_logradouro)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.endereco_rua)
+            @Html.DisplayFor(model => model.endereco_logradouro)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.endereco_bairro)
@@ -100,6 +100,6 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="usuario_id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index">Voltar</a>
     </form>
 </div>
