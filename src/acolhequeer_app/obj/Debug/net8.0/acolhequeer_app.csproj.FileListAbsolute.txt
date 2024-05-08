@@ -1142,3 +1142,6 @@ C:\Users\anala\Documents\Facul\Segundo Semestre\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2
 C:\Users\anala\Documents\Facul\Segundo Semestre\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
 C:\Users\anala\Documents\Facul\Segundo Semestre\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.genruntimeconfig.cache
 C:\Users\anala\Documents\Facul\Segundo Semestre\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\ref\acolhequeer_app.dll
+C:\Users\guana\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.dll
+C:\Users\guana\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\refint\acolhequeer_app.dll
+C:\Users\guana\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
