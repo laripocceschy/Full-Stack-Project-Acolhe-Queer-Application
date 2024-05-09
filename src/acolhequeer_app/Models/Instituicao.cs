@@ -68,6 +68,6 @@ teste
     public bool bool_atd { get; set; }
 
     [Display(Name = "Disponibilidade de atendimentos psicológicos")]
-    public int qtd_disponibilidade { get; set; }
+    public int? qtd_disponibilidade { get; set; }
 
 }
