@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\acolhequeer_app",
+    "\\src\\acolhequeer_app\\Models"
+  ],
   "PreviewInSolutionExplorer": true
 }

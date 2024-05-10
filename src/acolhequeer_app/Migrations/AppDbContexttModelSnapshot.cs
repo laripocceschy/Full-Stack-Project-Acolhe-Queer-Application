@@ -21,6 +21,78 @@ namespace acolhequeer_app.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Instituicao", b =>
+                {
+                    b.Property<int>("instituicao_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("instituicao_id"));
+
+                    b.Property<bool>("adm_validacao")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("bool_atd")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("cnpj")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_bairro")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_cep")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_cidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("endereco_estado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("endereco_numero")
+                        .HasColumnType("int");
+
+                    b.Property<string>("endereco_rua")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("n_vagas")
+                        .HasColumnType("int");
+
+                    b.Property<string>("nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("pix_doacao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("qtd_disponibilidade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("instituicao_id");
+
+                    b.ToTable("Instituicao");
+                });
+
             modelBuilder.Entity("acolhequeer.Models.Veiculo", b =>
                 {
                     b.Property<int>("Id")

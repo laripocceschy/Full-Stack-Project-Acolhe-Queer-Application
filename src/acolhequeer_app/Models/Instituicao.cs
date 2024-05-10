@@ -65,12 +65,10 @@ public class Instituicao
     [Required(ErrorMessage = "Obrigatório informar o numero de vagas!")]
     public int n_vagas { get; set; }
 
-    [Display(Name = "Insira o atendimento")]
-    [Required(ErrorMessage = "Obrigatório informar o atendimento!")]
-    public bool bool_atd { get; set; }
+    [Display(Name = "Insira o atendimento psicológico")]
+     public bool bool_atd { get; set; }
 
     [Display(Name = "Insira a disponibilidade")]
-    [Required(ErrorMessage = "Obrigatório informar a disponibilidade!")]
-    public int qtd_disponibilidade { get; set; }
+    public int? qtd_disponibilidade { get; set; }
 
 }

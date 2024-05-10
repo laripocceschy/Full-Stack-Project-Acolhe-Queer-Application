@@ -1,0 +1,126 @@
+﻿@model IEnumerable<Instituicao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cnpj)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_rua)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_cep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.senha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.adm_validacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pix_doacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.n_vagas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bool_atd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.qtd_disponibilidade)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cnpj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_rua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_cep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adm_validacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pix_doacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.n_vagas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bool_atd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.qtd_disponibilidade)
+            </td>
+            <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.instituicao_id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.instituicao_id">Detalhes</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.instituicao_id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+e
