@@ -63,5 +63,6 @@ namespace acolhequeer_app.Models
 
         [Display(Name = "Administrador")]
         public bool bool_admin { get; set; }
+
     }
 }
