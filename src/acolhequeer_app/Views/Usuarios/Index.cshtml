@@ -1,0 +1,113 @@
+﻿@model IEnumerable<acolhequeer_app.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cadastro</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar um novo usuário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nome_social)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_logradouro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.endereco_cep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.senha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.bool_admin)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome_social)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_logradouro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco_cep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bool_admin)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.usuario_id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.usuario_id">Visualizar</a> |
+                <a asp-action="Delete" asp-route-id="@item.usuario_id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

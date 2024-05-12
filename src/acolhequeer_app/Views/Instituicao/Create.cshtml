@@ -1,0 +1,108 @@
+﻿@model Instituicao
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastro de Instituição</h1>
+
+<h4>Instituicao</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nome" class="control-label"></label>
+                <input asp-for="nome" class="form-control" />
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cnpj" class="control-label"></label>
+                <input asp-for="cnpj" class="form-control" />
+                <span asp-validation-for="cnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telefone" class="control-label"></label>
+                <input asp-for="telefone" class="form-control" />
+                <span asp-validation-for="telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_rua" class="control-label"></label>
+                <input asp-for="endereco_rua" class="form-control" />
+                <span asp-validation-for="endereco_rua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_bairro" class="control-label"></label>
+                <input asp-for="endereco_bairro" class="form-control" />
+                <span asp-validation-for="endereco_bairro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_cidade" class="control-label"></label>
+                <input asp-for="endereco_cidade" class="form-control" />
+                <span asp-validation-for="endereco_cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_estado" class="control-label"></label>
+                <input asp-for="endereco_estado" class="form-control" />
+                <span asp-validation-for="endereco_estado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_numero" class="control-label"></label>
+                <input asp-for="endereco_numero" class="form-control" />
+                <span asp-validation-for="endereco_numero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="endereco_cep" class="control-label"></label>
+                <input asp-for="endereco_cep" class="form-control" />
+                <span asp-validation-for="endereco_cep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="senha" class="control-label"></label>
+                <input asp-for="senha" class="form-control" />
+                <span asp-validation-for="senha" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="adm_validacao" /> @Html.DisplayNameFor(model => model.adm_validacao)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="pix_doacao" class="control-label"></label>
+                <input asp-for="pix_doacao" class="form-control" />
+                <span asp-validation-for="pix_doacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="n_vagas" class="control-label"></label>
+                <input asp-for="n_vagas" class="form-control" />
+                <span asp-validation-for="n_vagas" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="bool_atd" /> @Html.DisplayNameFor(model => model.bool_atd)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="qtd_disponibilidade" class="control-label"></label>
+                <input asp-for="qtd_disponibilidade" class="form-control" />
+                <span asp-validation-for="qtd_disponibilidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
