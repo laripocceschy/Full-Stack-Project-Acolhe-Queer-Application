@@ -5,7 +5,7 @@
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A 	A aplicação deve permitir o cadastro do usúario e da instituição | UsuariosController.cs / Usuario.cs / InstituicaoController.cs / Instituicao.cs / Create.cshtml / Edit.cshtml / Delete.cshtml / Details.cshtml / Index.cshtml | 
+|RF-001|	A aplicação deve permitir o cadastro do usúario e da instituição | UsuariosController.cs / Usuario.cs / InstituicaoController.cs / Instituicao.cs / Create.cshtml / Edit.cshtml / Delete.cshtml / Details.cshtml / Index.cshtml | 
 
 # Instruções de acesso
 
