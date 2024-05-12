@@ -73,7 +73,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/d149de2f-8661-4fc4-87f5-6e15e6c7c50d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/114714846/df1893b9-02a1-4a8b-95ca-8eab3a1b2209)
+
 
 
 
