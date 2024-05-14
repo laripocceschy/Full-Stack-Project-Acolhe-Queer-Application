@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uKuy7GDCqNh35TGIe5wFOu3mtu2iKynadskgNz3nlIJgT6jORK/a4oZCxefA84aQYTnYKTmySal7rnTb5Ky0RQ==",
+  "dgSpecHash": "DHk2maSHQICJ+/5WryR5ZtL4a3ULpZuHZOTz775dMCZUJqhzVby9J45OGMxCs2hu2Lhh39BAEzYGIAAwvvxkTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+  "projectFilePath": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anala\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\anala\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -167,12 +167,5 @@
     "C:\\Users\\anala\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\anala\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
