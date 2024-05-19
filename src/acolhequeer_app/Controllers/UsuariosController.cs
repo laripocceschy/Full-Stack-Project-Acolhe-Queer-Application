@@ -54,7 +54,7 @@ namespace acolhequeer_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("usuario_id,nome_social,nome,email,idade,cpf,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,bool_admin")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("usuario_id,nome_social,nome,email,idade,cpf,telefone,endereco_logradouro,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,bool_admin")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace acolhequeer_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("usuario_id,nome_social,nome,email,idade,cpf,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,bool_admin")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("usuario_id,nome_social,nome,email,idade,cpf,telefone,endereco_logradouro,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,bool_admin")] Usuario usuario)
         {
             if (id != usuario.usuario_id)
             {

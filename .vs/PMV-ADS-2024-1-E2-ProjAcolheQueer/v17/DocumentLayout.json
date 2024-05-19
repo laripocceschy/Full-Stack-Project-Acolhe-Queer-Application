@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anala\\Documents\\Programa\u00E7\u00E3o\\CSharp\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\",
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -13,7 +13,15 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
