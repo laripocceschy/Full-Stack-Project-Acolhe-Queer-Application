@@ -8,7 +8,7 @@ public class Instituicao
 {
     [Key]
     public int instituicao_id { get; set; }
-teste
+
     [Required(ErrorMessage = "Obrigatório informar o nome!")]
     [Display(Name = "Nome")]
     public string nome { get; set; }
