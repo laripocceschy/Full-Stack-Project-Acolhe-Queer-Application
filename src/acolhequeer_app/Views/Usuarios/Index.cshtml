@@ -13,46 +13,46 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.nome_social)
+                @Html.DisplayNameFor(model => model.Nome_social)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.nome)
+                @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.email)
+                @Html.DisplayNameFor(model => model.Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.idade)
+                @Html.DisplayNameFor(model => model.Idade)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.cpf)
+                @Html.DisplayNameFor(model => model.Cpf)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.telefone)
+                @Html.DisplayNameFor(model => model.Telefone)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_logradouro)
+                @Html.DisplayNameFor(model => model.Endereco_logradouro)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_bairro)
+                @Html.DisplayNameFor(model => model.Endereco_bairro)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_cidade)
+                @Html.DisplayNameFor(model => model.Endereco_cidade)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_estado)
+                @Html.DisplayNameFor(model => model.Endereco_estado)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_numero)
+                @Html.DisplayNameFor(model => model.Endereco_numero)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.endereco_cep)
+                @Html.DisplayNameFor(model => model.Endereco_cep)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.senha)
+                @Html.DisplayNameFor(model => model.Senha)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.bool_admin)
+                @Html.DisplayNameFor(model => model.Bool_admin)
             </th>
             <th></th>
         </tr>
@@ -61,51 +61,51 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.nome_social)
+                @Html.DisplayFor(modelItem => item.Nome_social)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.nome)
+                @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.email)
+                @Html.DisplayFor(modelItem => item.Email)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.idade)
+                @Html.DisplayFor(modelItem => item.Idade)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.cpf)
+                @Html.DisplayFor(modelItem => item.Cpf)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.telefone)
+                @Html.DisplayFor(modelItem => item.Telefone)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_logradouro)
+                @Html.DisplayFor(modelItem => item.Endereco_logradouro)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_bairro)
+                @Html.DisplayFor(modelItem => item.Endereco_bairro)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_cidade)
+                @Html.DisplayFor(modelItem => item.Endereco_cidade)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_estado)
+                @Html.DisplayFor(modelItem => item.Endereco_estado)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_numero)
+                @Html.DisplayFor(modelItem => item.Endereco_numero)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.endereco_cep)
+                @Html.DisplayFor(modelItem => item.Endereco_cep)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.senha)
+                @Html.DisplayFor(modelItem => item.Senha)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.bool_admin)
+                @Html.DisplayFor(modelItem => item.Bool_admin)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.usuario_id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.usuario_id">Visualizar</a> |
-                <a asp-action="Delete" asp-route-id="@item.usuario_id">Apagar</a>
+                <a asp-action="Edit" asp-route-id="@item.Usuario_id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Usuario_id">Visualizar</a> |
+                <a asp-action="Delete" asp-route-id="@item.Usuario_id">Apagar</a>
             </td>
         </tr>
 }

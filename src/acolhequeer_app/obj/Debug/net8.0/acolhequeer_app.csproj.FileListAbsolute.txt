@@ -2256,6 +2256,11 @@ C:\Users\Usuário\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debu
 C:\Users\Usuário\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
 C:\Users\Usuário\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.genruntimeconfig.cache
 C:\Users\Usuário\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\ref\acolhequeer_app.dll
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> main
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.csproj.AssemblyReference.cache
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.AssemblyInfoInputs.cache
@@ -2269,6 +2274,10 @@ C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQ
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\refint\acolhequeer_app.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
+<<<<<<< HEAD
+>>>>>>> main
+=======
+>>>>>>> main
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\appsettings.json
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\acolhequeer_app.staticwebassets.runtime.json
@@ -2580,6 +2589,13 @@ C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQ
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\refs\WindowsBase.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\Azure.Identity.dll
+<<<<<<< HEAD
+<<<<<<< HEAD
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\BCrypt.Net-Next.dll
+=======
+>>>>>>> main
+=======
+>>>>>>> main
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\Humanizer.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -2800,6 +2816,22 @@ C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQ
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+<<<<<<< HEAD
+<<<<<<< HEAD
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.csproj.AssemblyReference.cache
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.AssemblyInfoInputs.cache
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.AssemblyInfo.cs
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.csproj.CoreCompileInputs.cache
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.RazorAssemblyInfo.cache
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.RazorAssemblyInfo.cs
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.sourcelink.json
+=======
+>>>>>>> main
+=======
+>>>>>>> main
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets\msbuild.acolhequeer_app.Microsoft.AspNetCore.StaticWebAssets.props
@@ -2811,5 +2843,14 @@ C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQ
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\bundle\acolhequeer_app.styles.css
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\projectbundle\acolhequeer_app.bundle.scp.css
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequ.6E0F9843.Up2Date
+<<<<<<< HEAD
+<<<<<<< HEAD
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.dll
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\refint\acolhequeer_app.dll
+C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
+=======
+>>>>>>> main
+=======
+>>>>>>> main
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.genruntimeconfig.cache
 C:\Users\anala\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\ref\acolhequeer_app.dll

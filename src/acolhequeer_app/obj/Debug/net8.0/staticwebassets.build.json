@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "Hash": "qM+40xQnz1aFBDVUewO+bUxlJtNl8yzwt6KtLSuFmK0=",
+=======
   "Hash": "a6LV6rvjbX5DlS89hGjrxEYf18PMHn34gGuqGfNtW1A=",
+>>>>>>> main
+=======
+  "Hash": "a6LV6rvjbX5DlS89hGjrxEYf18PMHn34gGuqGfNtW1A=",
+>>>>>>> main
   "Source": "acolhequeer_app",
   "BasePath": "_content/acolhequeer_app",
   "Mode": "Default",
@@ -93,10 +101,81 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-aurora.png",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+      "BasePath": "_content/acolhequeer_app",
+      "RelativePath": "imgs/casa-aurora.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\casa-aurora.png"
+    },
+    {
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-chama.png",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+      "BasePath": "_content/acolhequeer_app",
+      "RelativePath": "imgs/casa-chama.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\casa-chama.png"
+    },
+    {
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-transviver.png",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+      "BasePath": "_content/acolhequeer_app",
+      "RelativePath": "imgs/casa-transviver.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\casa-transviver.png"
+    },
+    {
       "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+>>>>>>> main
+=======
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
