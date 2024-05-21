@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "qM+40xQnz1aFBDVUewO+bUxlJtNl8yzwt6KtLSuFmK0=",
+=======
+  "Hash": "a6LV6rvjbX5DlS89hGjrxEYf18PMHn34gGuqGfNtW1A=",
+>>>>>>> main
   "Source": "acolhequeer_app",
   "BasePath": "_content/acolhequeer_app",
   "Mode": "Default",
@@ -93,6 +97,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-aurora.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
@@ -154,6 +159,12 @@
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+>>>>>>> main
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
