@@ -10,19 +10,15 @@ using acolhequeer_app.Models;
 
 namespace acolhequeer_app.Controllers
 {
-    public class UsuariosController : Controller
-    {
-        private readonly AppDbContextt _context;
+    public class UsuariosController(AppDbContextt _context) : Controller    {
 
-        public UsuariosController(AppDbContextt context)
-        {
-            _context = context;
-        }
 
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Usuarios.ToListAsync());
+            List<Usuario> dados = await _context.Usuarios.ToListAsync();
+
+            return View(dados);
         }
 
         // GET: Usuarios/Details/5
@@ -34,7 +30,7 @@ namespace acolhequeer_app.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.usuario_id == id);
+                .FirstOrDefaultAsync(m => m.Usuario_id == id);
             if (usuario == null)
             {
                 return NotFound();
@@ -88,7 +84,7 @@ namespace acolhequeer_app.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("usuario_id,nome_social,nome,email,idade,cpf,telefone,endereco_logradouro,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,bool_admin")] Usuario usuario)
         {
-            if (id != usuario.usuario_id)
+            if (id != usuario.Usuario_id)
             {
                 return NotFound();
             }
@@ -102,7 +98,7 @@ namespace acolhequeer_app.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.usuario_id))
+                    if (!UsuarioExists(usuario.Usuario_id))
                     {
                         return NotFound();
                     }
@@ -125,7 +121,7 @@ namespace acolhequeer_app.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.usuario_id == id);
+                .FirstOrDefaultAsync(m => m.Usuario_id == id);
             if (usuario == null)
             {
                 return NotFound();
@@ -151,7 +147,7 @@ namespace acolhequeer_app.Controllers
 
         private bool UsuarioExists(int id)
         {
-            return _context.Usuarios.Any(e => e.usuario_id == id);
+            return _context.Usuarios.Any(e => e.Usuario_id == id);
         }
     }
 }

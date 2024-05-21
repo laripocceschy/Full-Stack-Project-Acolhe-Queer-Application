@@ -9,14 +9,9 @@ using System.Threading.Tasks;
 
 namespace acolhequeer_app.Controllers
 {
-    public class VeiculosController : Controller
+    public class VeiculosController(AppDbContextt context) : Controller
     {
-        private readonly AppDbContextt _context;
-
-        public VeiculosController(AppDbContextt context)
-        {
-            _context = context;
-        }
+        private readonly AppDbContextt _context = context;
 
         public async Task<IActionResult> Index()
         {
@@ -76,12 +71,17 @@ namespace acolhequeer_app.Controllers
             return View();
         }
 
-        public async Task<IActionResult>Details(int? id)
+        public AppDbContextt Get_context()
+        {
+            return _context;
+        }
+
+        public async Task<IActionResult> Details(int? id, AppDbContextt _context)
         { 
             if (id == null)
                 return NotFound();
 
-            var dados = _context.Veiculos.Find(id);
+            var dados = await _context.Veiculos.FindAsync(id);
 
             if (dados == null)
                 return NotFound();
@@ -94,7 +94,7 @@ namespace acolhequeer_app.Controllers
             if (id == null)
                 return NotFound();
 
-            var dados = _context.Veiculos.Find(id);
+            var dados = await _context.Veiculos.FindAsync(id);
 
             if (dados == null)
                 return NotFound();
