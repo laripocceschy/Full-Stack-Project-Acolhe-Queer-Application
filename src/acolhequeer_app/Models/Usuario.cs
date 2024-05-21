@@ -67,6 +67,9 @@ namespace acolhequeer_app.Models
 =======
         public bool bool_admin { get; set; }
 
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
 }

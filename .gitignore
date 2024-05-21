@@ -2,3 +2,7 @@
 *.cache
 .futdcache.v2
 .suo
+<<<<<<< HEAD
+=======
+.DocumentLayout.json
+>>>>>>> main

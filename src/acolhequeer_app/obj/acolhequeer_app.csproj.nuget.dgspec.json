@@ -51,6 +51,7 @@
           "targetAlias": "net8.0",
           "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
@@ -67,6 +68,8 @@
               "target": "Package",
               "version": "[8.0.5, )"
 =======
+=======
+>>>>>>> main
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -78,6 +81,9 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.4, )"
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             },
             "Microsoft.EntityFrameworkCore.Tools": {
@@ -85,7 +91,11 @@
               "suppressParent": "All",
               "target": "Package",
 <<<<<<< HEAD
+<<<<<<< HEAD
               "version": "[8.0.5, )"
+=======
+              "version": "[8.0.4, )"
+>>>>>>> main
 =======
               "version": "[8.0.4, )"
 >>>>>>> main
