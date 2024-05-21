@@ -62,14 +62,6 @@ namespace acolhequeer_app.Models
         public string Senha { get; set; }
 
         [Display(Name = "Administrador")]
-<<<<<<< HEAD
         public bool Bool_admin { get; set; }
-=======
-        public bool bool_admin { get; set; }
-
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
     }
 }
