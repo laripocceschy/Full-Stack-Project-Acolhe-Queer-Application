@@ -1,14 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
   "dgSpecHash": "M3p6TPGvP5dYUzgRP7mEKLBgdZnMAPaxC326vq+KpjLXaxv4Pb4JwH/rv5R8JQaC0y73sRTtVg1CLPAZJq363Q==",
-=======
-  "dgSpecHash": "z6Zffl0+x2WVeuXoHUW/+W8Q80n6gmfffHW5qcaQ6GBPqhr4QI/e59NULkkrKkL9Jujrc8+zV2qHDnJvOb1v7Q==",
->>>>>>> main
-=======
-  "dgSpecHash": "z6Zffl0+x2WVeuXoHUW/+W8Q80n6gmfffHW5qcaQ6GBPqhr4QI/e59NULkkrKkL9Jujrc8+zV2qHDnJvOb1v7Q==",
->>>>>>> main
   "success": true,
   "projectFilePath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
   "expectedPackageFiles": [
@@ -176,5 +168,12 @@
     "C:\\Users\\anala\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\anala\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
