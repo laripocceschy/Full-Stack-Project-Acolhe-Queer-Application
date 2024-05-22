@@ -6,13 +6,45 @@
     <title>@ViewData["Title"] - acolhequeer_app</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/acolhequeer_app.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+    <style>
+        body {
+            background-color: #FFFAEB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .header-image {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .custom-header {
+            background-color: #FFFAEB;
+            border-bottom: 2px solid #E8D9AC;
+        }
+
+        .custom-header-text {
+            color: #000; /* Cor do texto da linha */
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .custom-divider {
+            background-color: #E8D9AC;
+            height: 2px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <header class="custom-header">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">acolhequeer_app</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/acolhequeer_logo.png" alt="Acolhe Queer Logo" class="header-image" />
+                    Acolhe Queer
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,18 +52,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark custom-header-text" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Instituicao" asp-action="Index">Cadastro de instituições</a>
+                            <a class="nav-link text-dark custom-header-text" asp-area="" asp-controller="Instituicao" asp-action="Index">Cadastro de instituições</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastro de usuários</a>
+                            <a class="nav-link text-dark custom-header-text" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastro de usuários</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="custom-divider"></div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
