@@ -4,11 +4,49 @@
     ViewData["Title"] = "Index";
 }
 
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
+
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, th, td, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+    .custom-btn:hover {
+        background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+    }
+
+</style>
+
 <h1>Instituições</h1>
 
 <p>
-    <a asp-action="Create">Cadastre uma Instituição</a>
+    <a asp-action="Create" class="btn custom-btn">Cadastre uma Instituição</a>
 </p>
+<body>
 <table class="table">
     <thead>
         <tr>
@@ -64,62 +102,64 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.cnpj)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_rua)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_bairro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_cidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_estado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_numero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.endereco_cep)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.senha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.adm_validacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.pix_doacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.n_vagas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.bool_atd)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.qtd_disponibilidade)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.instituicao_id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.instituicao_id">Visualizar</a> |
-                <a asp-action="Delete" asp-route-id="@item.instituicao_id">Apagar</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cnpj)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.telefone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_rua)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_bairro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_cidade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_numero)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.endereco_cep)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.senha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.adm_validacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.pix_doacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.n_vagas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.bool_atd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.qtd_disponibilidade)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.instituicao_id" class="btn custom-btn">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.instituicao_id" class="btn custom-btn">Visualizar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.instituicao_id" class="btn custom-btn">Apagar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+</body>
