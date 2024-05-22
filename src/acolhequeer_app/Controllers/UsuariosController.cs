@@ -21,6 +21,8 @@ namespace acolhequeer_app.Controllers
             return View(dados);
         }
 
+        
+
         // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {

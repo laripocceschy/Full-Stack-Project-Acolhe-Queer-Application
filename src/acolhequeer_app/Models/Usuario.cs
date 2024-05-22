@@ -60,8 +60,9 @@ namespace acolhequeer_app.Models
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
         public string Senha { get; set; }
-
+        public string senha { get; internal set; }
         [Display(Name = "Administrador")]
         public bool Bool_admin { get; set; }
+        public object Id { get; internal set; }
     }
 }
