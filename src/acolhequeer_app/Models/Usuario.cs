@@ -7,62 +7,62 @@ namespace acolhequeer_app.Models
     public class Usuario
     {
         [Key]
-        public int usuario_id { get; set; }
+        public int Usuario_id { get; set; }
 
         [Display(Name = "Nome Social")]
-        public string nome_social { get; set; }
+        public string Nome_social { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o nome completo!")]
         [Display(Name = "Nome Completo")]
-        public string nome { get; set; }
+        public string Nome { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o email!")]
         [Display(Name = "Email")]
-        public string email { get; set; }
+        public string Email { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a idade!")]
         [Display(Name = "Idade")]
-        public int idade { get; set; }
+        public int Idade { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o CPF!")]
         [Display(Name = "CPF")]
-        public int cpf { get; set; }
+        public string Cpf { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o telefone!")]
         [Display(Name = "Telefone")]
-        public int telefone { get; set; }
+        public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o logradouro!")]
         [Display(Name = "Logradouro")]
-        public string endereco_logradouro { get; set; }
+        public string Endereco_logradouro { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o bairro!")]
         [Display(Name = "Bairro")]
-        public string endereco_bairro { get; set; }
+        public string Endereco_bairro { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a cidade!")]
         [Display(Name = "Cidade")]
-        public string endereco_cidade { get; set;}
+        public string Endereco_cidade { get; set;}
 
         [Required(ErrorMessage = "Obrigatório informar o estado!")]
         [Display(Name = "Estado")]
-        public string endereco_estado { get; set; }
+        public string Endereco_estado { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o número!")]
         [Display(Name = "Número")]
-        public int endereco_numero { get; set; }
+        public int Endereco_numero { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar o CEP")]
         [Display(Name = "CEP")]
-        public string endereco_cep { get; set; }
+        public string Endereco_cep { get; set; }
 
         [Required(ErrorMessage = "Obrigatório informar a senha!")]
         [DataType(DataType.Password)]
         [Display(Name = "Senha")]
-        public string senha { get; set; }
-
+        public string Senha { get; set; }
+        public string senha { get; internal set; }
         [Display(Name = "Administrador")]
-        public bool bool_admin { get; set; }
-
+        public bool Bool_admin { get; set; }
+        public object Id { get; internal set; }
     }
 }
