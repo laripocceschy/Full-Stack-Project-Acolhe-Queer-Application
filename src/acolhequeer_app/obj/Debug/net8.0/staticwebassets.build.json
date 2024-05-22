@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kXoSDFptyw7OGqhpojV8Wx7+KZf3Lm0Qk5skaRvGTJc=",
+  "Hash": "uy6DHRlgZ7GzPE8Gn1ZSPr0rt+UUXQ/Cfsl5ARlMUDI=",
   "Source": "acolhequeer_app",
   "BasePath": "_content/acolhequeer_app",
   "Mode": "Default",
@@ -1022,6 +1022,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\imagem.cs",
+      "SourceId": "acolhequeer_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
+      "BasePath": "_content/acolhequeer_app",
+      "RelativePath": "lib/imagem.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\imagem.cs"
     },
     {
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
