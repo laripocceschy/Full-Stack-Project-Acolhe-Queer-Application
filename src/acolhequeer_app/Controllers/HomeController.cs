@@ -24,13 +24,18 @@ namespace acolhequeer_app.Controllers
         }
         public IActionResult Casas()
         {
-            string image1 = "/imgs/casa-aurora.png";
+            string image1 = "/imgs/casa-nem.png";
             string image2 = "/imgs/casa-chama.png";
             string image3 = "/imgs/casa-transviver.png";
+            string image4 = "/imgs/nome.png";
+            string image5 = "/imgs/rainbow.png";
+
 
             ViewData["Image1"] = image1;
             ViewData["Image2"] = image2;
             ViewData["Image3"] = image3;
+            ViewData["Image4"] = image4;
+            ViewData["Image5"] = image5;
 
             return View();
         }

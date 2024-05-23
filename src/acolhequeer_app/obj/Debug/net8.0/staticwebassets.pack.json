@@ -13,16 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-aurora.png",
-      "PackagePath": "staticwebassets\\imgs\\casa-aurora.png"
-    },
-    {
       "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-chama.png",
       "PackagePath": "staticwebassets\\imgs\\casa-chama.png"
     },
     {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-nem.png",
+      "PackagePath": "staticwebassets\\imgs\\casa-nem.png"
+    },
+    {
       "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-transviver.png",
       "PackagePath": "staticwebassets\\imgs\\casa-transviver.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\nome.png",
+      "PackagePath": "staticwebassets\\imgs\\nome.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\rainbow.png",
+      "PackagePath": "staticwebassets\\imgs\\rainbow.png"
     },
     {
       "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
