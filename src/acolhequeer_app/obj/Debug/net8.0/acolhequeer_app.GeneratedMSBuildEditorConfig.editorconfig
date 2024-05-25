@@ -17,107 +17,107 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = acolhequeer_app
 build_property.RootNamespace = acolhequeer_app
-build_property.ProjectDir = C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\
+build_property.ProjectDir = C:\Users\miavn\source\repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app
+build_property.MSBuildProjectDirectory = C:\Users\miavn\source\repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Casas.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Casas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXNhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Home/pagina_principal.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Home/pagina_principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lXHBhZ2luYV9wcmluY2lwYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Index.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Privacy.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Create.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Delete.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Details.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Edit.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/Error.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Create.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Delete.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Details.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Edit.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Index.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Create.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Delete.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Details.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Edit.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Index.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Veiculos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVpY3Vsb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/_ViewImports.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/_ViewStart.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Index.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wa1bgbdux5
 
-[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/_Layout.cshtml]
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-g4t51tnlci
