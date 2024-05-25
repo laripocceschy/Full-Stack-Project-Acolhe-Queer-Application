@@ -7,12 +7,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Remove="Views\NovaPasta1\**" />
+		<Compile Remove="Views\NovaPasta2\**" />
+		<Compile Remove="Views\NovaPasta\**" />
 		<Compile Remove="wwwroot\NovaPasta1\**" />
 		<Compile Remove="wwwroot\NovaPasta\**" />
+		<Content Remove="Views\NovaPasta1\**" />
+		<Content Remove="Views\NovaPasta2\**" />
+		<Content Remove="Views\NovaPasta\**" />
 		<Content Remove="wwwroot\NovaPasta1\**" />
 		<Content Remove="wwwroot\NovaPasta\**" />
+		<EmbeddedResource Remove="Views\NovaPasta1\**" />
+		<EmbeddedResource Remove="Views\NovaPasta2\**" />
+		<EmbeddedResource Remove="Views\NovaPasta\**" />
 		<EmbeddedResource Remove="wwwroot\NovaPasta1\**" />
 		<EmbeddedResource Remove="wwwroot\NovaPasta\**" />
+		<None Remove="Views\NovaPasta1\**" />
+		<None Remove="Views\NovaPasta2\**" />
+		<None Remove="Views\NovaPasta\**" />
 		<None Remove="wwwroot\NovaPasta1\**" />
 		<None Remove="wwwroot\NovaPasta\**" />
 	</ItemGroup>
