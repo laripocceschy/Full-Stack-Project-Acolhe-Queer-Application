@@ -1,5 +1,29 @@
+/* _content/acolhequeer_app/Views/Doacoes/Index.cshtml.rz.scp.css */
+.h1[b-c7uk7a0who] {
+    display: inline-block;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-style: double;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00A4BD #33475B #FF7A59;
+    color: green !important;
+}
 /* _content/acolhequeer_app/Views/Instituicao/Index.cshtml.rz.scp.css */
 .h1[b-wa1bgbdux5] {
+    display: inline-block;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-style: double;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00A4BD #33475B #FF7A59;
+    color: green !important;
+}
+/* _content/acolhequeer_app/Views/SeusAgendamentos/Index.cshtml.rz.scp.css */
+.h1[b-qeo47z5f2o] {
     display: inline-block;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 4px;

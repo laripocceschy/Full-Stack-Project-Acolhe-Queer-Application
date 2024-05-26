@@ -24,6 +24,7 @@ namespace acolhequeer_app.Controllers
             return View(await _context.Instituicao.ToListAsync());
         }
 
+
         // GET: Instituicao/Details/5
         public async Task<IActionResult> Details(int? id)
         {

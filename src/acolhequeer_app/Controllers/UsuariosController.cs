@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using acolhequeer.Models;
 using acolhequeer_app.Models;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace acolhequeer_app.Controllers
 {
@@ -21,9 +23,61 @@ namespace acolhequeer_app.Controllers
             return View(dados);
         }
 
+        public async Task<IActionResult> Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(Usuario Usuario)
+        {
+            var dados = await _context.Usuarios
+                .FirstOrDefaultAsync(x => x.Email == Usuario.Email);
+
+            if (dados == null)
+            {
+                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                return View();
+            }
+
+            bool senhaOk = BCrypt.Net.BCrypt.Verify(Usuario.Senha, dados.Senha);
+
+            if (senhaOk)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, dados.Nome),
+                    new Claim(ClaimTypes.Email, dados.Email.ToString()),
+                };
+
+                var UsuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(UsuarioIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+                return Redirect("/");
+            }
+            else
+            {
+                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
 
 
-        
 
         // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
