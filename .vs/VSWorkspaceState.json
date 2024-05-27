@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\acolhequeer_app",
+    "\\src\\acolhequeer_app\\Views",
+    "\\src\\acolhequeer_app\\Views\\Home"
   ],
-  "SelectedNode": "\\acolhequeer_app.sln",
+  "SelectedNode": "\\src\\acolhequeer_app\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": true
 }

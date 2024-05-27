@@ -7,21 +7,33 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Compile Remove="Views\Home\Home\**" />
+		<Compile Remove="Views\Home\NovaPasta1\**" />
+		<Compile Remove="Views\Home\NovaPasta\**" />
 		<Compile Remove="Views\NovaPasta1\**" />
 		<Compile Remove="Views\NovaPasta2\**" />
 		<Compile Remove="Views\NovaPasta\**" />
 		<Compile Remove="wwwroot\NovaPasta1\**" />
 		<Compile Remove="wwwroot\NovaPasta\**" />
+		<Content Remove="Views\Home\Home\**" />
+		<Content Remove="Views\Home\NovaPasta1\**" />
+		<Content Remove="Views\Home\NovaPasta\**" />
 		<Content Remove="Views\NovaPasta1\**" />
 		<Content Remove="Views\NovaPasta2\**" />
 		<Content Remove="Views\NovaPasta\**" />
 		<Content Remove="wwwroot\NovaPasta1\**" />
 		<Content Remove="wwwroot\NovaPasta\**" />
+		<EmbeddedResource Remove="Views\Home\Home\**" />
+		<EmbeddedResource Remove="Views\Home\NovaPasta1\**" />
+		<EmbeddedResource Remove="Views\Home\NovaPasta\**" />
 		<EmbeddedResource Remove="Views\NovaPasta1\**" />
 		<EmbeddedResource Remove="Views\NovaPasta2\**" />
 		<EmbeddedResource Remove="Views\NovaPasta\**" />
 		<EmbeddedResource Remove="wwwroot\NovaPasta1\**" />
 		<EmbeddedResource Remove="wwwroot\NovaPasta\**" />
+		<None Remove="Views\Home\Home\**" />
+		<None Remove="Views\Home\NovaPasta1\**" />
+		<None Remove="Views\Home\NovaPasta\**" />
 		<None Remove="Views\NovaPasta1\**" />
 		<None Remove="Views\NovaPasta2\**" />
 		<None Remove="Views\NovaPasta\**" />
