@@ -50,6 +50,7 @@ public class Instituicao
     public string endereco_cep { get; set; }
 
     [Required(ErrorMessage = "Obrigatório informar a senha!")]
+    [DataType(DataType.Password)]
     [Display(Name = "Senha")]
     public string senha { get; set; }
 

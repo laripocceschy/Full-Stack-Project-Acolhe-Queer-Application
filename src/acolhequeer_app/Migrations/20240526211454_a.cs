@@ -5,7 +5,7 @@
 namespace acolhequeer_app.Migrations
 {
     /// <inheritdoc />
-    public partial class M03AddTableUsuario : Migration
+    public partial class a : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

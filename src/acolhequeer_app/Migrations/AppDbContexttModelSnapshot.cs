@@ -180,9 +180,6 @@ namespace acolhequeer_app.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("senha")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Usuario_id");
 
                     b.ToTable("Usuarios");
