@@ -2797,3 +2797,5 @@ C:\Users\Usuário\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer
 C:\Users\Usuário\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
 C:\Users\Usuário\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.genruntimeconfig.cache
 C:\Users\Usuário\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\ref\acolhequeer_app.dll
+C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\Doacoes\Index.cshtml.rz.scp.css
+C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\SeusAgendamentos\Index.cshtml.rz.scp.css

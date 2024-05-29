@@ -8041,19 +8041,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuário\\.nuget\\packages\\": {}
+    "C:\\Users\\anala\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuário\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+      "projectUniqueName": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
       "projectName": "acolhequeer_app",
-      "projectPath": "C:\\Users\\Usuário\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
-      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuário\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\",
+      "projectPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+      "packagesPath": "C:\\Users\\anala\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8061,6 +8066,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8134,7 +8140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
