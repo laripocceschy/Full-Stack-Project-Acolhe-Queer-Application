@@ -1,8 +1,4 @@
-﻿@model acolhequeer_app.Models.Usuario
-
-@{
-    ViewData["Title"] = "Login";
-}
+﻿@model acolhequeer_app.Models.Instituicao
 
 <style>
 
@@ -78,22 +74,22 @@
         padding: 0 35px 0 5px;
     }
 
-    .custom-group input::placeholder {
-        position: absolute;
-        top: 50%;
-        left: 5px;
-        transform: translateY(-50%);
-        font-size: 1em;
-        color: #3A3764;
-        font-weight: 500;
-        pointer-events: none;
-        transition: 0.5s;
-    }
+        .custom-group input::placeholder {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            font-size: 1em;
+            color: #3A3764;
+            font-weight: 500;
+            pointer-events: none;
+            transition: 0.5s;
+        }
 
-    .custom-group input:focus {
-        background: transparent;
-        box-shadow: none;
-    }
+        .custom-group input:focus {
+            background: transparent;
+            box-shadow: none;
+        }
 
     .custom-group .icon {
         position: absolute;
@@ -101,24 +97,6 @@
         font-size: 1.2em;
         color: #3A3764;
         line-height: 57px;
-    }
-
-    .remember-forgot {
-        font-size: 13px;
-        color: #3A3764;
-        margin: -15px 0 15px;
-        display: flex;
-        justify-content: space-between;
-        padding: 3px;
-    }
-
-    .remember-forgot label input {
-            accent-color: #3A3764;
-            margin-right: 3px;
-    }
-
-    .remember-forgot a {
-            color: #3A3764;
     }
 
     #loginButton {
@@ -136,9 +114,9 @@
         transition: 0.6s;
     }
 
-    #loginButton:hover {
-        background-position: right;
-    }
+        #loginButton:hover {
+            background-position: right;
+        }
 
     .sign-up {
         font-size: 13px;
@@ -147,9 +125,9 @@
         margin: 20px 0 10px;
     }
 
-    .sign-up p a {
-        color: #3A3764;
-    }
+        .sign-up p a {
+            color: #3A3764;
+        }
 
     .sign up a:hover {
         text-decoration: underline !important;
@@ -163,28 +141,25 @@
     <div class="row">
         <div class="col-md-4 custom-class">
             <form asp-action="Login">
-                <h2>Usuário</h2>
+                <h2>Instituição</h2>
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group custom-group">
                     <span class="icon">
                         <ion-icon name="mail"></ion-icon>
                     </span>
-                    <label asp-for="Email" class="control-label sr-only">Email</label>
-                    <input asp-for="Email" class="form-control" placeholder="Email" />
-                    <span asp-validation-for="Email" class="text-danger"></span>
+                    <label asp-for="email" class="control-label sr-only">Email</label>
+                    <input asp-for="email" class="form-control" placeholder="Email" />
+                    <span asp-validation-for="email" class="text-danger"></span>
                 </div>
                 <div class="form-group custom-group">
                     <span class="icon">
                         <ion-icon name="lock-closed"></ion-icon>
                     </span>
-                    <label asp-for="Senha" class="control-label sr-only">Senha</label>
-                    <input asp-for="Senha" class="form-control" type="password" placeholder="Senha" />
-                    <span asp-validation-for="Senha" class="text-danger"></span>
+                    <label asp-for="senha" class="control-label sr-only">Senha</label>
+                    <input asp-for="senha" class="form-control" type="password" placeholder="Senha" />
+                    <span asp-validation-for="senha" class="text-danger"></span>
                 </div>
-                <div class="remember-forgot">
-                    <label><input asp-for="Bool_admin" type="checkbox">Administrador?</label>
-                    <a asp-controller="Instituicao" asp-action="Login">~Instituição~</a>
-                </div>
+
                 <div class="form-group">
                     <input type="submit" value="Login" class="btn btn-primary" id="loginButton" />
                 </div>

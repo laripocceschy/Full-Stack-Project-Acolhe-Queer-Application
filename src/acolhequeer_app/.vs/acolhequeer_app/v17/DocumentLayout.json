@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\",
+  "WorkspaceRootPath": "C:\\Users\\Tida\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\tida\\source\\repos\\icei-puc-minas-pmv-ads\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\views\\instituicao\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\instituicao\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\tida\\source\\repos\\icei-puc-minas-pmv-ads\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\controllers\\instituicaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:controllers\\instituicaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +34,44 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAALAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tida\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Instituicao\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Instituicao\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Tida\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Instituicao\\Login.cshtml",
+              "RelativeToolTip": "Views\\Instituicao\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T02:26:46.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InstituicaoController.cs",
+              "DocumentMoniker": "C:\\Users\\Tida\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\InstituicaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstituicaoController.cs",
+              "ToolTip": "C:\\Users\\Tida\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\InstituicaoController.cs",
+              "RelativeToolTip": "Controllers\\InstituicaoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T22:14:44.206Z",
+              "WhenOpened": "2024-05-29T02:02:09.009Z",
               "EditorCaption": ""
             }
           ]
