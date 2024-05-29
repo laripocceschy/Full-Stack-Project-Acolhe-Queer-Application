@@ -6,24 +6,82 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using acolhequeer.Models;
+using acolhequeer_app.Models;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using System.Linq.Expressions;
 
 namespace acolhequeer_app.Controllers
 {
     public class InstituicaoController : Controller
     {
         private readonly AppDbContextt _context;
+        private readonly ILogger<InstituicaoController> _logger;
 
-        public InstituicaoController(AppDbContextt context)
+        public InstituicaoController(AppDbContextt context, ILogger<InstituicaoController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: Instituicao
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Instituicao.ToListAsync());
+            var dados = await _context.Instituicao.ToListAsync();
+            return View(dados);
         }
 
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(Instituicao instituicao)
+        {
+            var matchingUsers = _context.Usuarios.Where(u => u.Email == instituicao.email);
+            var dados = matchingUsers.FirstOrDefault(u => u.Senha == instituicao.senha);
+
+            if (dados == null)
+            {
+                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                return View(instituicao);
+            }
+
+            if (dados != null)
+            {
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, dados.Nome),
+                    new Claim(ClaimTypes.Email, dados.Email)
+                };
+
+                var instituicaoIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(instituicaoIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateTime.UtcNow.AddDays(7),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+                _logger.LogInformation("Usuário {Email} logado com sucesso.", dados.Email);
+                return Redirect("/");
+            }
+            else
+            {
+                return ViewBag.Message = "Usuário e/ou Senha inválidos.";
+            }
+
+        }
 
         // GET: Instituicao/Details/5
         public async Task<IActionResult> Details(int? id)
