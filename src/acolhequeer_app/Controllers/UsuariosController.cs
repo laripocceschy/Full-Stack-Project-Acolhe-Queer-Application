@@ -64,6 +64,13 @@ namespace acolhequeer_app.Controllers
                 return View(usuario);
             }
 
+            // Verifica se o usuário é um administrador
+            if (usuario.Bool_admin && !dados.Bool_admin)
+            {
+                ViewBag.Message = "Acesso negado. Este usuário não é um administrador.";
+                return View(usuario);
+            }
+
             //bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
 
             if (dados != null)
