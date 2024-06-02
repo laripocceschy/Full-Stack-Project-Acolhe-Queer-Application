@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using acolhequeer.Models;
 
@@ -11,9 +12,11 @@ using acolhequeer.Models;
 namespace acolhequeer_app.Migrations
 {
     [DbContext(typeof(AppDbContextt))]
-    partial class AppDbContexttModelSnapshot : ModelSnapshot
+    [Migration("20240602180716_banco_azure")]
+    partial class banco_azure
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
