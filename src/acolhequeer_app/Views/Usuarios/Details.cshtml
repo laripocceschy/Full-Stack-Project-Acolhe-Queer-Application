@@ -1,13 +1,50 @@
-﻿@model acolhequeer_app.Models.Usuario
+@model acolhequeer_app.Models.Usuario
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
 
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, dt, dd, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+</style>
+
+<h1>Detalhes</h1>
+
+<body>
 <div>
-    <h4>Usuario</h4>
+    <h4>Usuário</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -96,7 +133,8 @@
         </dd>
     </dl>
 </div>
+</body>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Usuario_id">Editar</a> |
-    <a asp-action="Index">Voltar</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Usuario_id" class="btn custom-btn">Editar</a> |
+    <a asp-action="Index" class="btn custom-btn">Voltar</a>
 </div>

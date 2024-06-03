@@ -1,13 +1,49 @@
-﻿@model IEnumerable<acolhequeer_app.Models.Usuario>
+@model IEnumerable<acolhequeer_app.Models.Usuario>
 
 @{
     ViewData["Title"] = "Index";
 }
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
 
-<h1>Cadastro</h1>
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, th, td, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+
+</style>
+
+<h1>Cadastro de Usuários</h1>
 
 <p>
-    <a asp-action="Create">Cadastrar um novo usuário</a>
+    <a asp-action="Create" class="btn custom-btn" >Cadastrar um novo Usuário</a>
 </p>
 <table class="table">
     <thead>
@@ -103,9 +139,9 @@
                 @Html.DisplayFor(modelItem => item.Bool_admin)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Usuario_id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Usuario_id">Visualizar</a> |
-                <a asp-action="Delete" asp-route-id="@item.Usuario_id">Apagar</a>
+                    <a asp-action="Edit" asp-route-id="@item.Usuario_id" class="btn custom-btn">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Usuario_id" class="btn custom-btn">Visualizar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Usuario_id" class="btn custom-btn">Apagar</a>
             </td>
         </tr>
 }
