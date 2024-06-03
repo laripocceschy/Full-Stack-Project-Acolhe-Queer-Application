@@ -13,5 +13,7 @@ namespace acolhequeer.Models
         public DbSet<Usuario> Usuarios { get; set; }
 
         public DbSet<Instituicao> Instituicao { get; set; }
+
+        public DbSet<AgendaQuarto> agendaQuartos { get; set; }
     }
 }
