@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXNhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Doacoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2Fjb2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Home/Home/pagina_principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lXHBhZ2luYV9wcmluY2lwYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -121,10 +125,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Doacoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY29lc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-c7uk7a0who
 
 [C:/Users/miavn/source/repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/src/acolhequeer_app/Views/Instituicao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljYW9cSW5kZXguY3NodG1s
