@@ -12,9 +12,9 @@ namespace acolhequeer_app.Controllers
     [Authorize]
     public class AgendamentoController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly acolhequeer.Models.AppDbContextt _context;
 
-        public AgendamentoController(ApplicationDbContext context)
+        public AgendamentoController(acolhequeer.Models.AppDbContextt context)
         {
             _context = context;
         }
