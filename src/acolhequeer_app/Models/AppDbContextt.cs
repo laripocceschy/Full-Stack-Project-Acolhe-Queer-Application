@@ -1,11 +1,10 @@
 ﻿using acolhequeer_app.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Data.Entity;
+//using System.Data.Entity;
 
 namespace acolhequeer.Models
 {
-    public class AppDbContextt : DbContext
+    public class AppDbContextt : Microsoft.EntityFrameworkCore.DbContext
     {
         public AppDbContextt(DbContextOptions options) : base(options) { }
 

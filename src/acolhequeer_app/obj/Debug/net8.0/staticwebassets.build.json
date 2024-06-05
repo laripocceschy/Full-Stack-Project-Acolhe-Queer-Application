@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "S2zQ5VN2HxEJHVS5lFEsIVbmTydwlYylNXRDhm6N9iM=",
-=======
-  "Hash": "WKs/s1iJPmRBqsDhWO+Q2EY9iI2wbbONj4KEiyFbbOY=",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
   "Source": "acolhequeer_app",
   "BasePath": "_content/acolhequeer_app",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "acolhequeer_app\\wwwroot",
       "Source": "acolhequeer_app",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\acolhequeer_app.styles.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\acolhequeer_app.styles.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "acolhequeer_app.styles.css",
       "AssetKind": "All",
@@ -48,7 +33,6 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\acolhequeer_app.styles.css"
     },
     {
@@ -56,15 +40,6 @@
       "SourceId": "acolhequeer_app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\acolhequeer_app.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\acolhequeer_app.bundle.scp.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "acolhequeer_app.bundle.scp.css",
       "AssetKind": "All",
@@ -77,7 +52,6 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\acolhequeer_app.bundle.scp.css"
     },
     {
@@ -85,15 +59,6 @@
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "OriginalItemSpec": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\acolhequeer_app.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\css\\site.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -109,17 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\favicon.ico",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\favicon.ico",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -135,17 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-chama.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-chama.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/casa-chama.png",
       "AssetKind": "All",
@@ -161,17 +112,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\casa-chama.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-nem.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-nem.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/casa-nem.png",
       "AssetKind": "All",
@@ -187,17 +131,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\casa-nem.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casas.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casas.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/casas.png",
       "AssetKind": "All",
@@ -213,17 +150,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\casas.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-transviver.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\casa-transviver.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/casa-transviver.png",
       "AssetKind": "All",
@@ -239,17 +169,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\casa-transviver.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\faixa.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\faixa.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/faixa.png",
       "AssetKind": "All",
@@ -265,17 +188,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\faixa.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\logo.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\logo.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/logo.png",
       "AssetKind": "All",
@@ -291,17 +207,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\logo.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\nome.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\nome.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/nome.png",
       "AssetKind": "All",
@@ -317,17 +226,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\nome.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\psicologia.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\psicologia.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/psicologia.png",
       "AssetKind": "All",
@@ -343,17 +245,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\psicologia.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\rainbow.png",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\imgs\\rainbow.png",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "imgs/rainbow.png",
       "AssetKind": "All",
@@ -369,17 +264,10 @@
       "OriginalItemSpec": "wwwroot\\imgs\\rainbow.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\js\\site.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -395,17 +283,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -421,17 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -447,17 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -473,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -499,17 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -525,17 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -551,17 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -577,17 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -603,17 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -629,17 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -655,17 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -681,17 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -707,17 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -733,17 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -759,17 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -785,17 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -811,17 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -837,17 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -863,17 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -889,17 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -915,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -941,17 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -967,17 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -993,17 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1019,17 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1045,17 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1071,17 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1097,17 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1123,17 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1149,17 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1175,17 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1201,17 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1227,17 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1253,17 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1279,17 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1305,17 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1331,17 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1357,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1383,17 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1409,17 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1435,17 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1461,17 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1487,17 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1513,17 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1539,17 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1565,17 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\imagem.cs",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\imagem.cs",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/imagem.cs",
       "AssetKind": "All",
@@ -1591,17 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\imagem.cs"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1617,17 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1643,17 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1669,17 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1695,17 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1721,17 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1747,17 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1773,17 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1799,17 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1825,17 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1851,17 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1877,17 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "acolhequeer_app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
-=======
-      "Identity": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "acolhequeer_app",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\wwwroot\\",
->>>>>>> c612158f8122cba05c96f3eecfa8397508a57ac1
       "BasePath": "_content/acolhequeer_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
