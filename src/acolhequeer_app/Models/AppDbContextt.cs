@@ -1,6 +1,7 @@
 ﻿using acolhequeer_app.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Data.Entity;
 
 namespace acolhequeer.Models
 {
