@@ -17,12 +17,74 @@ namespace acolhequeer_app.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.5")
+                .HasAnnotation("ProductVersion", "8.0.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Instituicao", b =>
+            modelBuilder.Entity("acolhequeer.Models.Veiculo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AnoFabricacao")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AnoModelo")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Placa")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Veiculos");
+                });
+
+            modelBuilder.Entity("acolhequeer_app.Models.AgendaQuarto", b =>
+                {
+                    b.Property<int>("reserva_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("reserva_id"));
+
+                    b.Property<string>("check_in")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("check_out")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("data_reserva")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("instituicao_id")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("observacao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("usuario_id")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("reserva_id");
+
+                    b.ToTable("AgendamentoQuarto");
+                });
+
+            modelBuilder.Entity("acolhequeer_app.Models.Instituicao", b =>
                 {
                     b.Property<int>("instituicao_id")
                         .ValueGeneratedOnAdd()
@@ -94,68 +156,6 @@ namespace acolhequeer_app.Migrations
                     b.ToTable("Instituicao");
                 });
 
-            modelBuilder.Entity("acolhequeer.Models.Veiculo", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("AnoFabricacao")
-                        .HasColumnType("int");
-
-                    b.Property<int>("AnoModelo")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Placa")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Veiculos");
-                });
-
-            modelBuilder.Entity("acolhequeer_app.Models.AgendaQuarto", b =>
-                {
-                    b.Property<int>("reserva_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("reserva_id"));
-
-                    b.Property<string>("check_in")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("check_out")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("data_reserva")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("instituicao_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("observacao")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("usuario_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("reserva_id");
-
-                    b.ToTable("AgendamentoQuarto");
-                });
-
             modelBuilder.Entity("acolhequeer_app.Models.Usuario", b =>
                 {
                     b.Property<int>("Usuario_id")
@@ -190,7 +190,7 @@ namespace acolhequeer_app.Migrations
                     b.Property<string>("Endereco_logradouro")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Endereco_numero")
+                    b.Property<int?>("Endereco_numero")
                         .HasColumnType("int");
 
                     b.Property<int>("Idade")
