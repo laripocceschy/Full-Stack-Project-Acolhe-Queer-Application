@@ -10,11 +10,11 @@ using acolhequeer.Models;
 namespace acolhequeer_app.Controllers
 {
     [Authorize]
-    public class AgendamentoController : Controller
+    public class SeusAgendamentoController : Controller
     {
         private readonly AppDbContextt _context;
 
-        public AgendamentoController(AppDbContextt context)
+        public SeusAgendamentoController(AppDbContextt context)
         {
             _context = context;
         }

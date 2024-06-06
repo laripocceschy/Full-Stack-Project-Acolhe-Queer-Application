@@ -1,0 +1,297 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Atendimento";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/pt.js"></script>
+</head>
+<body>
+    <style>
+        :root {
+            --text-light: #767268;
+            --extra-light: #f3f4f6;
+            --white: #ffffff;
+        }
+
+        .atendimento__container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 5rem 1rem;
+        }
+
+        .imagem__container {
+            position: relative;
+            min-height: 500px;
+            background-image: linear-gradient(to left,#FFB655,#FF637d);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 2rem;
+        }
+
+        .conteudo__container {
+            max-width: 600px;
+            padding: 5rem 2rem;
+        }
+
+            .conteudo__container h1 {
+                margin-bottom: 1rem;
+                font-size: 3.5rem;
+                line-height: 4rem;
+                font-weight: 600;
+                color: white;
+            }
+
+            .conteudo__container p {
+                color: white;
+            }
+
+        .agendamento__container {
+            position: absolute;
+            bottom: -5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50%;
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+            gap: 1rem;
+            padding: 3rem 2rem;
+            border-radius: 2rem;
+            background-color: rgba(232,217,172, 0.7);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+
+            .agendamento__container form {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .agendamento__container .input__group {
+                width: 100%;
+                position: relative;
+            }
+
+            .agendamento__container label {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                transform: translateY(-50%, -50%);
+                font-size: 1.2rem;
+                font-weight: 100;
+                color: #3A3764;
+                pointer-events: none;
+                transition: 0.3s;
+            }
+
+            .agendamento__container input {
+                width: 100%;
+                padding: 10px 0;
+                font-size: 1rem;
+                outline: none;
+                border: none;
+                background-color: transparent;
+                border-bottom: 1px solid #2c3855;
+                color: black;
+            }
+
+                .agendamento__container input:focus ~ label {
+                    font-size: 0.8rem;
+                    top: 0;
+                }
+
+            .agendamento__container .btn {
+                padding: 1rem;
+                outline: none;
+                border: none;
+                font-size: 1.5rem;
+                border-radius: 100%;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+
+        .linha-horizontal {
+            width: 100%;
+            margin: 15px auto;
+            border: 2px solid #E8D9AC;
+        }
+
+        .novo__agendamento {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            max-width: 800px !important;
+            align-items: center;
+            margin-top: 4.5rem;
+            text-align: center;
+        }
+
+        .row img {
+            max-width: 100%;
+        }
+
+        .row {
+            position: relative;
+            display: block;
+        }
+
+            .row h4 {
+                font-size: 14px;
+                margin-bottom: 5px;
+                text-transform: uppercase;
+                font-weight: 400;
+                transition: all .50s ease;
+            }
+
+            .row h5 {
+                color: #666666;
+                font-size: 1.3rem;
+                font-weight: 600;
+            }
+
+        .disponivel {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            height: 30px;
+            width: 100px;
+            color: #fff;
+            background-color: #ff637d;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-reserva {
+            background-image: linear-gradient(to right, #ffb655, #ff637d);
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+    </style>
+
+    <div class="atendimento__container">
+        <div class="imagem__container">
+            <div class="conteudo__container">
+                <h1>Atendimento psicológico</h1>
+                <p>Agende uma consulta.</p>
+            </div>
+            <div class="agendamento__container">
+                <form>
+                    <div class="form__group">
+                        <div class="input__group">
+                            <label for="check-in">Data</label>
+                            <input class="form-control" type="datetime-local" placeholder="Selecione uma data" />
+                        </div>
+                    </div>
+                    <button class="btn"><i class="ri-search-line"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr class="linha-horizontal">
+
+    <div class="novo__agendamento" id="atendimentos-disponiveis">
+        <div class="row">
+            <img src="https://img.freepik.com/fotos-gratis/parede-de-estuque-branco_1194-6992.jpg?size=338&ext=jpg&ga=GA1.1.672697106.1717563600&semt=ais_user" alt="Instituição" />
+            <h5>NOME DA INSTITUIÇÃO</h5>
+            <h4>Atendimento psicológico</h4>
+            <div class="disponivel">
+                <p>Disponível</p>
+            </div>
+            <button class="btn-reserva">RESERVAR</button>
+        </div>
+    </div>
+
+    <!--
+    <h5>@Model.Instituicao.nome</h5>
+    <h4>Atendimento psicológico</h4>
+    <div class="disponivel">
+        <p>Disponível</p>
+    </div>
+    <button class="btn-reserva">RESERVAR</button>
+    </div> -->
+
+    <script>
+        var config = {
+            enableTime: false,
+            noCalendar: false,
+            dateFormat: "d/m/Y",
+            altInput: true,
+            minDate: "today",
+            locale: "pt"
+        }
+        flatpickr("input[type=text]", config);
+
+        document.getElementById('agendamento-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var data = document.getElementById('data').value;
+            if (data) {
+                fetch('/Atendimento/BuscarAtendimentosDisponiveis', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({ data: new Date(data) })
+                })
+                    .then(response => response.json())
+                    .then(atendimentos => {
+                        var container = document.getElementById('atendimentos-disponiveis');
+                        container.innerHTML = '';
+                        if (atendimentos.length > 0) {
+                            atendimentos.forEach(atendimento => {
+                                var div = document.createElement('div');
+                                div.textContent = `Atendimento ID: ${atendimento.Atendimento_id}, Data: ${new Date(atendimento.Data).toLocaleDateString()}, Usuário: ${atendimento.UsuarioNome}, Instituição: ${atendimento.InstituicaoNome}, Observação: ${atendimento.Observacao}`;
+                                container.appendChild(div);
+                            });
+                        } else {
+                            container.textContent = 'Nenhum atendimento disponível para esta data.';
+                        }
+                    });
+            }
+        });
+
+        function reservarAtendimento(Atendimento_id) {
+            fetch('/Atendimento/ReservarAtendimento', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({ Atendimento_id: atendimentoId })
+            })
+                .then(response => response.text())
+                .then(result => {
+                    alert(result);
+                    // Atualizar a lista de atendimentos disponíveis após a reserva
+                    document.getElementById('agendamento-form').dispatchEvent(new Event('submit'));
+                });
+        }
+    </script>
+
+</body>
+</html>

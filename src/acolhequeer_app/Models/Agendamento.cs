@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace acolhequeer_app.Models
 {
-    public class Atendimento
+    public class Agendamento
     {
         [Key]
         public int Atendimento_id { get; set; }

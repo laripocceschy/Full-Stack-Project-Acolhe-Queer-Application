@@ -1668,7 +1668,6 @@ C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQu
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.acolhequeer_app.props
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.acolhequeer_app.props
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\Doacoes\Index.cshtml.rz.scp.css
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\Instituicao\Index.cshtml.rz.scp.css
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\SeusAgendamentos\Index.cshtml.rz.scp.css
 C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
@@ -2800,3 +2799,11 @@ C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_ap
 C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.pdb
 C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\acolhequeer_app.genruntimeconfig.cache
 C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\obj\Debug\net8.0\ref\acolhequeer_app.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tida\Source\Repos\ICEI-PUC-Minas-PMV-ADS\PMV-ADS-2024-1-E2-ProjAcolheQueer\src\acolhequeer_app\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
