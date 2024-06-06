@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lHL9bmc3MNgOBvOsBwqH6rgwRBtGI8HOnntQ9m86eBORKEX94Hy+El6tu6Rg213iSAonc0V2c+rBaaxscfp2Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\acolhequeer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anala\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
