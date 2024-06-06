@@ -1,4 +1,5 @@
-﻿using acolhequeer_app.Models;
+﻿using acolhequeer_app.Migrations;
+using acolhequeer_app.Models;
 using Microsoft.EntityFrameworkCore;
 //using System.Data.Entity;
 
@@ -15,5 +16,7 @@ namespace acolhequeer.Models
         public DbSet<Instituicao> Instituicao { get; set; }
 
         public DbSet<AgendaQuarto> agendaQuartos { get; set; }
+
+        public DbSet<Agendamentos> Agendamentos{ get; set; }
     }
 }
