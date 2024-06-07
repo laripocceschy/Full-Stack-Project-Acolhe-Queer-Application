@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\instituicoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\instituicoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\controllers\\instituicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\controllers\\instituicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\models\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\models\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,11 +62,98 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Usuarios\\Delete.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:18:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Instituicoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Instituicoes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Instituicoes\\Delete.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Instituicoes\\Delete.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T18:18:38.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "acolhequeer\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "acolhequeer\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAmwGMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:43:06.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstituicoesController.cs",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\InstituicoesController.cs",
+              "RelativeDocumentMoniker": "acolhequeer\\Controllers\\InstituicoesController.cs",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\InstituicoesController.cs",
+              "RelativeToolTip": "acolhequeer\\Controllers\\InstituicoesController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAmwGMAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:45:29.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Atendimento.cs",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\Atendimento.cs",
+              "RelativeDocumentMoniker": "acolhequeer\\Models\\Atendimento.cs",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\Atendimento.cs",
+              "RelativeToolTip": "acolhequeer\\Models\\Atendimento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T12:07:14.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "acolhequeer\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "acolhequeer\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:56:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwCEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T17:47:21.936Z",
+              "EditorCaption": ""
             }
           ]
         }

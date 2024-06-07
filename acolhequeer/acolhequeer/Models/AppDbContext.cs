@@ -7,5 +7,9 @@ namespace acolhequeer.Models
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<Instituicao> Instituicoes { get; set; }
+
+        public DbSet<ReservaQuarto> ReservaQuartos { get; set; }
     }
 }
