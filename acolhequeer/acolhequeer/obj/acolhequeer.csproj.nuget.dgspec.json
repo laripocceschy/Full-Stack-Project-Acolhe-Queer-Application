@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\acolhequeer.csproj": {}
+    "C:\\Users\\anala\\Documents\\Programação\\CSharp\\acolhequeer\\acolhequeer\\acolhequeer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\acolhequeer.csproj": {
+    "C:\\Users\\anala\\Documents\\Programação\\CSharp\\acolhequeer\\acolhequeer\\acolhequeer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\acolhequeer.csproj",
+        "projectUniqueName": "C:\\Users\\anala\\Documents\\Programação\\CSharp\\acolhequeer\\acolhequeer\\acolhequeer.csproj",
         "projectName": "acolhequeer",
-        "projectPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\acolhequeer.csproj",
+        "projectPath": "C:\\Users\\anala\\Documents\\Programação\\CSharp\\acolhequeer\\acolhequeer\\acolhequeer.csproj",
         "packagesPath": "C:\\Users\\anala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\obj\\",
+        "outputPath": "C:\\Users\\anala\\Documents\\Programação\\CSharp\\acolhequeer\\acolhequeer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
