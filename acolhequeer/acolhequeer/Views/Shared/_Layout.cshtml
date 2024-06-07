@@ -29,6 +29,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Instituicoes" asp-action="Index">Cadastro de Instituicoes</a>
                         </li>
                     </ul>
+                    <ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="login">
+                                <a href="@Url.Action("Logout", "Usuarios")">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="login">
+                                <a href="@Url.Action("Login", "Usuarios")">Login</a>
+                            </li>
+                        }
+                    </ul>
                 </div>
             </div>
         </nav>
