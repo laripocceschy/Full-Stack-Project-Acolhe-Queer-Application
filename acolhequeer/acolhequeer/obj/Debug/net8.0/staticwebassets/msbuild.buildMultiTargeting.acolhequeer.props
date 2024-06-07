@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\acolhequeer.props" />
+</Project>

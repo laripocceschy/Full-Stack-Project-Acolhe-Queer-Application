@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("acolhequeer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c27e360c709e28c1911ba395c3200740b609e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("acolhequeer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("acolhequeer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
