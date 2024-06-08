@@ -9,6 +9,8 @@ using acolhequeer.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Identity.Client;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace acolhequeer.Controllers
 {
@@ -16,16 +18,19 @@ namespace acolhequeer.Controllers
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly ILogger<UsuariosController> _logger;
 
-        public UsuariosController(AppDbContext context)
+        public UsuariosController(AppDbContext context, ILogger<UsuariosController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Usuarios.ToListAsync());
+            var dados = await _context.Usuarios.ToListAsync();
+            return View(dados);
         }
 
         public IActionResult Login()
@@ -34,25 +39,37 @@ namespace acolhequeer.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            var dados = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == usuario.Email);
+
+            var matchingUsers = _context.Usuarios.Where(u => u.Email == usuario.Email);
+            
+            var dados = matchingUsers.FirstOrDefault(u => u.Senha == usuario.Senha);
+            
 
             if (dados == null)
             {
                 ViewBag.Message = "Usuário e/ou Senha inválidos.";
-                return View();
+                return View(usuario);
             }
 
-            bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
-
-            if (senhaOk)
+            // Verifica se o usuário é um administrador
+            if (usuario.Bool_admin && !dados.Bool_admin)
             {
+                ViewBag.Message = "Acesso negado. Este usuário não é um administrador.";
+                return View(usuario);
+            }
+
+            //bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
+
+            if (dados != null)
+            {
+
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email.ToString()),
-                    //new Claim(ClaimTypes.Role, dados.Bool_admin)
+                    new Claim(ClaimTypes.Email, dados.Email)
                 };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
@@ -61,27 +78,26 @@ namespace acolhequeer.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddDays(7),
-                    IsPersistent = true,
+                    ExpiresUtc = DateTime.UtcNow.AddDays(7),
+                    IsPersistent = true
                 };
 
                 await HttpContext.SignInAsync(principal, props);
 
+                _logger.LogInformation("Usuário {Email} logado com sucesso.", dados.Email);
                 return Redirect("/");
             }
             else
             {
-                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                return ViewBag.Message = "Usuário e/ou Senha inválidos.";
             }
 
-            return View();
         }
 
         public async Task<IActionResult> Logout()
         {
-            await HttpContext.SignOutAsync();
-
-            return RedirectToAction("Login", "Usuarios");
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Usuarios/Details/5

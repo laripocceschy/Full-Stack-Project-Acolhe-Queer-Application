@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using acolhequeer.Models;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace acolhequeer.Controllers
 {
@@ -15,15 +16,27 @@ namespace acolhequeer.Controllers
     {
         private readonly AppDbContext _context;
 
-        public InstituicoesController(AppDbContext context)
+        private readonly ILogger<InstituicoesController> _logger;
+
+        public InstituicoesController(AppDbContext context, ILogger<InstituicoesController> logger)
         {
             _context = context;
+            _logger = logger;
         }
+
+        //Configuração base
+        //public InstituicoesController(AppDbContext context)
+        //{
+            //_context = context;
+        //}
 
         // GET: Instituicoes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Instituicoes.ToListAsync());
+            var dados = await _context.Instituicoes.ToListAsync();
+            return View(dados);
+
+            //return View(await _context.Instituicoes.ToListAsync());
         }
 
         public IActionResult Login()
@@ -32,25 +45,25 @@ namespace acolhequeer.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Instituicao instituicao)
         {
-            var dados = await _context.Instituicoes.FirstOrDefaultAsync(u => u.Email == instituicao.Email);
+            var matchingUsers = _context.Usuarios.Where(u => u.Email == instituicao.Email);
+            var dados = matchingUsers.FirstOrDefault(u => u.Senha == instituicao.Senha);
 
             if (dados == null)
             {
                 ViewBag.Message = "Usuário e/ou Senha inválidos.";
-                return View();
+                return View(instituicao);
             }
 
-            bool senhaOk = BCrypt.Net.BCrypt.Verify(instituicao.Senha, dados.Senha);
-
-            if (senhaOk)
+            if (dados != null)
             {
+
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email.ToString()),
-
+                    new Claim(ClaimTypes.Email, dados.Email)
                 };
 
                 var instituicaoIdentity = new ClaimsIdentity(claims, "login");
@@ -59,27 +72,20 @@ namespace acolhequeer.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTime.UtcNow.ToLocalTime().AddDays(7),
-                    IsPersistent = true,
+                    ExpiresUtc = DateTime.UtcNow.AddDays(7),
+                    IsPersistent = true
                 };
 
                 await HttpContext.SignInAsync(principal, props);
 
+                _logger.LogInformation("Usuário {Email} logado com sucesso.", dados.Email);
                 return Redirect("/");
             }
             else
             {
-                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                return ViewBag.Message = "Usuário e/ou Senha inválidos.";
             }
 
-            return View();
-        }
-
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync();
-
-            return RedirectToAction("Login", "Instituicoes");
         }
 
 

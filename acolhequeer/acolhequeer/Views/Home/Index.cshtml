@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,6 +12,20 @@
             margin: 0; /* Remover margens padrão do body */
             padding: 0; /* Remover preenchimento padrão do body */
         }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFAEB;
+            color: #3a3764;
+            padding: 10px 20px;
+            border-bottom: 3px solid #e8d9ac; /* Adicionando a linha separadora */
+            margin-bottom: 20px; /* Espaço entre o header e o corpo laranja */
+            margin-left: -20px; /* Compensação para o padding */
+            margin-right: -20px; /* Compensação para o padding */
+        }
+        
 
         .logo {
             font-size: 24px;
@@ -96,7 +109,12 @@
                 max-width: 250px; /* Reduz o tamanho da imagem */
             }
 
-        
+        footer {
+            color: #3a3764;
+            padding: 20px;
+            display: flex;
+            align-items: right;
+        }
 
         .logo {
             width: 100px;
@@ -105,14 +123,12 @@
 
         .column {
             flex: 1;
-        }
     </style>
     @{
         ViewData["Title"] = "Index";
     }
 </head>
 <body>
-
     <div class="banner">
         <div class="text">
             <h1 class="acolhe-queer-banner">Acolhe Queer</h1>

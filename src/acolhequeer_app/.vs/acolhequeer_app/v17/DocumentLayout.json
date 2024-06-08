@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\views\\home\\home\\pagina_principal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\home\\home\\pagina_principal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pagina_principal.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Home\\Home\\pagina_principal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Home\\pagina_principal.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Home\\Home\\pagina_principal.cshtml",
+              "RelativeToolTip": "Views\\Home\\Home\\pagina_principal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T17:28:39.498Z",
+              "EditorCaption": ""
             }
           ]
         }

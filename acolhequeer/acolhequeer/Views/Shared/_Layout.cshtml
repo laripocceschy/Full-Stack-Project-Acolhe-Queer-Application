@@ -3,49 +3,118 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - acolhequeer</title>
+    <title>@ViewData["Title"] - acolhequeer_app</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/acolhequeer.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+    <style>
+        body {
+            background-color: #FFFAEB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFAEB;
+            color: #3a3764;
+            padding: 10px 20px;
+            border-bottom: 3px solid #e8d9ac;
+            margin-bottom: 20px;
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+            .menu li {
+                margin-right: 20px;
+            }
+
+                .menu li:last-child {
+                    margin-right: 0;
+                }
+
+            .menu a {
+                text-decoration: none;
+                color: #3a3764;
+                padding: 8px 12px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+            }
+
+            .menu .login a {
+                margin-left: 10px;
+                border-image: linear-gradient(to right, #ffb655, #ff637d);
+                border-image-slice: 1;
+            }
+
+        footer {
+            color: #3a3764;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e8d9ac;
+            margin-top: 20px;
+        }
+
+            footer .logo img {
+                width: 100px;
+                height: auto;
+            }
+
+            footer .column {
+                flex: 1;
+            }
+
+            footer h5 {
+                margin: 0;
+                font-size: 16px;
+            }
+
+            footer p {
+                margin: 5px 0;
+                font-size: 14px;
+            }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">acolhequeer</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastro de Usuarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Instituicoes" asp-action="Create">Cadastro de Instituicoes</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <li class="login">
-                                <a href="@Url.Action("Logout", "Usuarios")">Sair</a>
-                            </li>
-                        }
-                        else
-                        {
-                            <li class="login">
-                                <a href="@Url.Action("Login", "Usuarios")">Login</a>
-                            </li>
-                        }
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="logo">
+            <a href="@Url.Action("Index", "Home")">
+                <img src="/imgs/logo.png" alt="Imagem 1" />
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Create", "Instituicoes")">Cadastro de instituições</a></li>
+            <li><a href="@Url.Action("Create", "Usuarios")">Cadastro de usuários</a></li>
+            <li><a href="@Url.Action("Casas", "Home")">Casas</a></li>
+            <li><a href="@Url.Action("Doacoes", "Home")">Doações</a></li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="login"><a href="@Url.Action("Logout", "Usuarios")">Sair</a></li>
+            }
+            else
+            {
+                <li class="login"><a href="@Url.Action("Login", "Usuarios")">Login</a></li>
+            }
+        </ul>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -53,9 +122,18 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - acolhequeer - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer>
+        <div class="logo">
+            <img src="/imgs/logo.png" alt="Logo">
+        </div>
+        <div class="column">
+            <h5>Entre em contato</h5>
+            <p>danielamenina@gmail.com</p>
+            <p>(11) 94636-5789</p>
+        </div>
+        <div class="column">
+            <h5>Endereço</h5>
+            <p>Rua bonfica, bairro jaçana n°15 - cep: 03544-080</p>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
