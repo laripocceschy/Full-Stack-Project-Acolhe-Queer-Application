@@ -1,0 +1,87 @@
+﻿@*
+
+*@
+@{
+    ViewData["Title"] = "Casas";
+    var image1Url = ViewData["Image1"] as string;
+    var image2Url = ViewData["Image2"] as string;
+    var image3Url = ViewData["Image3"] as string;
+    var image4Url = ViewData["Image4"] as string;
+    var image5Url = ViewData["Image5"] as string;
+}
+<style>
+    body {
+        background-color: #FFFAEB;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: flex-start;
+        margin: 20px 0;
+        margin-right: 200px;
+        margin-left: -200px;
+    }
+
+    .text-and-button {
+        margin-left: 20px;
+        max-width: 600px;
+        margin-top: 140px;
+    }
+
+    .btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px;
+        color: white;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        margin-top: 100px;
+    }
+
+    .houseDescription {
+        margin: 0;
+        text-align: justify;
+    }
+
+    .container {
+        align-items: flex-start;
+        margin-top: -205px;
+    }
+</style>
+<body>
+    <div class="container">
+        <img id="firstImage" src="@image4Url" alt="nome-app" />
+        <img id="secImage" src="@image5Url" alt="rainbow" />
+    </div>
+
+    <div class="flex-container">
+        <img class="houseImage" src="@image1Url" width="602" height="480" alt="casa-nem" />
+        <div class="text-and-button">
+            <p class="houseDescription">Inaugurada em maio de 2019, a Casa Aurora é o primeiro centro de acolhida exclusivo para LGBTIs de Salvador. Coordenado pelo casal trans João Hugo e Sellena Ramos, da Associação de Diversidade e Inclusão da Bahia (ADIBA), o local recebe jovens queer de 18 a 29 anos em situação de vulnerabilidade social. O projeto oferece acolhimento integral, alimentação, produtos de higiene, serviços jurídicos, projetos socioeducatios e atendimento psicológico gratuito. A manutenção é feita por meio de financiamento coletivo e doações.</p>
+            <a href="https://www.instagram.com/casanem_/" target="_blank" class="btn">Conheça a casa</a>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <img class="houseImage" src="@image2Url" width="602" height="480" alt="casa-chama" />
+        <div class="text-and-button">
+            <p class="houseDescription">A Casa Chama é uma organização civil que surgiu em 2018 com o objetivo de fortalecer a comunidade de artistas trans por meio de atendimentos de saúde, projetos culturais e assistências jurídicas. A casa é um ambiente de convívio seguro que produz desde eventos culturais e grupos de estudo até projetos de cuidado e apoio jurídico. Durante a pandemia, o órgão atua com a criação de um fundo emergencial de apoio para pessoas trans afetadas pelo covid-19 e assistidas pelo projeto.</p>
+            <a href="https://www.instagram.com/casachama_org/" target="_blank" class="btn">Conheça a casa</a>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <img class="houseImage" src="@image3Url" width="602" height="480" alt="casa-transviver" />
+        <div class="text-and-button">
+            <p class="houseDescription">O Instituto Transviver é um centro de cultura, educação, esportes e acolhimento para LGBTIs, mas com um olhar especial para as pessoas trans. Criado em 2018 pelos ativistas Regina Guimarães e Juan Guiã, o projeto luta hoje pela reforma de sua sede. Após a conclusão das obras, a casa será o primeiro espaço de acolhimento de pessoas LGBTI+ em situação de vulnerabilidade social de Pernambuco, com dormitórios, cozinha e área de convivência completas. A manutenção também é feita por meio de financiamento coletivo e doações.</p>
+            <a href="https://www.instagram.com/transviver/" target="_blank" class="btn">Conheça a casa</a>
+        </div>
+    </div>
+</body>
+
+</html>

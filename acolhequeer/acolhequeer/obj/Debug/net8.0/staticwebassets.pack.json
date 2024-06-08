@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\casa-chama.png",
+      "PackagePath": "staticwebassets\\imgs\\casa-chama.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\casa-nem.png",
+      "PackagePath": "staticwebassets\\imgs\\casa-nem.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\casa-transviver.png",
+      "PackagePath": "staticwebassets\\imgs\\casa-transviver.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\casas.png",
+      "PackagePath": "staticwebassets\\imgs\\casas.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\faixa.png",
+      "PackagePath": "staticwebassets\\imgs\\faixa.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\logo.png",
+      "PackagePath": "staticwebassets\\imgs\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\nome.png",
+      "PackagePath": "staticwebassets\\imgs\\nome.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\psicologia.png",
+      "PackagePath": "staticwebassets\\imgs\\psicologia.png"
+    },
+    {
+      "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\imgs\\rainbow.png",
+      "PackagePath": "staticwebassets\\imgs\\rainbow.png"
+    },
+    {
       "Id": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

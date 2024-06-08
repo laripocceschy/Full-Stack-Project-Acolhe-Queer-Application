@@ -71,5 +71,9 @@ namespace acolhequeer.Models
         [Display(Name = "Disponibilidade de atendimentos psicológicos")]
         public int? Qtd_disponibilidade { get; set; }
 
+        public ICollection<ReservaQuarto> ReservaQuartos { get; set; }
+
+        public ICollection<AtendimentoPsi> AtendimentosPsicologico { get; set; }
+
     }
 }

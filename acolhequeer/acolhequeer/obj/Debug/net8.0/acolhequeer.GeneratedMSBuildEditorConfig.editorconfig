@@ -26,6 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\acolhequeer\acolhequeer
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Casas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Doacoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY29lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +84,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Index.cshtml]

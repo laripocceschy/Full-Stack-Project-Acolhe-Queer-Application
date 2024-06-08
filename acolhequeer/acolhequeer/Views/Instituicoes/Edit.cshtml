@@ -4,106 +4,194 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
 
-<h4>Instituicao</h4>
+<style>
+    body {
+        background-color: #FFFAEB;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    h1, h4, label, .form-control {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; /* Altura total da janela de visualização */
+    }
+
+    .form-control {
+        background-color: #E8D9AC; /* Cor de fundo dos campos de formulário */
+        border: 2px solid #E8D9AC; /* Borda da mesma cor do fundo */
+        border-radius: 50px; /* Formato cilíndrico */
+        padding: 10px 20px; /* Padding ajustado */
+        font-size: 16px; /* Tamanho da fonte */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .form-check-input {
+        margin-top: 0.3em; /* Ajuste do espaçamento superior */
+    }
+
+</style>
+
+<h1>Editar</h1>
+
+<h4>Instituição</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Instituicao_id" />
+<div id="comment_box1" class="row">
+    <form asp-action="Edit" class="col-md-12">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Instituicao_id" />
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Nome" class="control-label"></label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Cnpj" class="control-label"></label>
+                    <input asp-for="Cnpj" class="form-control" />
+                    <span asp-validation-for="Cnpj" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Telefone" class="control-label"></label>
+                    <input asp-for="Telefone" class="form-control" />
+                    <span asp-validation-for="Telefone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco_rua" class="control-label"></label>
+                    <input asp-for="Endereco_rua" class="form-control" />
+                    <span asp-validation-for="Endereco_rua" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco_bairro" class="control-label"></label>
+                    <input asp-for="Endereco_bairro" class="form-control" />
+                    <span asp-validation-for="Endereco_bairro" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco_cidade" class="control-label"></label>
+                    <input asp-for="Endereco_cidade" class="form-control" />
+                    <span asp-validation-for="Endereco_cidade" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Endereco_estado" class="control-label"></label>
+                    <input asp-for="Endereco_estado" class="form-control" />
+                    <span asp-validation-for="Endereco_estado" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco_numero" class="control-label"></label>
+                    <input asp-for="Endereco_numero" class="form-control" />
+                    <span asp-validation-for="Endereco_numero" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco_cep" class="control-label"></label>
+                    <input asp-for="Endereco_cep" class="form-control" />
+                    <span asp-validation-for="Endereco_cep" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Senha" class="control-label"></label>
+                    <input asp-for="Senha" class="form-control" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Adm_validacao" /> @Html.DisplayNameFor(model => model.Adm_validacao)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pix_doacao" class="control-label"></label>
+                    <input asp-for="Pix_doacao" class="form-control" />
+                    <span asp-validation-for="Pix_doacao" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="N_vagas" class="control-label"></label>
+                    <input asp-for="N_vagas" class="form-control" />
+                    <span asp-validation-for="N_vagas" class="text-danger"></span>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Bool_atd" id="bool_atd" /> @Html.DisplayNameFor(model => model.Bool_atd)
+                    </label>
+                </div>
+                <div class="form-group" id="qtd_disponibilidade_container">
+                    <label asp-for="Qtd_disponibilidade" class="control-label"></label>
+                    <input asp-for="Qtd_disponibilidade" class="form-control" />
+                    <span asp-validation-for="Qtd_disponibilidade" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="center-container">
             <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+                <input type="submit" value="Salvar Alterações" class="btn custom-btn" />
             </div>
-            <div class="form-group">
-                <label asp-for="Cnpj" class="control-label"></label>
-                <input asp-for="Cnpj" class="form-control" />
-                <span asp-validation-for="Cnpj" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Telefone" class="control-label"></label>
-                <input asp-for="Telefone" class="form-control" />
-                <span asp-validation-for="Telefone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_rua" class="control-label"></label>
-                <input asp-for="Endereco_rua" class="form-control" />
-                <span asp-validation-for="Endereco_rua" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_bairro" class="control-label"></label>
-                <input asp-for="Endereco_bairro" class="form-control" />
-                <span asp-validation-for="Endereco_bairro" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_cidade" class="control-label"></label>
-                <input asp-for="Endereco_cidade" class="form-control" />
-                <span asp-validation-for="Endereco_cidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_estado" class="control-label"></label>
-                <input asp-for="Endereco_estado" class="form-control" />
-                <span asp-validation-for="Endereco_estado" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_numero" class="control-label"></label>
-                <input asp-for="Endereco_numero" class="form-control" />
-                <span asp-validation-for="Endereco_numero" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco_cep" class="control-label"></label>
-                <input asp-for="Endereco_cep" class="form-control" />
-                <span asp-validation-for="Endereco_cep" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Adm_validacao" /> @Html.DisplayNameFor(model => model.Adm_validacao)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pix_doacao" class="control-label"></label>
-                <input asp-for="Pix_doacao" class="form-control" />
-                <span asp-validation-for="Pix_doacao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="N_vagas" class="control-label"></label>
-                <input asp-for="N_vagas" class="form-control" />
-                <span asp-validation-for="N_vagas" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Bool_atd" /> @Html.DisplayNameFor(model => model.Bool_atd)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="Qtd_disponibilidade" class="control-label"></label>
-                <input asp-for="Qtd_disponibilidade" class="form-control" />
-                <span asp-validation-for="Qtd_disponibilidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+        </div>
+    </form>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <div class="center-container">
+        <a asp-action="Index" class="btn custom-btn">Voltar</a>
+    </div>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var boolAtdCheckbox = document.getElementById('bool_atd');
+            var qtdDisponibilidadeContainer = document.getElementById('qtd_disponibilidade_container');
+
+            function toggleQtdDisponibilidade() {
+                if (boolAtdCheckbox.checked) {
+                    qtdDisponibilidadeContainer.style.display = 'block';
+                } else {
+                    qtdDisponibilidadeContainer.style.display = 'none';
+                }
+            }
+
+            boolAtdCheckbox.addEventListener('change', toggleQtdDisponibilidade);
+
+            // Initial check
+            toggleQtdDisponibilidade();
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

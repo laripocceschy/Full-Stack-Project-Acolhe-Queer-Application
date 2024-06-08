@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\controllers\\instituicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\controllers\\instituicoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,83 +34,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "acolhequeer\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Models\\Usuario.cs",
-              "RelativeToolTip": "acolhequeer\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T20:36:24.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Usuarios\\Login.cshtml",
-              "RelativeDocumentMoniker": "acolhequeer\\Views\\Usuarios\\Login.cshtml",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Usuarios\\Login.cshtml",
-              "RelativeToolTip": "acolhequeer\\Views\\Usuarios\\Login.cshtml",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAAALgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T20:31:59.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABcAAAAAAAAAAADwvywAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T20:17:06.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Program.cs",
-              "RelativeDocumentMoniker": "acolhequeer\\Program.cs",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Program.cs",
-              "RelativeToolTip": "acolhequeer\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:59:37.136Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "acolhequeer\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "acolhequeer\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:24:10.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstituicoesController.cs",
-              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\InstituicoesController.cs",
-              "RelativeDocumentMoniker": "acolhequeer\\Controllers\\InstituicoesController.cs",
-              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\InstituicoesController.cs",
-              "RelativeToolTip": "acolhequeer\\Controllers\\InstituicoesController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAIwFEAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:24:09.11Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -11,5 +11,8 @@ namespace acolhequeer.Models
         public DbSet<Instituicao> Instituicoes { get; set; }
 
         public DbSet<ReservaQuarto> ReservaQuartos { get; set; }
+
+        public DbSet<AtendimentoPsi> AtendimentosPsicologico { get; set; }
+
     }
 }

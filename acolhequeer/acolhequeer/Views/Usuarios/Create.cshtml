@@ -4,19 +4,86 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
 
-<h4>Usuario</h4>
+<style>
+      body {
+            background-color: #FFFAEB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+
+    }
+
+      h1, h4, label, .form-control {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+
+    }
+
+       .custom-btn {
+            background: linear-gradient(to right, #FFB655, #FF637D);
+            border: none;
+            border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+            color: white; /* Define a cor da fonte como branca */
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+            padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+
+    }
+
+         .custom-btn:hover {
+              background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+
+    }
+
+       .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh; /* Altura total da janela de visualização */
+
+    }
+
+       .form-control {
+            background-color: #E8D9AC; /* Cor de fundo dos campos de formulário */
+            border: 2px solid #E8D9AC; /* Borda da mesma cor do fundo */
+            border-radius: 50px; /* Formato cilíndrico */
+            padding: 10px 20px; /* Padding ajustado */
+            font-size: 16px; /* Tamanho da fonte */
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+
+    }
+
+       .form-check-input {
+            margin-top: 0.3em; /* Ajuste do espaçamento superior */
+
+    }
+
+</style>
+
+<h1>Cadastro de Usuário</h1>
+
+<h4>Usuário</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome_social" class="control-label"></label>
-                <input asp-for="Nome_social" class="form-control" />
-                <span asp-validation-for="Nome_social" class="text-danger"></span>
-            </div>
+<div id="comment_box1" class="row">
+    <form asp-action="Create" class="col-md-12">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Nome_social" class="control-label"></label>
+                    <input asp-for="Nome_social" class="form-control" />
+                    <span asp-validation-for="Nome_social" class="text-danger"></span>
+                </div>
             <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
@@ -47,6 +114,8 @@
                 <input asp-for="Endereco_logradouro" class="form-control" />
                 <span asp-validation-for="Endereco_logradouro" class="text-danger"></span>
             </div>
+        </div>
+        <div class="col-md-6">
             <div class="form-group">
                 <label asp-for="Endereco_bairro" class="control-label"></label>
                 <input asp-for="Endereco_bairro" class="form-control" />
@@ -79,20 +148,24 @@
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Bool_admin" /> @Html.DisplayNameFor(model => model.Bool_admin)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+                <input class="form-check-input" asp-for="Bool_admin" /> @Html.DisplayNameFor(model => model.Bool_admin)
+            </label>
+        </div>
+    </form>
+</div>
+
+<div class="center-container">
+    <div class="form-group">
+        <input type="submit" value="Cadastrar Usuário" class="btn custom-btn" />
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="center-container">
+    <a asp-action="Index" class="btn custom-btn">Voltar</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

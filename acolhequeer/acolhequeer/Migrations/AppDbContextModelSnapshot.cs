@@ -22,6 +22,36 @@ namespace acolhequeer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("acolhequeer.Models.AtendimentoPsi", b =>
+                {
+                    b.Property<int>("Atendimento_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Atendimento_id"));
+
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Instituicao_id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Observacao")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("Usuario_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Atendimento_id");
+
+                    b.HasIndex("Instituicao_id");
+
+                    b.HasIndex("Usuario_id");
+
+                    b.ToTable("AtendimentosPsicologico");
+                });
+
             modelBuilder.Entity("acolhequeer.Models.Instituicao", b =>
                 {
                     b.Property<int>("Instituicao_id")
@@ -114,19 +144,21 @@ namespace acolhequeer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Instituicao_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Instituicao_id")
+                        .HasColumnType("int");
 
                     b.Property<string>("Observacao")
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<string>("Usuario_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Usuario_id")
+                        .HasColumnType("int");
 
                     b.HasKey("Reserva_id");
+
+                    b.HasIndex("Instituicao_id");
+
+                    b.HasIndex("Usuario_id");
 
                     b.ToTable("ReservaQuartos");
                 });
@@ -189,6 +221,58 @@ namespace acolhequeer.Migrations
                     b.HasKey("Usuario_id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("acolhequeer.Models.AtendimentoPsi", b =>
+                {
+                    b.HasOne("acolhequeer.Models.Instituicao", "Instituicao")
+                        .WithMany("AtendimentosPsicologico")
+                        .HasForeignKey("Instituicao_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("acolhequeer.Models.Usuario", "Usuario")
+                        .WithMany("AtendimentosPsicologico")
+                        .HasForeignKey("Usuario_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Instituicao");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("acolhequeer.Models.ReservaQuarto", b =>
+                {
+                    b.HasOne("acolhequeer.Models.Instituicao", "Instituicao")
+                        .WithMany("ReservaQuartos")
+                        .HasForeignKey("Instituicao_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("acolhequeer.Models.Usuario", "Usuario")
+                        .WithMany("ReservaQuartos")
+                        .HasForeignKey("Usuario_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Instituicao");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("acolhequeer.Models.Instituicao", b =>
+                {
+                    b.Navigation("AtendimentosPsicologico");
+
+                    b.Navigation("ReservaQuartos");
+                });
+
+            modelBuilder.Entity("acolhequeer.Models.Usuario", b =>
+                {
+                    b.Navigation("AtendimentosPsicologico");
+
+                    b.Navigation("ReservaQuartos");
                 });
 #pragma warning restore 612, 618
         }

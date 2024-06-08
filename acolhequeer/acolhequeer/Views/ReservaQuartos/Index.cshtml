@@ -13,12 +13,6 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Usuario_id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Instituicao_id)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Check_in)
             </th>
             <th>
@@ -30,18 +24,18 @@
             <th>
                 @Html.DisplayNameFor(model => model.Observacao)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instituicao)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Usuario_id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Instituicao_id)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Check_in)
             </td>
@@ -53,6 +47,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Observacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instituicao.Cnpj)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Reserva_id">Edit</a> |

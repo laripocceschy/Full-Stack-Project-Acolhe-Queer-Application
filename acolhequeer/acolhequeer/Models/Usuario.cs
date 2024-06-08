@@ -59,5 +59,10 @@ namespace acolhequeer.Models
 
         [Display(Name = "Administrador")]
         public bool Bool_admin { get; set; }
+
+        public ICollection<ReservaQuarto> ReservaQuartos { get; set; }
+
+        public ICollection<AtendimentoPsi> AtendimentosPsicologico { get; set; }
+
     }
 }

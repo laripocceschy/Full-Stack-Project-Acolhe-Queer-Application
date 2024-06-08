@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using acolhequeer.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace acolhequeer.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly AppDbContext _context;
