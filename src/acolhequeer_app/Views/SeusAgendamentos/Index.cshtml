@@ -1,6 +1,6 @@
-﻿@model IEnumerable<acolhequeer_app.Models.AgendaQuarto>
+﻿@model IEnumerable<acolhequeer_app.Models.Atendimento>
 @{
-    ViewData["Title"] = "Seus Agendamentos";
+    ViewData["Title"] = "Seus Atendimentos";
 }
 
 <head>
@@ -34,13 +34,13 @@
         transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
     }
 
-    .custom-btn:hover {
-        background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
-    }
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
 
 </style>
 
-<h2>Seus Agendamentos</h2>
+<h2>Seus Atendimentos</h2>
 
 @if (ViewBag.Message != null)
 {
@@ -51,12 +51,10 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Reserva ID</th>
+                <th>Atendimento ID</th>
                 <th>Usuário</th>
                 <th>Instituição</th>
-                <th>Check-in</th>
-                <th>Check-out</th>
-                <th>Data de Reserva</th>
+                <th>Data</th>
                 <th>Observações</th>
             </tr>
         </thead>
@@ -64,16 +62,13 @@ else
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>@item.reserva_id</td>
-                    <td>@item.usuario_id</td>
-                    <td>@item.instituicao_id</td>
-                    <td>@item.check_in</td>
-                    <td>@item.check_out</td>
-                    <td>@item.data_reserva</td>
-                    <td>@item.observacao</td>
+                    <td>@item.Atendimento_id</td>
+                    <td>@item.Usuario.Nome</td>
+                    <td>@item.Instituicao</td>
+                    <td>@item.Data</td>
+                    <td>@item.Observacao</td>
                 </tr>
             }
         </tbody>
     </table>
 }
-

@@ -1,20 +1,30 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using acolhequeer_app.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using acolhequeer_app.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using acolhequeer.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using System.Linq.Expressions;
 
 namespace acolhequeer_app.Controllers
 {
     [Authorize]
-    public class AgendamentoController : Controller
+    public class AtendimentoController : Controller
     {
         private readonly AppDbContextt _context;
 
-        public AgendamentoController(AppDbContextt context)
+        public AtendimentoController(AppDbContextt context)
         {
             _context = context;
         }
@@ -26,20 +36,22 @@ namespace acolhequeer_app.Controllers
 
             if (userId != null)
             {
-                // Busca o agendamento do usuário logado
-                var agendamento = await _context.agendaQuartos
-                    .Where(a => a.usuario_id == userId)
+                // Busca os atendimentos do usuário logado
+                var atendimentos = await _context.Agendamentos
+                    .Include(a => a.Usuario)
+                    .Include(a => a.Instituicao)
+                    .Where(a => a.Usuario_id == int.Parse(userId))
                     .ToListAsync();
 
-                // Retorna a view com os agendamentos se existirem
-                if (agendamento.Any())
+                // Retorna a view com os atendimentos se existirem
+                if (atendimentos.Any())
                 {
-                    return View(agendamento);
+                    return View(atendimentos);
                 }
             }
 
-            // Se não houver agendamentos ou se userId for nulo, retorna uma mensagem
-            return View("NoAgendamentos");
+            // Se não houver atendimentos ou se userId for nulo, retorna uma mensagem
+            return View("NoAtendimentos");
         }
     }
 }
