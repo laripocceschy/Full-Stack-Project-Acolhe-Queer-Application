@@ -12,22 +12,16 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace acolhequeer.Controllers
 {
-    public class InstituicoesController : Controller
+    public class InstituicoesController(AppDbContext context, ILogger<InstituicoesController> logger) : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext _context = context;
 
-        private readonly ILogger<InstituicoesController> _logger;
-
-        public InstituicoesController(AppDbContext context, ILogger<InstituicoesController> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly ILogger<InstituicoesController> _logger = logger;
 
         //Configuração base
         //public InstituicoesController(AppDbContext context)
         //{
-            //_context = context;
+        //_context = context;
         //}
 
         // GET: Instituicoes
@@ -62,12 +56,12 @@ namespace acolhequeer.Controllers
 
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email)
+                    new(ClaimTypes.Name, dados.Nome),
+                    new(ClaimTypes.Email, dados.Email)
                 };
 
                 var instituicaoIdentity = new ClaimsIdentity(claims, "login");
-                ClaimsPrincipal principal = new ClaimsPrincipal(instituicaoIdentity);
+                ClaimsPrincipal principal = new(instituicaoIdentity);
 
                 var props = new AuthenticationProperties
                 {

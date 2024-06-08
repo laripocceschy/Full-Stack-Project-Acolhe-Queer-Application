@@ -103,7 +103,7 @@
         <ul class="menu">
             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
             <li><a href="@Url.Action("Create", "Instituicoes")">Cadastro de instituições</a></li>
-            <li><a href="@Url.Action("Create", "Usuarios")">Cadastro de usuários</a></li>
+            <li><a href="@Url.Action("Create", "Usuarios")">Cadastro de Usuário</a></li>
             <li><a href="@Url.Action("Casas", "Home")">Casas</a></li>
             <li><a href="@Url.Action("Doacoes", "Home")">Doações</a></li>
             @if (User.Identity.IsAuthenticated)
@@ -138,7 +138,14 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <!--<script src="~/js/site.js" asp-append-version="true"></script>-->
+    @RenderSection("Scripts", required: false);
 </body>
 </html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        
+    }
+}

@@ -15,16 +15,10 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 namespace acolhequeer.Controllers
 {
     [Authorize]
-    public class UsuariosController : Controller
+    public class UsuariosController(AppDbContext context, ILogger<UsuariosController> logger) : Controller
     {
-        private readonly AppDbContext _context;
-        private readonly ILogger<UsuariosController> _logger;
-
-        public UsuariosController(AppDbContext context, ILogger<UsuariosController> logger)
-        {
-            _context = context;
-            _logger = logger;
-        }
+        private readonly AppDbContext _context = context;
+        private readonly ILogger<UsuariosController> _logger = logger;
 
         // GET: Usuarios
         public async Task<IActionResult> Index()
@@ -68,12 +62,12 @@ namespace acolhequeer.Controllers
 
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email)
+                    new(ClaimTypes.Name, dados.Nome),
+                    new(ClaimTypes.Email, dados.Email)
                 };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
-                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
+                ClaimsPrincipal principal = new(usuarioIdentity);
 
                 var props = new AuthenticationProperties
                 {
@@ -138,7 +132,7 @@ namespace acolhequeer.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(usuario);
+            return View();
         }
 
         // GET: Usuarios/Edit/5
