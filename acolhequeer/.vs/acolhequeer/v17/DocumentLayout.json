@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|c:\\users\\anala\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\acolhequeer\\acolhequeer\\views\\home\\doacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{52561F6E-58FA-4E2E-B896-31C6D0B7DACE}|acolhequeer\\acolhequeer.csproj|solutionrelative:acolhequeer\\views\\home\\doacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,8 +46,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\appsettings.json",
+              "RelativeDocumentMoniker": "acolhequeer\\appsettings.json",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\appsettings.json",
+              "RelativeToolTip": "acolhequeer\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T17:25:53.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T17:25:39.638Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -50,33 +100,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T17:25:29.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T17:25:07.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T17:24:56.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "acolhequeer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T17:18:53.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Doacoes.cshtml",
               "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Home\\Doacoes.cshtml",
               "RelativeDocumentMoniker": "acolhequeer\\Views\\Home\\Doacoes.cshtml",
               "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Home\\Doacoes.cshtml",
               "RelativeToolTip": "acolhequeer\\Views\\Home\\Doacoes.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAAZAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-08T23:58:24.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Casas.cshtml",
               "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Home\\Casas.cshtml",
               "RelativeDocumentMoniker": "acolhequeer\\Views\\Home\\Casas.cshtml",
               "ToolTip": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Views\\Home\\Casas.cshtml",
               "RelativeToolTip": "acolhequeer\\Views\\Home\\Casas.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwD0AAAAWAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T23:58:23.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T23:58:23.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "SeusAgendamentosController.cs",
               "DocumentMoniker": "C:\\Users\\anala\\Source\\Repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\acolhequeer\\acolhequeer\\Controllers\\SeusAgendamentosController.cs",
               "RelativeDocumentMoniker": "acolhequeer\\Controllers\\SeusAgendamentosController.cs",
@@ -84,8 +185,7 @@
               "RelativeToolTip": "acolhequeer\\Controllers\\SeusAgendamentosController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T23:51:55.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T23:51:55.92Z"
             }
           ]
         }
