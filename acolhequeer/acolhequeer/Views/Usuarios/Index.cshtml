@@ -1,0 +1,150 @@
+﻿@model IEnumerable<acolhequeer.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
+
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, th, td, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+
+</style>
+
+<h1>Cadastro de Usuários</h1>
+
+<p>
+    <a asp-action="Create" class="btn custom-btn">Cadastrar um novo Usuário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome_social)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cpf)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_logradouro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco_cep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Senha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bool_admin)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome_social)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cpf)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_logradouro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_bairro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_cidade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_estado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_numero)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Endereco_cep)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Senha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bool_admin)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Usuario_id" class="btn custom-btn">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Usuario_id" class="btn custom-btn">Visualizar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Usuario_id" class="btn custom-btn">Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

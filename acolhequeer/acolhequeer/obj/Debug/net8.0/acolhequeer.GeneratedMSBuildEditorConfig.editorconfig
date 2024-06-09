@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = acolhequeer
+build_property.RootNamespace = acolhequeer
+build_property.ProjectDir = C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\acolhequeer\acolhequeer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\anala\Source\Repos\PMV-ADS-2024-1-E2-ProjAcolheQueer\acolhequeer\acolhequeer
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/AtendimentosPsicologico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmRpbWVudG9zUHNpY29sb2dpY29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Home/Casas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXNhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Home/Doacoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2Fjb2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Instituicoes/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dWljb2VzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/ReservaQuartos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVF1YXJ0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/SeusAgendamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V1c0FnZW5kYW1lbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/SeusAgendamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V1c0FnZW5kYW1lbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/SeusAgendamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V1c0FnZW5kYW1lbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/SeusAgendamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V1c0FnZW5kYW1lbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/SeusAgendamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V1c0FnZW5kYW1lbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/anala/Source/Repos/PMV-ADS-2024-1-E2-ProjAcolheQueer/acolhequeer/acolhequeer/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cyxd1dhbap

@@ -1,0 +1,167 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #fffaeb;
+            margin: 0; /* Remover margens padrão do body */
+            padding: 0; /* Remover preenchimento padrão do body */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFAEB;
+            color: #3a3764;
+            padding: 10px 20px;
+            border-bottom: 3px solid #e8d9ac; /* Adicionando a linha separadora */
+            margin-bottom: 20px; /* Espaço entre o header e o corpo laranja */
+            margin-left: -20px; /* Compensação para o padding */
+            margin-right: -20px; /* Compensação para o padding */
+        }
+        
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+            .menu li {
+                margin-right: 20px;
+            }
+
+                .menu li:last-child {
+                    margin-right: 0;
+                }
+
+            .menu a {
+                text-decoration: none;
+                color: #3a3764;
+                padding: 8px 12px;
+                border-radius: 5px;
+                border: 1px solid transparent;
+            }
+
+            .menu .login a {
+                margin-left: 10px;
+                border-image: linear-gradient(to right, #ffb655, #ff637d);
+                border-image-slice: 1;
+            }
+
+        .banner {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .text {
+            margin-right: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .imagem-banner {
+            margin-top: -185px;
+            margin-left: 200px;
+            width: 50%;
+            height: auto;
+        }
+
+        .acolhe-queer-banner {
+            font-size: 96px;
+            font-weight: bold;
+            color: #3a3764;
+        }
+
+        .descricao {
+            margin-top: 100px;
+            text-align: center;
+            color: #3a3764;
+        }
+
+        .container {
+            margin-top: 150px;
+            display: flex;
+            justify-content: space-around; /* Espaço entre as colunas */
+        }
+
+        .column {
+            flex: 1; /* Cada coluna ocupa o mesmo espaço */
+            text-align: center; /* Centraliza o conteúdo */
+        }
+
+            .column img {
+                max-width: 250px; /* Reduz o tamanho da imagem */
+            }
+
+        footer {
+            color: #3a3764;
+            padding: 20px;
+            display: flex;
+            /*align-items: right;*//*não existe 'right' em align-items*/
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+
+        .column {
+            flex: 1;
+        }
+    </style>
+    @{
+        ViewData["Title"] = "Index";
+    }
+</head>
+<body>
+    <div class="banner">
+        <div class="text">
+            <h1 class="acolhe-queer-banner">Acolhe Queer</h1>
+            <p>Encontre um lugar perto de você para acolhimento e atendimento psicológico, você não está sozinho!</p>
+            <button style="background-image: linear-gradient(to right, #ffb655, #ff637d); color: white; padding: 20px 120px; border: none; border-radius: 50px;">Saiba mais</button>
+        </div>
+        <img src="/imgs/rainbow.png" alt="Descrição da imagem" class="imagem-banner">
+    </div>
+
+    <div>
+        <p class="descricao">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue, mattis pharetra tellus. Vivamus tempus volutpat mi vitae porttitor. Vestibulum vel turpis ultrices, porta quam ut, vehicula nibh. Pellentesque condimentum, sem vitae pharetra semper, leo dolor laoreet urna, non consectetur lorem sapien a nunc. Mauris scelerisque nisl sapien, at sagittis erat faucibus eu. Pellentesque tincidunt eget sapien vel aliquet. Sed porttitor turpis urna, non dignissim sem tempus vel. Cras tempor vestibulum tellus, eget vehicula lectus rhoncus aliquam.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="column">
+            <img src="/imgs/psicologia.png" alt="Imagem 1">
+            <p style="font-weight: bold; text-align: center; font-size: 25px">Psicólogos</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue</p>
+        </div>
+        <div class="column">
+            <img src="/imgs/casas.png" alt="Imagem 2">
+            <p style="font-weight: bold; text-align: center; font-size: 25px">Casas</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue</p>
+
+        </div>
+    </div>
+
+    <div>
+        <img src="/imgs/faixa.png" alt="Imagem 1" style="display: block; width: 100%; margin-top: 100px; margin-bottom: 100px;">
+    </div>
+</body>
+
+</html>
