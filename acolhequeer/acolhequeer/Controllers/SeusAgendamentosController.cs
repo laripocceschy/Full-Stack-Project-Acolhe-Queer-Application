@@ -43,14 +43,18 @@ namespace acolhequeer.Controllers
                     .ToListAsync();
 
                 // Retorna a view com os atendimentos se existirem
-                if (atendimentos.Any())
+                if (atendimentos.Count == 0)
                 {
                     return View(atendimentos);
                 }
+                else
+                {
+                    return View("Você não possui nenhum agendamento.");
+                }
             }
 
-            // Se não houver atendimentos ou se userId for nulo, retorna uma mensagem
-            return View("Você não possui nenhum agendamento.");
+            return View();
+            
         }
     }
 }
