@@ -34,35 +34,51 @@ namespace acolhequeer_app.Controllers
             return View(dados);
         }
 
+        //Login Instituição
+        // GET: Usuarios/Login
         public IActionResult Login()
         {
             return View();
         }
 
+        // POST: Usuarios/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Instituicao instituicao)
         {
-            var matchingUsers = _context.Usuarios.Where(u => u.Email == instituicao.email);
-            var dados = matchingUsers.FirstOrDefault(u => u.Senha == instituicao.senha);
+
+            /* if (!ModelState.IsValid)
+             {
+                 return View(usuario);
+             }*/
+
+            // var dados = await _context.Usuarios
+            // .FindAsync( usuario.Email);
+            var matchingUsers = _context.Instituicao.Where(u => u.email == instituicao.email);
+
+            // Assuming Senha is hashed (security best practice)
+            var dados = matchingUsers.FirstOrDefault(u => u.senha == instituicao.senha);
+            //var u = await _context.Usuarios.FindByEmailAsync(model.Email);
 
             if (dados == null)
             {
-                ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                ViewBag.Message = "Instituição e/ou Senha inválidos.";
                 return View(instituicao);
             }
+
+            //bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, dados.Senha);
 
             if (dados != null)
             {
 
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email)
+                    new Claim(ClaimTypes.Name, dados.nome),
+                    new Claim(ClaimTypes.Email, dados.email)
                 };
 
-                var instituicaoIdentity = new ClaimsIdentity(claims, "login");
-                ClaimsPrincipal principal = new ClaimsPrincipal(instituicaoIdentity);
+                var usuarioIdentity = new ClaimsIdentity(claims, "login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentity);
 
                 var props = new AuthenticationProperties
                 {
@@ -73,16 +89,20 @@ namespace acolhequeer_app.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                _logger.LogInformation("Usuário {Email} logado com sucesso.", dados.Email);
+                _logger.LogInformation("Instituição {Email} logado com sucesso.", dados.email);
                 return Redirect("/");
             }
             else
             {
-                return ViewBag.Message = "Usuário e/ou Senha inválidos.";
+                return ViewBag.Message = "Instituição e/ou Senha inválidos.";
             }
 
         }
-
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
+        }
         // GET: Instituicao/Details/5
         public async Task<IActionResult> Details(int? id)
         {
