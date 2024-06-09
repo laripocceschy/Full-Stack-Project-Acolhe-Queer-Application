@@ -1,0 +1,70 @@
+﻿@model IEnumerable<object>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/pt.js"></script>
+</head>
+<body>
+    <div class="atendimento__container">
+        <div class="imagem__container">
+            <div class="conteudo__container">
+                <h1>Atendimento psicológico</h1>
+                <p>Agende uma consulta.</p>
+            </div>
+            <div class="agendamento__container">
+                <form id="agendamento-form">
+                    <div class="form__group">
+                        <div class="input__group">
+                            <label for="data">Data (opcional)</label>
+                            <input id="data" class="form-control" type="date" placeholder="Selecione uma data (filtro opcional)" />
+                        </div>
+                    </div>
+                    <button type="submit" class="btn"><i class="ri-search-line"></i> Buscar Atendimentos</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr class="linha-horizontal">
+
+    <div class="novo__agendamento" id="atendimentos-disponiveis">
+    </div>
+
+    <script>
+        // Update the JavaScript to use fetch API for a cleaner AJAX request
+        document.getElementById('agendamento-form').addEventListener('submit', async (event) => {
+            event.preventDefault(); // Prevent default form submission behavior
+
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData.entries()); // Convert FormData to object
+
+            const response = await fetch('/Atendimento/BuscarAtendimentosDisponiveis', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data) // Send data as JSON in the body
+            });
+
+            if (!response.ok) {
+                console.error('Erro ao buscar atendimentos disponíveis:', await response.text());
+                return;
+            }
+
+            const atendimentos = await response.json();
+            // Update the UI with the fetched atendimentos (implementation depends on your specific data structure)
+            console.log('Atendimentos disponíveis:', atendimentos);
+            // ... Update UI based on atendimentos data
+        });
+    </script>
+</body>
+</html>

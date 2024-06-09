@@ -10,6 +10,10 @@
             padding: 0; /* Remover preenchimento padrão do body */
         }
 
+        a, a::placeholder {
+            color: #FFFAEB;
+            text-decoration: none; place
+        }
         header {
             display: flex;
             justify-content: space-between;
@@ -130,14 +134,14 @@
         <div class="text">
             <h1 class="acolhe-queer-banner">Acolhe Queer</h1>
             <p>Encontre um lugar perto de você para acolhimento e atendimento psicológico, você não está sozinho!</p>
-            <button style="background-image: linear-gradient(to right, #ffb655, #ff637d); color: white; padding: 20px 120px; border: none; border-radius: 50px;">Saiba mais</button>
+            <button style="background-image: linear-gradient(to right, #ffb655, #ff637d); color: white; padding: 20px 120px; border: none; border-radius: 50px;" ><a href="@Url.Action("Casas", "Instituicao")">Saiba mais</a></button>
         </div>
         <img src="/imgs/rainbow.png" alt="Descrição da imagem" class="imagem-banner">
     </div>
 
     <div>
         <p class="descricao">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue, mattis pharetra tellus. Vivamus tempus volutpat mi vitae porttitor. Vestibulum vel turpis ultrices, porta quam ut, vehicula nibh. Pellentesque condimentum, sem vitae pharetra semper, leo dolor laoreet urna, non consectetur lorem sapien a nunc. Mauris scelerisque nisl sapien, at sagittis erat faucibus eu. Pellentesque tincidunt eget sapien vel aliquet. Sed porttitor turpis urna, non dignissim sem tempus vel. Cras tempor vestibulum tellus, eget vehicula lectus rhoncus aliquam.
+            Em um mundo que nem sempre acolhe a diversidade, o "Acolhe Queer" surge como um porto seguro virtual para pessoas LGBTQIA+ em situação de rua. Através de uma plataforma acessível, elas encontram informações sobre serviços de apoio e a chance de recomeçar suas vidas. Mais do que um mero portal, o site se propõe a ser uma voz ativa na luta contra a LGBTQIA+fobia, promovendo a inclusão e o respeito à diversidade. Junte-se a nós nesta luta e ajude a construir um mundo mais justo e inclusivo para todas as pessoas!.
         </p>
     </div>
 
@@ -145,12 +149,12 @@
         <div class="column">
             <img src="/imgs/psicologia.png" alt="Imagem 1">
             <p style="font-weight: bold; text-align: center; font-size: 25px">Psicólogos</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue</p>
+            <p>Encontre aqui psicólogos disponíveis para te atender no que você precisa.</p>
         </div>
         <div class="column">
             <img src="/imgs/casas.png" alt="Imagem 2">
             <p style="font-weight: bold; text-align: center; font-size: 25px">Casas</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus porttitor augue</p>
+            <p>Encontre aqui casas de apoio para te acolher com quartos disponíveis.</p>
 
         </div>
     </div>

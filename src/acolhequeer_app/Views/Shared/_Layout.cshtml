@@ -102,9 +102,9 @@
         </div>
         <ul class="menu">
             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
-            <li><a href="@Url.Action("Index", "Instituicao")">Cadastro de instituições</a></li>
-            <li><a href="@Url.Action("Index", "Usuarios")">Cadastro de usuários</a></li>
-            <li><a href="@Url.Action("Casas", "Home")">Casas</a></li>
+            <li><a href="@Url.Action("Casas", "Instituicao")">Casas</a></li>
+            <li><a href="@Url.Action("Doacoes", "Instituicao")">Doações</a></li>
+            <li><a href="@Url.Action("Index", "Atendimento")">Agendamentos</a></li>
             @if (User.Identity.IsAuthenticated)
             {
                 <li class="login"><a href="@Url.Action("Logout", "Usuarios")">Sair</a></li>

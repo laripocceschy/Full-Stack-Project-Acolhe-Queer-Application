@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj": {}
+    "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\acolhequeer_app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj": {
+    "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\acolhequeer_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+        "projectUniqueName": "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\acolhequeer_app.csproj",
         "projectName": "acolhequeer_app",
-        "projectPath": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\acolhequeer_app.csproj",
-        "packagesPath": "C:\\Users\\miavn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\obj\\",
+        "projectPath": "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\miavn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/treetech/_packaging/EAM.Packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -97,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

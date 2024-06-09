@@ -67,6 +67,10 @@ namespace acolhequeer_app.Models
         [Display(Name = "Disponibilidade de vagas nos quartos")]
         public int n_vagas { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar uma breve descrição da casa!")]
+        [Display(Name = "Descrição da Casa")]
+        public string descricao_casa { get; set; }
+
         [Display(Name = "Possui atendimento psicológico?")]
         public bool bool_atd { get; set; }
 

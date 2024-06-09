@@ -112,7 +112,7 @@ namespace acolhequeer_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("instituicao_id,nome,cnpj,email,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,adm_validacao,pix_doacao,n_vagas,bool_atd,qtd_disponibilidade")] Instituicao instituicao)
+        public async Task<IActionResult> Create([Bind("instituicao_id,nome,cnpj,email,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,adm_validacao,pix_doacao,n_vagas,descricao_casa,bool_atd,qtd_disponibilidade")] Instituicao instituicao)
         {
             if (ModelState.IsValid)
             {
@@ -144,7 +144,7 @@ namespace acolhequeer_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("instituicao_id,nome,cnpj,email,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,adm_validacao,pix_doacao,n_vagas,bool_atd,qtd_disponibilidade")] Instituicao instituicao)
+        public async Task<IActionResult> Edit(int id, [Bind("instituicao_id,nome,cnpj,email,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,adm_validacao,pix_doacao,n_vagas,descricao_casa,bool_atd,qtd_disponibilidade")] Instituicao instituicao)
         {
             if (id != instituicao.instituicao_id)
             {
@@ -210,6 +210,20 @@ namespace acolhequeer_app.Controllers
         private bool InstituicaoExists(int id)
         {
             return _context.Instituicao.Any(e => e.instituicao_id == id);
+        }
+
+        // GET: Instituicao/Casas
+        public async Task<IActionResult> Casas()
+        {
+            var instituicoes = await _context.Instituicao.ToListAsync();
+            return View(instituicoes);
+        }
+
+        // GET: Instituicao/Doacoes
+        public async Task<IActionResult> Doacoes()
+        {
+            var instituicoes = await _context.Instituicao.ToListAsync();
+            return View(instituicoes);
         }
     }
 }

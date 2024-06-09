@@ -1,6 +1,36 @@
 ﻿@*
-    
+
 *@
+@model IEnumerable<acolhequeer_app.Models.Instituicao>
+
+@{
+    ViewData["Title"] = "Doações";
+}
+
+@foreach (var instituicao in Model)
+{
+    <div class="flex-container">
+        <img class="houseImage" src="@Url.Content("~/imgs/house.jpg")" width="602" height="400" alt="House Image" />
+        <div class="text-and-button">
+            <p class="houseDescription">
+                Realizando transferência ou depósito para nossa conta:
+                <br>Banco Itaú
+
+                Agência: 0593 | Conta Corrente: 162.35-7
+                CNPJ: 39.315.535/0001-97
+                Associação Psicossocial Cultura e de Empreendedorismo para pessoas Transvestigeneres Casa Chama
+
+                Chave PIX: @instituicao.pix_doacao
+
+                Doando através das carteiras digitais: AME – PicPay pelos QR Codes
+
+                Doando através do nosso PayPal, na conta coletivocasachama@gmail.com (indicado para doações em moedas estrangeiras).
+                <br><a href="https://www.instagram.com/casachama_org/" target="_blank" class="btn">Conheça a casa</a>
+            </p>
+        </div>
+    </div>
+}
+
 @{
     ViewData["Title"] = "Doaçoes";
     var image1Url = ViewData["Image1"] as string;
@@ -14,18 +44,39 @@
         background-color: #FFFAEB;
     }
 
+    .banner {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin-top: 223px;
+    }
+
+    .imagem-banner {
+        margin-top: -185px;
+        margin-left: 200px;
+        width: 50%;
+        height: auto;
+    }
+
+    .acolhe-queer-banner {
+        font-size: 96px;
+        font-weight: bold;
+        color: #3a3764;
+    }
+
     .flex-container {
         display: flex;
         align-items: flex-start;
         margin: 20px 0;
         margin-right: 200px;
-        margin-left: -200px;
+        margin-top: 100px;
     }
 
     .text-and-button {
-        margin-left: 20px;
+        margin-left: 50px;
+        margin-right: -190px;
         max-width: 600px;
-        margin-top: 140px;
+        margin-top: 0px;
     }
 
     .btn {
@@ -40,29 +91,30 @@
         text-align: center;
         text-decoration: none;
         transition: background 0.3s ease;
-        margin-top: 100px;
+        margin-top: 93px;
     }
+
     .houseDescription {
-        margin:0;
-        text-align:justify;
-
+        margin: 0;
+        text-align: justify;
     }
-    .container 
-    {
-        align-items: flex-start;
-        margin-top: -205px; 
 
+    .container {
+        align-items: flex-start;
+        margin-top: -205px;
     }
 </style>
 <body>
-    <div class="container">
-        <img id="firstImage" src="@image4Url" alt="nome-app" />
-        <img id="secImage" src="@image5Url" alt="rainbow" />
+    <div class="banner">
+        <div class="text">
+            <h1 class="acolhe-queer-banner">Acolhe Queer</h1>
+            <p>Encontre um lugar perto de você para acolhimento e atendimento psicológico, você não está sozinho!</p>
+            <button style="background-image: linear-gradient(to right, #ffb655, #ff637d); color: white; padding: 20px 120px; border: none; border-radius: 50px;">Saiba mais</button>
+        </div>
+        <img src="/imgs/rainbow.png" alt="Descrição da imagem" class="imagem-banner">
     </div>
-
-    
     <div class="flex-container">
-        <img class="houseImage" src="@image2Url" width="602" height="480" alt="casa-chama" />
+        <img class="houseImage" src="@image2Url" width="602" height="400" alt="casa-chama" />
         <div class="text-and-button">
             <p class="houseDescription">
                 Realizando transferência ou depósito para nossa conta:
@@ -77,11 +129,7 @@
                 Doando através das carteiras digitais: AME – PicPay pelos QR Codes
 
                 Doando através do nosso PayPal, na conta coletivocasachama@gmail.com (indicado para doações em moedas estrangeiras).
-                <br<a href="https://www.instagram.com/casachama_org/" target="_blank" class="btn">Conheça a casa</a>
+                <br><a href="https://www.instagram.com/casachama_org/" target="_blank" class="btn">Conheça a casa</a>
         </div>
     </div>
-
-    
 </body>
-
-</html>

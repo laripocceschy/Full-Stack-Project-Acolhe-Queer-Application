@@ -17,7 +17,7 @@ namespace acolhequeer_app.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.6")
+                .HasAnnotation("ProductVersion", "8.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -84,6 +84,35 @@ namespace acolhequeer_app.Migrations
                     b.ToTable("AgendamentoQuarto");
                 });
 
+            modelBuilder.Entity("acolhequeer_app.Models.Atendimento", b =>
+                {
+                    b.Property<int>("Atendimento_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Atendimento_id"));
+
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Observacao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Usuario_id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("instituicao_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Atendimento_id");
+
+                    b.HasIndex("Usuario_id");
+
+                    b.HasIndex("instituicao_id");
+
+                    b.ToTable("Agendamentos");
+                });
+
             modelBuilder.Entity("acolhequeer_app.Models.Instituicao", b =>
                 {
                     b.Property<int>("instituicao_id")
@@ -99,6 +128,10 @@ namespace acolhequeer_app.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("cnpj")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("descricao_casa")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -214,6 +247,25 @@ namespace acolhequeer_app.Migrations
                     b.HasKey("Usuario_id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("acolhequeer_app.Models.Atendimento", b =>
+                {
+                    b.HasOne("acolhequeer_app.Models.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("Usuario_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("acolhequeer_app.Models.Instituicao", "Instituicao")
+                        .WithMany()
+                        .HasForeignKey("instituicao_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Instituicao");
+
+                    b.Navigation("Usuario");
                 });
 #pragma warning restore 612, 618
         }

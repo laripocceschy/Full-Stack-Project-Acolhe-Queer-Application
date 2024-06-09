@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Instituicao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, th, td, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+
+    .container {
+        display: flex; /* Define o layout flexbox */
+        flex-wrap: wrap; /* Permite quebrar a linha caso necessário */
+        margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+        max-width: 1000px; /* Define a largura máxima do container */
+    }
+
+    .instituicao-info {
+        flex: 1 1 50%; /* Define a largura mínima e máxima para cada instituição */
+        padding: 10px; /* Adiciona padding para melhor visualização */
+    }
+
+        .instituicao-info img {
+            width: 100%; /* Define a largura da imagem para 100% do container interno */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-bottom: 10px; /* Adiciona um espaço abaixo da imagem */
+        }
+
+    img {
+        width: 20%; /* Resize all images to 50% of their original width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+</style>
+<body>
+    <h1>Doações</h1>
+
+    <div class="container">
+        @foreach (var item in Model)
+        {
+            <div class="instituicao-info">
+                <img src="/imgs/casas.png" alt="Imagem 1">
+            </div>
+            <div class="instituicao-info">
+                <h3>@Html.DisplayFor(modelItem => item.nome)</h3>
+                <p>
+                    @Html.DisplayFor(modelItem => item.email)<br />
+                    @Html.DisplayFor(modelItem => item.telefone)<br />
+                    @Html.DisplayFor(modelItem => item.endereco_rua),
+                    @Html.DisplayFor(modelItem => item.endereco_numero) -
+                    @Html.DisplayFor(modelItem => item.endereco_bairro),
+                    @Html.DisplayFor(modelItem => item.endereco_cidade) -
+                    @Html.DisplayFor(modelItem => item.endereco_estado),
+                    @Html.DisplayFor(modelItem => item.endereco_cep)
+                </p>
+                <h4>Doe para o pix da casa:</h4>
+                <p>@Html.DisplayFor(model => item.pix_doacao)</p>
+                <hr />
+            </div>
+        }
+    </div>
+</body>

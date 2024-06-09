@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\miavn\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\views\\seusagendamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\seusagendamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\miavn\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\models\\appdbcontextt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:models\\appdbcontextt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\miavn\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\controllers\\seusagendamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:controllers\\seusagendamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\miavn\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\miavn\\source\\repos\\pmv-ads-2024-1-e2-projacolhequeer\\src\\acolhequeer_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,91 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\SeusAgendamentos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\SeusAgendamentos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\SeusAgendamentos\\Index.cshtml",
-              "RelativeToolTip": "Views\\SeusAgendamentos\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T14:32:20.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeusAgendamentosController.cs",
-              "DocumentMoniker": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\SeusAgendamentosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SeusAgendamentosController.cs",
-              "ToolTip": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Controllers\\SeusAgendamentosController.cs",
-              "RelativeToolTip": "Controllers\\SeusAgendamentosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:29:42.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T01:56:11.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContextt.cs",
-              "DocumentMoniker": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Models\\AppDbContextt.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContextt.cs",
-              "ToolTip": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Models\\AppDbContextt.cs",
-              "RelativeToolTip": "Models\\AppDbContextt.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAswBEAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T01:31:37.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\miavn\\source\\repos\\PMV-ADS-2024-1-E2-ProjAcolheQueer\\src\\acolhequeer_app\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAqwI8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T01:24:13.851Z"
             }
           ]
         }
