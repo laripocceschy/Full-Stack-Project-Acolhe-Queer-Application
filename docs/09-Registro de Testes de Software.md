@@ -14,6 +14,20 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 |	Requisito Associado  | RF-001 - A aplicação deve permitir o cadastro do usúario e da instituição |
 |Registro de evidência | https://youtu.be/e_qmO4wNYF0 |
 
+| CT-02 – Efetuar login usuário e instituição 	| Login	|
+|:---:	|:---:	|
+|	Requisito Associado  | RF-002 - A aplicação deve ter uma área de login para o usuário e a instituição |
+|Registro de evidência |  |
+
+| CT-04 – Informações sobre casas de acolhimento 	| Casas	|
+|:---:	|:---:	|
+|	Requisito Associado  | RF-004 - A aplicação deve ter páginas de informações sobre as casas de acolhimento |
+|Registro de evidência |  |
+
+| CT-06 – Área de doação para as instituições 	| Doações	|
+|:---:	|:---:	|
+|	Requisito Associado  | RF-006 - A aplicação deve disponibilizar uma área de doação para as instituições |
+|Registro de evidência |  |
 ## Avaliação
 
 Os testes acima foram realizados com êxito sem apresentarem nenhum erro.
