@@ -7,6 +7,18 @@
 |------|-----------------------------------------|----|
 |RF-001|	A aplicação deve permitir o cadastro do usúario e da instituição | UsuariosController.cs / Usuario.cs / InstituicaoController.cs / Instituicao.cs / Create.cshtml / Edit.cshtml / Delete.cshtml / Details.cshtml / Index.cshtml | 
 
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-002|	A aplicação deve ter uma área de login para o usuário e a instituição | UsuariosController.cs / Usuario.cs / InstituicaoController.cs / Instituicao.cs / Login.cshtml / Login.cshtml | 
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-004|	A aplicação deve ter páginas de informações sobre as casas de acolhimento | InstituicaoController.cs / Instituicao.cs / Casas.cshtml | 
+
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-006|	A aplicação deve disponibilizar uma área de doação para as instituições | InstituicaoController.cs / Instituicao.cs / Doacoes.cshtml |
+
 # Instruções de acesso
 
 Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
