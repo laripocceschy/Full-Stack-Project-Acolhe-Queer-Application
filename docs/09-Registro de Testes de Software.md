@@ -7,27 +7,28 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | CT-01 – Cadastro de usuário e instituição 	| Cadastro de instituição 	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-001 - A aplicação deve permitir o cadastro do usúario e da instituição |
-|Registro de evidência | https://youtu.be/mrMfNAsYUL4 |
+|Registro de evidência | https://www.youtube.com/watch?v=qnsljNu5wMI |
 
 | CT-01 – Cadastro de usuário e instituição 	| Cadastro de usuário	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-001 - A aplicação deve permitir o cadastro do usúario e da instituição |
-|Registro de evidência | https://youtu.be/e_qmO4wNYF0 |
+|Registro de evidência | https://www.youtube.com/watch?v=qF0ndUykv_o |
 
 | CT-02 – Efetuar login usuário e instituição 	| Login	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-002 - A aplicação deve ter uma área de login para o usuário e a instituição |
-|Registro de evidência |  |
+|Registro de evidência | https://youtu.be/p7vg1shabGM?si=q7scevbagPbHbgbD |
 
 | CT-04 – Informações sobre casas de acolhimento 	| Casas	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-004 - A aplicação deve ter páginas de informações sobre as casas de acolhimento |
-|Registro de evidência |  |
+|Registro de evidência | https://www.youtube.com/watch?v=1UyrDgRjQLo |
 
 | CT-06 – Área de doação para as instituições 	| Doações	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-006 - A aplicação deve disponibilizar uma área de doação para as instituições |
-|Registro de evidência |  |
+|Registro de evidência | https://www.youtube.com/watch?v=CX5jjtD-kL0 |
+
 ## Avaliação
 
 Os testes acima foram realizados com êxito sem apresentarem nenhum erro.
