@@ -1,0 +1,178 @@
+﻿@model Atendimento
+
+@{
+    ViewData["Title"] = "Edit";
+    var usuarioListJson = ViewBag.UsuarioListJson;
+    var instituicaoListJson = ViewBag.InstituicaoListJson;
+}
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
+
+<style>
+    body {
+        background-color: #FFFAEB;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    h1, h4, label, .form-control {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; /* Altura total da janela de visualização */
+    }
+
+    .form-control {
+        background-color: #E8D9AC; /* Cor de fundo dos campos de formulário */
+        border: 2px solid #E8D9AC; /* Borda da mesma cor do fundo */
+        border-radius: 50px; /* Formato cilíndrico */
+        padding: 10px 20px; /* Padding ajustado */
+        font-size: 16px; /* Tamanho da fonte */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .form-check-input {
+        margin-top: 0.3em; /* Ajuste do espaçamento superior */
+    }
+
+</style>
+
+<h1>Editar Atendimento</h1>
+
+<div>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Atendimento_id" />
+        <div class="form-group">
+            <label asp-for="Usuario_id" class="control-label">Usuário</label>
+            <select asp-for="Usuario_id" class="form-control" id="usuarioSelect">
+                <option value="">Selecione um usuário</option>
+            </select>
+            <span asp-validation-for="Usuario_id" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Instituicao_id" class="control-label">Casa</label>
+            <select asp-for="Instituicao_id" class="form-control" id="instituicaoSelect">
+                <option value="">Selecione uma instituição</option>
+            </select>
+            <span asp-validation-for="Instituicao_id" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Observacao" class="control-label">Observação</label>
+            <input asp-for="Observacao" class="form-control" />
+            <span asp-validation-for="Observacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" asp-for="IsPsicologico" id="isPsicologico" />Atendimento Psicológico
+            </label>
+        </div>
+
+        <div class="form-group" id="dataPsiContainer">
+            <label asp-for="Data_psi" class="control-label">Data do atendimento psicológico</label>
+            <input asp-for="Data_psi" class="form-control" />
+            <span asp-validation-for="Data_psi" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" asp-for="IsQuarto" id="isQuarto" /> Reserva de Quarto
+            </label>
+        </div>
+
+        <div class="form-group" id="dataInContainer">
+            <label asp-for="Data_in" class="control-label">Data de entrada</label>
+            <input asp-for="Data_in" class="form-control" />
+            <span asp-validation-for="Data_in" class="text-danger"></span>
+        </div>
+
+        <div class="form-group" id="dataOutContainer">
+            <label asp-for="Data_out" class="control-label">Data de saída</label>
+            <input asp-for="Data_out" class="form-control" />
+            <span asp-validation-for="Data_out" class="text-danger"></span>
+        </div>
+
+        <div class="center-container">
+            <div class="form-group">
+                <input type="submit" value="Salvar Alterações" class="btn custom-btn" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="center-container">
+    <a asp-action="Index" asp-controller="Home" class="btn custom-btn">Voltar</a>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var usuarioList = @Html.Raw(usuarioListJson);
+            var instituicaoList = @Html.Raw(instituicaoListJson);
+
+            var usuarioSelect = $('#usuarioSelect');
+            var instituicaoSelect = $('#instituicaoSelect');
+
+            usuarioList.forEach(function (usuario) {
+                usuarioSelect.append(new Option(usuario.Nome, usuario.Usuario_id));
+            });
+
+            instituicaoList.forEach(function (instituicao) {
+                instituicaoSelect.append(new Option(instituicao.nome, instituicao.instituicao_id));
+            });
+
+            function toggleFields() {
+                if ($('#isPsicologico').is(':checked')) {
+                    $('#dataPsiContainer').show();
+                } else {
+                    $('#dataPsiContainer').hide();
+                }
+
+                if ($('#isQuarto').is(':checked')) {
+                    $('#dataInContainer').show();
+                    $('#dataOutContainer').show();
+                } else {
+                    $('#dataInContainer').hide();
+                    $('#dataOutContainer').hide();
+                }
+            }
+
+            // Initial call to set visibility based on current state
+            toggleFields();
+
+            // Event listeners to toggle visibility on change
+            $('#isPsicologico').change(toggleFields);
+            $('#isQuarto').change(toggleFields);
+        });
+    </script>
+}

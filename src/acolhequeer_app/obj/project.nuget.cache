@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "og13AKgFz3uWboQr44JjDjCEmjMpwNTEyBnom5BOC/BeC5MNOCeqCzjXau46Dz6hGAB/DGA79aShtSprw9ad7Q==",
+  "dgSpecHash": "BKREEZcdDhole+ZLjqbaF2f9D7SHR9QBMn7VF5pY06za1KvA+cZZDZhvnGhNQWZCXEPMgDHvvLClbw/uppfkAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\acolhequeer_app.csproj",
+  "projectFilePath": "C:\\Users\\Usuário\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\acolhequeer_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -168,12 +168,5 @@
     "C:\\Users\\Usuário\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\Usuário\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

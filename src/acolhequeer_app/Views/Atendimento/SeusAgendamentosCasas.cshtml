@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Atendimento>
+
+@{
+    ViewData["Title"] = "IndexAtd";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            background-color: #FFFAEB;
+        }
+
+        h1, h4, th, td, .btn {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .custom-btn {
+            background: linear-gradient(to right, #FFB655, #FF637D);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+            .custom-btn:hover {
+                background: linear-gradient(to right, #FF637D, #FFB655);
+            }
+
+        /* Additional styles specific to IndexAtd.cshtml can be added here */
+    </style>
+</head>
+<body>
+    <h1>Seus Agendamentos</h1>
+
+    <p>
+        <a asp-action="Create" class="btn custom-btn">Cadastre um Atendimento</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reserva de Quarto</th>
+                <th>Agendamento Psicológico</th>
+                <th>Nome</th>
+                <th>Casa</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.IsQuarto)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IsPsicologico)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Usuario.Nome)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Instituicao.nome)</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Atendimento_id" class="btn custom-btn">Visualizar</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Atendimento_id" class="btn custom-btn">Apagar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
+</html>

@@ -1,0 +1,101 @@
+﻿@model Atendimento
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Outras tags dentro do head -->
+</head>
+
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+        background-color: #FFFAEB;
+    }
+
+    h1, h4, dt, dd, .btn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700; /* Define a fonte como Bold */
+    }
+
+    .custom-btn {
+        background: linear-gradient(to right, #FFB655, #FF637D);
+        border: none;
+        border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+        color: white; /* Define a cor da fonte como branca */
+        padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+    }
+
+        .custom-btn:hover {
+            background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+        }
+</style>
+
+<h1>Detalhes do Atendimento</h1>
+<body>
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Usuário
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Usuario.Cpf)
+            </dd>
+            <dt class="col-sm-2">
+                Casa
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Instituicao.cnpj)
+            </dd>
+            <dt class="col-sm-2">
+                Observação
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Observacao)
+            </dd>
+            <dt class="col-sm-2">
+                Reserva de Quarto
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.IsQuarto)
+            </dd>
+            <dt class="col-sm-2">
+                Data de entrada
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Data_in)
+            </dd>
+            <dt class="col-sm-2">
+                Data de saída
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Data_out)
+            </dd>
+            <dt class="col-sm-2">
+                Atendimento Psicológico
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.IsPsicologico)
+            </dd>
+            <dt class="col-sm-2">
+                Data do atendimento psicológico
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Data_psi)
+            </dd>
+        </dl>
+    </div>
+</body>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Atendimento_id" class="btn custom-btn">Editar</a> |
+        <a href="/Home/Index" class="btn custom-btn">Voltar</a>
+</div>

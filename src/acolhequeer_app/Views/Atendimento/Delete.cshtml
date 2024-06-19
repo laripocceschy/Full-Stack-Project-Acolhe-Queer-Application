@@ -1,0 +1,129 @@
+﻿@model Atendimento
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+            background-color: #FFFAEB;
+        }
+
+        h1, h3, h4, dt, dd, .btn {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700; /* Define a fonte como Bold */
+        }
+
+        .custom-btn {
+            background: linear-gradient(to right, #FFB655, #FF637D);
+            border: none;
+            border-radius: 50px; /* Torna as bordas arredondadas em formato cilíndrico */
+            color: white; /* Define a cor da fonte como branca */
+            padding: 10px 20px; /* Ajusta o padding para melhor aparência */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background 0.3s ease; /* Adiciona uma transição suave para o background */
+        }
+
+            .custom-btn:hover {
+                background: linear-gradient(to right, #FF637D, #FFB655); /* Inverte as cores no hover */
+            }
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh; /* Altura total da janela de visualização */
+        }
+
+        .container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .row dt, .row dd {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Apagar Atendimento</h1>
+        <h3>Tem certeza que deseja apagar este Atendimento?</h3>
+        <div>
+            <h4>Atendimento</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    Nome
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Usuario.Nome)
+                </dd>
+                <dt class="col-sm-2">
+                    Casa
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Instituicao.nome)
+                </dd>
+                <dt class="col-sm-2">
+                    Observação
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Observacao)
+                </dd>
+                <dt class="col-sm-2">
+                    Reserva de Quarto
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.IsQuarto)
+                </dd>
+                <dt class="col-sm-2">
+                    Data de entrada
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Data_in)
+                </dd>
+                <dt class="col-sm-2">
+                    Data de saída
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Data_out)
+                </dd>
+                <dt class="col-sm-2">
+                    Agendamento Psicológico
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.IsPsicologico)
+                </dd>
+                <dt class="col-sm-2">
+                    Data agendamento Psicológico
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Data_psi)
+                </dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Atendimento_id" />
+                <input type="submit" value="Apagar" class="btn custom-btn" /> |
+                <a href="/Home/Index" class="btn custom-btn">Voltar</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

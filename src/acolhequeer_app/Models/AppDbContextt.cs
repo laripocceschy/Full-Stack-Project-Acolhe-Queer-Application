@@ -15,7 +15,7 @@ namespace acolhequeer.Models
 
         public DbSet<Instituicao> Instituicao { get; set; }
 
-        public DbSet<AgendaQuarto> AgendaQuarto { get; set; }
+       // public DbSet<AgendaQuarto> AgendaQuarto { get; set; }
 
         public DbSet<Atendimento> Agendamentos{ get; set; }
     }

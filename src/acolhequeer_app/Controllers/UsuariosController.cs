@@ -12,10 +12,13 @@ using acolhequeer.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace acolhequeer_app.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
+
     {
         private readonly AppDbContextt _context;
         private readonly ILogger<UsuariosController> _logger;
@@ -34,6 +37,7 @@ namespace acolhequeer_app.Controllers
         }
 
         // GET: Usuarios/Login
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
@@ -42,6 +46,7 @@ namespace acolhequeer_app.Controllers
         // POST: Usuarios/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
 
@@ -79,7 +84,9 @@ namespace acolhequeer_app.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email)
+                    new Claim(ClaimTypes.Email, dados.Email),
+                    new Claim(ClaimTypes.Role, "Usuario"), // Adiciona o papel "Usuario"
+                    new Claim("Id", dados.Usuario_id.ToString()) // Adiciona o ID do usuário
                 };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
@@ -129,6 +136,7 @@ namespace acolhequeer_app.Controllers
         }
 
         // GET: Usuarios/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -137,13 +145,14 @@ namespace acolhequeer_app.Controllers
         // POST: Usuarios/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("Usuario_id,Nome_social,Nome,Email,Idade,Cpf,Telefone,Endereco_logradouro,Endereco_bairro,Endereco_cidade,Endereco_estado,Endereco_numero,Endereco_cep,Senha,Bool_admin")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Details));
             }
             return View(usuario);
         }
@@ -192,7 +201,10 @@ namespace acolhequeer_app.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                var userIdClaim = User.FindFirst("Id");
+                
+                string userId = userIdClaim.Value;
+                return RedirectToAction(nameof(Details), new { id = userId });
             }
             return View(usuario);
         }
@@ -205,12 +217,17 @@ namespace acolhequeer_app.Controllers
                 return NotFound();
             }
 
+            var userIdClaim = User.FindFirst("Id");
+            string userId = userIdClaim.Value;
+
+
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Usuario_id == id);
             if (usuario == null)
             {
                 return NotFound();
             }
+
 
             return View(usuario);
         }
@@ -227,7 +244,7 @@ namespace acolhequeer_app.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Login));
         }
 
         private bool UsuarioExists(int id)

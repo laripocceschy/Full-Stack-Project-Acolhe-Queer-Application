@@ -10,18 +10,6 @@
     border-color: #00A4BD #33475B #FF7A59;
     color: green !important;
 }
-/* _content/acolhequeer_app/Views/SeusAgendamentos/Index.cshtml.rz.scp.css */
-.h1[b-qeo47z5f2o] {
-    display: inline-block;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-style: double;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #00A4BD #33475B #FF7A59;
-    color: green !important;
-}
 /* _content/acolhequeer_app/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

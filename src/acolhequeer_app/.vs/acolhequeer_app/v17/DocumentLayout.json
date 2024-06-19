@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\",
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\usu\u00E1rio\\desktop\\solor\\projetopuc\\src\\acolhequeer_app\\controllers\\instituicaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:controllers\\instituicaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\usu\u00E1rio\\desktop\\solor\\projpuc2\\src\\acolhequeer_app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|c:\\users\\usu\u00E1rio\\desktop\\solor\\projpuc2\\src\\acolhequeer_app\\views\\atendimento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{51C4D053-EE3D-4A27-ABA9-60AC146DB782}|acolhequeer_app.csproj|solutionrelative:views\\atendimento\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InstituicaoController.cs",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\Controllers\\InstituicaoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InstituicaoController.cs",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projetopuc\\src\\acolhequeer_app\\Controllers\\InstituicaoController.cs",
-              "RelativeToolTip": "Controllers\\InstituicaoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T23:00:48.862Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T22:04:01.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\Views\\Atendimento\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Atendimento\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Desktop\\Solor\\projpuc2\\src\\acolhequeer_app\\Views\\Atendimento\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Atendimento\\Edit.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAK4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:43:32.838Z",
               "EditorCaption": ""
             }
           ]

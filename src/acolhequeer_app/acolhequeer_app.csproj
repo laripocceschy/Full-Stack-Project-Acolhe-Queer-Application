@@ -28,10 +28,15 @@
 	<ItemGroup>
 	  <Compile Remove="Controllers\AgendamentosController.cs" />
 	  <Compile Remove="Controllers\HomeController1.cs" />
+	  <Compile Remove="Views\Atendimento\Edit.cshtml.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Remove="Views\Atendimento\Agendamento.cshtml" />
+	  <Content Remove="Views\Atendimento\Create - Cópia %282%29.cshtml" />
+	  <Content Remove="Views\Atendimento\Create - Cópia.cshtml" />
+	  <Content Remove="Views\Atendimento\Index1.cshtml" />
+	  <Content Remove="Views\Atendimento\IndexAtd.cshtml" />
+	  <Content Remove="Views\Atendimento\View.cshtml" />
 	  <Content Remove="Views\Home\Casas.cshtml" />
 	  <Content Remove="Views\Home\Doacoes.cshtml" />
 	  <Content Remove="Views\Instituicao\Casas - Cópia.cshtml" />

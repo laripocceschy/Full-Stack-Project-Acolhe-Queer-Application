@@ -61,6 +61,12 @@
         height: auto; /* Maintain aspect ratio */
     }
 
+    a, a::placeholder {
+        color: #FFFAEB;
+        text-decoration: none;
+        place
+    }
+
 </style>
 <body>
     <h1>Casas</h1>
@@ -84,6 +90,7 @@
                     @Html.DisplayFor(modelItem => item.endereco_cep)
                 </p>
                 <p>@Html.DisplayFor(model => item.descricao_casa)</p>
+                <button style="background-image: linear-gradient(to right, #ffb655, #ff637d); color: white; padding: 20px 120px; border: none; border-radius: 50px;"><a href="@Url.Action("Create", "Atendimento")">Agendamentos</a></button>
                 <hr />
             </div>
         }

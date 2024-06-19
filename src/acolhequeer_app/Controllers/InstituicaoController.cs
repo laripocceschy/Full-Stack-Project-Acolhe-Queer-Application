@@ -13,9 +13,11 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Identity;
 using System.Linq.Expressions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace acolhequeer_app.Controllers
 {
+    [Authorize]
     public class InstituicaoController : Controller
     {
         private readonly AppDbContextt _context;
@@ -36,6 +38,7 @@ namespace acolhequeer_app.Controllers
 
         //Login Instituição
         // GET: Usuarios/Login
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
@@ -44,6 +47,7 @@ namespace acolhequeer_app.Controllers
         // POST: Usuarios/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(Instituicao instituicao)
         {
 
@@ -74,7 +78,9 @@ namespace acolhequeer_app.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, dados.nome),
-                    new Claim(ClaimTypes.Email, dados.email)
+                    new Claim(ClaimTypes.Email, dados.email),
+                    new Claim(ClaimTypes.Role, "Instituicao"), // Adiciona o papel "Instituicao"
+                    new Claim("Id", dados.instituicao_id.ToString()) // Adiciona o ID da instituição
                 };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
@@ -122,6 +128,7 @@ namespace acolhequeer_app.Controllers
         }
 
         // GET: Instituicao/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -132,13 +139,14 @@ namespace acolhequeer_app.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("instituicao_id,nome,cnpj,email,telefone,endereco_rua,endereco_bairro,endereco_cidade,endereco_estado,endereco_numero,endereco_cep,senha,adm_validacao,pix_doacao,n_vagas,descricao_casa,bool_atd,qtd_disponibilidade")] Instituicao instituicao)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(instituicao);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Details));
             }
             return View(instituicao);
         }
@@ -189,7 +197,10 @@ namespace acolhequeer_app.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                var userIdClaim = User.FindFirst("Id");
+
+                string userId = userIdClaim.Value;
+                return RedirectToAction(nameof(Details), new { id = userId });
             }
             return View(instituicao);
         }
@@ -224,7 +235,7 @@ namespace acolhequeer_app.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Login));
         }
 
         private bool InstituicaoExists(int id)
@@ -232,6 +243,7 @@ namespace acolhequeer_app.Controllers
             return _context.Instituicao.Any(e => e.instituicao_id == id);
         }
 
+        [AllowAnonymous]
         // GET: Instituicao/Casas
         public async Task<IActionResult> Casas()
         {
@@ -239,6 +251,7 @@ namespace acolhequeer_app.Controllers
             return View(instituicoes);
         }
 
+        [AllowAnonymous]
         // GET: Instituicao/Doacoes
         public async Task<IActionResult> Doacoes()
         {

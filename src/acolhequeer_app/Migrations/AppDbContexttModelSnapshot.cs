@@ -22,6 +22,47 @@ namespace acolhequeer_app.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Atendimento", b =>
+                {
+                    b.Property<int>("Atendimento_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Atendimento_id"));
+
+                    b.Property<DateTime?>("Data_in")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Data_out")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Data_psi")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Instituicao_id")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsPsicologico")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsQuarto")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Observacao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Usuario_id")
+                        .HasColumnType("int");
+
+                    b.HasKey("Atendimento_id");
+
+                    b.HasIndex("Instituicao_id");
+
+                    b.HasIndex("Usuario_id");
+
+                    b.ToTable("Agendamentos");
+                });
+
             modelBuilder.Entity("acolhequeer.Models.Veiculo", b =>
                 {
                     b.Property<int>("Id")
@@ -46,71 +87,6 @@ namespace acolhequeer_app.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Veiculos");
-                });
-
-            modelBuilder.Entity("acolhequeer_app.Models.AgendaQuarto", b =>
-                {
-                    b.Property<int>("reserva_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("reserva_id"));
-
-                    b.Property<string>("check_in")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("check_out")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("data_reserva")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("instituicao_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("observacao")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("usuario_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("reserva_id");
-
-                    b.ToTable("AgendamentoQuarto");
-                });
-
-            modelBuilder.Entity("acolhequeer_app.Models.Atendimento", b =>
-                {
-                    b.Property<int>("Atendimento_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Atendimento_id"));
-
-                    b.Property<DateTime>("Data")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Observacao")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Usuario_id")
-                        .HasColumnType("int");
-
-                    b.Property<int>("instituicao_id")
-                        .HasColumnType("int");
-
-                    b.HasKey("Atendimento_id");
-
-                    b.HasIndex("Usuario_id");
-
-                    b.HasIndex("instituicao_id");
-
-                    b.ToTable("Agendamentos");
                 });
 
             modelBuilder.Entity("acolhequeer_app.Models.Instituicao", b =>
@@ -249,17 +225,17 @@ namespace acolhequeer_app.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("acolhequeer_app.Models.Atendimento", b =>
+            modelBuilder.Entity("Atendimento", b =>
                 {
-                    b.HasOne("acolhequeer_app.Models.Usuario", "Usuario")
+                    b.HasOne("acolhequeer_app.Models.Instituicao", "Instituicao")
                         .WithMany()
-                        .HasForeignKey("Usuario_id")
+                        .HasForeignKey("Instituicao_id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("acolhequeer_app.Models.Instituicao", "Instituicao")
+                    b.HasOne("acolhequeer_app.Models.Usuario", "Usuario")
                         .WithMany()
-                        .HasForeignKey("instituicao_id")
+                        .HasForeignKey("Usuario_id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
