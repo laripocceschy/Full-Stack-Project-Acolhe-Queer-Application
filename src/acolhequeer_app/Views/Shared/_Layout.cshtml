@@ -102,9 +102,9 @@
         </div>
         <ul class="menu">
             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
-            <li><a href="@Url.Action("Casas", "Instituicao")">Casas</a></li>
-            <li><a href="@Url.Action("Doacoes", "Instituicao")">Doações</a></li>
-            <li><a href="@Url.Action("Create", "Atendimento")">Agendamentos</a></li>
+            <li><a href="@Url.Action("Casas", "Instituicao")">Acolhimento</a></li>
+            <li><a href="@Url.Action("Doacoes", "Instituicao")">Doar</a></li>
+            <li><a href="@Url.Action("Create", "Atendimento")">Agendar</a></li>
 
             @if (User.Identity.IsAuthenticated)
             {
@@ -112,13 +112,13 @@
                 @* Adiciona os botões de edição apenas se o usuário estiver autenticado *@
                 @if (User.IsInRole("Instituicao"))
                 {
-                    <li><a href="@Url.Action("SeusAgendamentosCasas", "Atendimento", new { id = User.FindFirst("Id")?.Value })">Seus Agendamentos</a></li>
-                    <li><a href="@Url.Action("Edit", "Instituicao", new { id = User.FindFirst("Id")?.Value })">Sua Instituição</a></li>
+                    <li><a href="@Url.Action("SeusAgendamentosCasas", "Atendimento", new { id = User.FindFirst("Id")?.Value })">Meus Agendamentos</a></li>
+                    <li><a href="@Url.Action("Edit", "Instituicao", new { id = User.FindFirst("Id")?.Value })">Minha Instituição</a></li>
                 }
                 else if (User.IsInRole("Usuario"))
                 {
-                    <li><a href="@Url.Action("SeusAgendamentosUser", "Atendimento", new { id = User.FindFirst("Id")?.Value })">Seus Agendamentos</a></li>
-                    <li><a href="@Url.Action("Edit", "Usuarios", new { id = User.FindFirst("Id")?.Value })">Seu Usuário</a></li>
+                    <li><a href="@Url.Action("SeusAgendamentosUser", "Atendimento", new { id = User.FindFirst("Id")?.Value })">Meus Agendamentos</a></li>
+                    <li><a href="@Url.Action("Edit", "Usuarios", new { id = User.FindFirst("Id")?.Value })">Meu Usuário</a></li>
                 }
                 <li class="login"><a href="@Url.Action("Logout", "Usuarios")">Sair</a></li>
             }
