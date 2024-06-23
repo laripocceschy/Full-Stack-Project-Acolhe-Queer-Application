@@ -47,9 +47,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir o cadastro do usúario e da instituição | ALTA | 
 |RF-002| A aplicação deve ter uma área de login para o usuário e a instituição | ALTA|
-|RF-003| A aplicação deve oferecer uma área para agendamento de atendimento psicológico | ALTA |
-|RF-004| A aplicação deve ter páginas de informações sobre as casas de acolhimento | ALTA |
-|RF-005| A aplicação deve disponibilizar o cadastro em instuições para os usuários  | ALTA |
+|RF-003| A aplicação deve oferecer a possibilidade de agendamento de atendimento psicológico na instituição escolhida | ALTA |
+|RF-004| A aplicação deve oferecer a possibilidade de reservar um quarto na instituição escolhida | ALTA |
+|RF-005| A aplicação deve ter páginas de informações sobre as casas de acolhimento  | ALTA |
 |RF-006| A aplicação deve disponibilizar uma área de doação para as instituições  | BAIXA |
 
 ### Requisitos não Funcionais
