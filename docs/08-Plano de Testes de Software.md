@@ -21,17 +21,17 @@
 | Passos 	| - Verificar se os usuários podem acessar a área de agendamento psicológico de forma clara e intuitiva. <br> -	Testar a funcionalidade de visualização de disponibilidade de horários para agendamento. <br> - Testar a capacidade de selecionar um horário disponível para agendar uma consulta. <br> - Avaliar a interface de usuário para garantir que seja fácil de entender e navegar durante o processo de agendamento. |
 |Critério de Êxito | Os usuários podem acessar a área de agendamento de forma intuitiva. Os horários disponíveis são exibidos corretamente e podem ser selecionados para agendamento. O processo de agendamento é fácil de entender e completar.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-04 – Informações sobre casas de acolhimento**	|
+| **Caso de Teste** 	| **CT-04 – Reserva de quarto**	|
+|Requisito Associado |RF-004 -	A aplicação deve oferecer a possibilidade de reservar um quarto na instituição escolhida |
+| Objetivo do Teste | Assegurar que a aplicação permita aos usuários realizarem a reserva de um quarto na instituição escolhida de forma eficaz e sem complicações. |
+| Passos 	| - Verificar se os usuários têm acesso claro e direto à funcionalidade de reserva de quarto. <br> - Testar a integridade e a validação dos dados inseridos durante o processo de reserva. <br> -	Avaliar a eficiência do fluxo de reserva, desde a entrada dos dados até a confirmação bem-sucedida da reserva. <br>
+|Critério de Êxito | Os usuários podem acessar facilmente a funcionalidade de reserva de quarto. Os dados inseridos durante o cadastro são validados corretamente para garantir sua integridade. O processo de reserva é concluído sem problemas.|
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Informações sobre casas de acolhimento**	|
 |Requisito Associado |RF-004 -	A aplicação deve ter páginas de informações sobre as casas de acolhimento |
 | Objetivo do Teste | Garantir que as páginas de informações sobre as casas de acolhimento na aplicação forneçam aos usuários acesso claro e útil aos detalhes relevantes sobre essas instituições. |
 | Passos 	| - Verificar se os usuários podem acessar as páginas de informações sobre as casas de acolhimento de forma direta e intuitiva. <br> - Testar a apresentação das informações, incluindo detalhes como localização, serviços oferecidos, equipe, horário de funcionamento e contato. <br> - Avaliar a usabilidade da interface para garantir uma navegação fácil e uma apresentação clara das informações. |
 |Critério de Êxito | Os usuários podem acessar facilmente as informações sobre as casas de acolhimento.	As informações apresentadas são completas, precisas e úteis para os usuários. A interface é intuitiva e facilita a navegação pelas informações.|
-|  	|  	|
-| **Caso de Teste** 	| **CT-05 – Cadastro em instituições**	|
-|Requisito Associado |RF-005 -	A aplicação deve disponibilizar o cadastro em instuições para os usuários |
-| Objetivo do Teste | Assegurar que a aplicação permita aos usuários realizar o cadastro em instituições de forma eficaz e sem complicações. |
-| Passos 	| - Verificar se os usuários têm acesso claro e direto à funcionalidade de cadastro em instituições. <br> - Testar a integridade e a validação dos dados inseridos durante o processo de cadastro. <br> -	Avaliar a eficiência do fluxo de cadastro, desde a entrada dos dados até a confirmação bem-sucedida do cadastro. <br> - Testar a integração com sistemas de notificação ou confirmação para garantir que os usuários recebam feedback adequado após o cadastro. |
-|Critério de Êxito | Os usuários podem acessar facilmente a funcionalidade de cadastro em instituições. Os dados inseridos durante o cadastro são validados corretamente para garantir sua integridade. O processo de cadastro é concluído sem problemas, resultando em uma confirmação bem-sucedida do cadastro. Os usuários recebem feedback adequado após o cadastro, seja por meio de notificações ou confirmações.|
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Área de doação para as instituições**	|
 |Requisito Associado |RF-006 -	A aplicação deve disponibilizar uma área de doação para as instituições |
