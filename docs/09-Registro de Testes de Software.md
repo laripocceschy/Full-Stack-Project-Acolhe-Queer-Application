@@ -27,12 +27,12 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | CT-04 – Efetuar a reserva de um quarto 	| Reserva de quarto	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-004 - A aplicação deve oferecer a possibilidade de reservar um quarto na instituição escolhida |
-|Registro de evidência | https://www.youtube.com/watch?v=eIVJDBkTs7E&ab_channel=Tabata |
+|Registro de evidência | https://www.youtube.com/watch?v=NIC7_GURETw |
 
 | CT-05 – Informações sobre casas de acolhimento 	| Casas	|
 |:---:	|:---:	|
 |	Requisito Associado  | RF-005 - A aplicação deve ter páginas de informações sobre as casas de acolhimento |
-|Registro de evidência | https://www.youtube.com/watch?v=NIC7_GURETw |
+|Registro de evidência | https://www.youtube.com/watch?v=6o9w11eOkmg |
 
 | CT-06 – Área de doação para as instituições 	| Doações	|
 |:---:	|:---:	|
