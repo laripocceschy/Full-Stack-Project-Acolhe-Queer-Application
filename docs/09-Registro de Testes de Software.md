@@ -42,7 +42,11 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | CT-07 – Responsividade 	| Responsividade	|
 |:---:	|:---:	|
 |	Requisito Associado  | RNF-001 - A aplicação deve ser responsiva |
-|Registro de evidência |  |
+|Registro de evidência | Tela de Celular ![Responsividade Tela de Celular Página Principal](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/99201779/9092d910-edca-4fc7-b19e-aac69fcf8d8a) 
+Tela de Laptop 
+![Responsividade Tela de Notebook - Home 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/99201779/038095e6-1a55-4c19-821a-9716e90bcc0b)
+![Responsividade Tela de Notebook - Home 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/99201779/4575e3e8-bc44-4c03-ac71-774942b03e13)
+![Responsividade Tela de Notebook - Home 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/assets/99201779/fb2d2191-62ab-4e8c-b804-443d12ef61d4)
 
 | CT-08 – Publicação em um ambiente acessível na internet 	| Ambiente acessível	|
 |:---:	|:---:	|
