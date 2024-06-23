@@ -25,7 +25,7 @@ Pitch: https://www.youtube.com/watch?v=fPOEWJEmdXE&t=1s&ab_channel=ALFBR
 
 ## Instruções de utilização
 
-Para acessar o site é necessário entrar no link: https://acolhequeerapp20240619191621.azurewebsites.net/ e efetuar o login, sendo necessário também o cadastro do usuário, feito anteriormente à efetuação do login, pelo botão "Cadastre-se".
+Para acessar o site é necessário entrar no link: https://acolhequeerapp20240619191621.azurewebsites.net/ e efetuar o login, sendo necessário também o cadastro do usuário feito anteriormente à efetuação do login, pelo botão "Cadastre-se".
 
 # Documentação
 
