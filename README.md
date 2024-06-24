@@ -47,7 +47,7 @@ Para acessar o site é necessário entrar no link: https://acolhequeerapp2024061
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/acolhequeer_app"> Código Fonte</a></li>
 
 # Apresentação
 
