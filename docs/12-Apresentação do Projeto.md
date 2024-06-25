@@ -2,7 +2,7 @@
 
 Slides: https://github.com/ICEI-PUC-Minas-PMV-ADS/PMV-ADS-2024-1-E2-ProjAcolheQueer/blob/main/docs/Slides%20Acolhe%20Queer.pdf
 
-Vídeo:
+Vídeo: https://www.youtube.com/watch?v=1ud1TCbRkYo
 
 ## Título do Projeto
 
